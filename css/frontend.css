@@ -1,0 +1,323 @@
+/* Font incorporation - Begin */
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('Ubuntu-R.ttf');
+}
+
+@font-face {
+	font-family: 'Ubuntu Mono';
+	src: url('UbuntuMono-R.ttf');
+}
+
+@font-face {
+	font-family: 'Lora';
+	src: url('Lora.ttf');
+}
+/* Font incorporation - End */
+
+/* Reset - Begin */
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	line-height: 1.333;
+	font-family: "Ubuntu Mono", "Lucida Console", "Courier New";
+	outline: none;
+	color: #333;
+}
+
+ul {
+	list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+/* Reset - End */
+
+/** 
+ * Typography scale - Begin
+ *
+ * @ratio: 1:1.333
+ */
+h1 {
+	font-size: 5.61em;
+}
+
+h2 {
+	font-size: 4.209em;
+}
+
+h3 {
+	font-size: 3.157em;
+}
+
+h4 {
+	font-size: 2.369em;
+}
+
+h5 {
+	font-size: 1.777em;
+}
+
+h6 {
+	font-size: 1.333em;
+}
+/* Typography scale - End */
+
+/* Responsive layout settings - Begin */
+.row,
+.column {
+	box-sizing: border-box;
+}
+
+.row:before,
+.row:after {
+	content: " ";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+.column {
+	position: relative;
+	float: left;
+}
+
+.column + .column {
+	/* Gutter */
+	margin-left: 1.6%;
+}
+
+.column-12 + .column-12 {
+	/* Gutter */
+	margin-left: 0;
+}
+
+.column-1 {
+	width: 6.86666666667%;
+}
+
+.column-2 {
+	width: 15.3333333333%;
+}
+
+.column-3 {
+	width: 23.8%;
+}
+
+.column-4 {
+	width: 32.2666666667%;
+}
+
+.column-5 {
+	width: 40.7333333333%;
+}
+
+.column-6 {
+	width: 49.2%;
+}
+
+.column-7 {
+	width: 57.6666666667%;
+}
+
+.column-8 {
+	width: 66.1333333333%;
+}
+
+.column-9 {
+	width: 74.6%;
+}
+
+.column-10 {
+	width: 83.0666666667%;
+}
+
+.column-11 {
+	width: 91.5333333333%;
+}
+
+.column-12 {
+	width: 100%;
+}
+/* Responsive layout settings - End */
+
+.section-content {
+	/**
+	 * Margin de 1 coluna + gutter para cada lado
+	 * O conteúdo tem largura de 10 colunas
+	 */
+	margin: 80px 8.46666666667%;
+	min-height: 100%;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+}
+
+#content {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+nav {}
+
+nav ul {}
+
+nav ul li {}
+
+nav ul li a {}
+
+nav ul li a:hover {}
+
+#main {
+	height: 100%;
+}
+
+#main article {
+	width: 98%;
+	height: 100%;
+	margin: 1%;
+}
+
+#main span  {
+	display: block;
+}
+
+.big-text {
+	/* h1 size*/
+	font-size: 3.157em;
+}
+
+.medium-text  {
+	/* h4 size*/
+	font-size: 2.369em;
+}
+
+.small-text  {
+	/* 1 / 1.333 */
+	font-size: 0.750em;
+}
+
+.ghost-button {
+	text-align: center;
+	color: #fff;
+	border: 1px solid #fff;
+	background: transparent;
+	text-transform: uppercase;
+	cursor: pointer;
+	letter-spacing: 2px;
+}
+
+/*h2::before, h2::after {
+	content: '—';
+}*/
+
+#about p {
+	margin-bottom: 20px;
+}
+
+#about #portrait {
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+#about #portrait img {
+	width: 250px;
+}
+
+.card {
+	margin-top: 80px;
+	min-height: 300px;
+	padding: 20px;
+	border: 1px solid #ddd;
+}
+
+#contact {}
+
+#contact #contact-form input,
+#contact #contact-form textarea
+{}
+
+#contact #contact-form input:focus,
+#contact #contact-form textarea:focus {
+	box-shadow: 0 0 5px #fff;
+}
+
+#contact #contact-form textarea {
+	height: 200px;
+	resize: none;
+}
+
+/* Media queries - Begin */
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 960px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 640px) {}
+
+@media screen and (max-width: 480px) {
+	.column-1,
+	.column-2,
+	.column-3,
+	.column-4,
+	.column-5,
+	.column-6,
+	.column-7,
+	.column-8,
+	.column-9,
+	.column-10,
+	.column-11,
+	.column-12 {
+		width: auto;
+		float: none;
+	}
+
+	.column + .column {
+		margin-left: 0;
+	}
+
+	.section-content {
+		margin: 80px 8.466666667%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.column-1,
+	.column-2,
+	.column-3,
+	.column-4,
+	.column-5,
+	.column-6,
+	.column-7,
+	.column-8,
+	.column-9,
+	.column-10,
+	.column-11,
+	.column-12 {
+		width: auto;
+		float: none;
+	}
+
+	.column + .column {
+		margin-left: 0;
+	}
+
+	.section-content {
+		margin: 80px 8.466666667%;
+	}
+}
+/* Media queries - End */
