@@ -1,1 +1,2 @@
-smtp_config.php
+./smtp_config.php
+./vendor/
