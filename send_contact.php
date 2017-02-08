@@ -56,8 +56,8 @@
 	$check = $validate->check($form_fields);
 
 	if ($check['success']) {
-		require_once 'vendors/phpmailer/class.phpmailer.php';
-		require_once 'vendors/phpmailer/class.smtp.php';
+		require_once 'vendor/phpmailer/phpmailer/class.phpmailer.php';
+		require_once 'vendor/phpmailer/phpmailer/class.smtp.php';
 		require_once 'smtp_config.php';
 
 		$phpMailer = new PHPMailer;
