@@ -8,8 +8,9 @@
 		<meta name="keywords" content="Luccas, Silveira, Desenvolvedor, PHP, Web, Sites, Esteio, Porto, Alegre, Sistemas, Informação" />
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=3">
 		<link href="images/favicon.png" type="image/x-icon" rel="shortcut icon" />
-		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-		<script type="text/javascript" src="js/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="bower_components/typed.js/dist/typed.min.js"></script>
 		<script type="text/javascript" src="js/frontend.js"></script>
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -21,8 +22,7 @@
 			ga('send', 'pageview');
 		</script>
 		<link rel="stylesheet" type="text/css" href="css/frontend.css" />
-		<link rel="stylesheet" type="text/css" href="js/jquery-ui-1.11.4/jquery-ui.min.css" />
-		<link rel="stylesheet" type="text/css" href="js/jquery-ui-1.11.4/jquery-ui.structure.min.css" />
+		<link rel="stylesheet" type="text/css" href="bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css" />
 	</head>
 	<body>
 		<div id="content">
