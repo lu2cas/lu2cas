@@ -1,0 +1,22 @@
+{
+  "name": "lu2cas",
+  "homepage": "https://github.com/lu2cas/lu2cas",
+  "authors": [
+    "lu2cas <luccas.carsil@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-ui": "^1.12.1",
+    "jquery": "^3.1.1",
+    "typed.js": "mattboldt/typed.js#^1.1.4"
+  }
+}
