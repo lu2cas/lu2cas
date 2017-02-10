@@ -170,8 +170,8 @@ h6, .h6-size {
 }
 
 .positive-tracking-25 {
-	letter-spacing: 0.24em;
-	text-indent: 0.24em;
+	letter-spacing: 0.25em;
+	text-indent: 0.25em;
 }
 
 .positive-tracking-10 {
@@ -214,12 +214,6 @@ h6, .h6-size {
 	background: #fff;
 }
 
-#content {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-}
-
 .section-content {
 	/**
 	 * Margin de 1 coluna + gutter para cada lado
@@ -250,8 +244,8 @@ nav ul li a {
 
 nav ul li a:hover {}*/
 
-header {
-	background-color: #121212;
+nav {
+	background-color: #1f1f1f;
 }
 
 nav .list-item {
@@ -269,41 +263,47 @@ nav .list-item a:hover {
 	border-bottom: 4px solid #e5cd34;
 }
 
+#content {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
 
-#main {
-	height: 95%;
+header {
+	position: relative;
+	height: 100%;
 	background-color: #121212;
 }
 
-#main article {
+header article {
 	padding-top: 3.5em;
 	text-align: center;
 	color: #eee;
 }
 
-#main span  {
+header span  {
 	display: block;
 }
 
-#main h1, #main h2 {
+header h1, header h2 {
 	font-size: 1em;
 }
 
-#main h1 {
+header h1 {
 	margin-bottom: 2em;
 	text-align: center;
 }
 
-#main .h1-size {
+header .h1-size {
 	font-family: "Ubuntu Mono Bold", "Lucida Console", "Courier New";
 }
 
-#main .border-dash {
+header .border-dash {
 	margin: 1em 0;
 	color: #e5cd34;
 }
 
-#main a[role="button"] {
+header a[role="button"] {
 	margin-top: 5em;
 }
 

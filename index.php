@@ -26,7 +26,7 @@
 	</head>
 	<body>
 		<div id="content">
-			<header>
+			<header class="row">
 				<nav>
 					<div class="row">
 						<div class="nav-content column column-4">
@@ -47,23 +47,21 @@
 						</div>
 					</div>
 				</nav>
-			</header>
-			<main id="main" class="row">
 				<article>
 					<span class="h4-size uppercase positive-tracking-10">Olá, mundo!</span>
-					<span class="h6-size lowercase italic border-dash">Meu nome é</span>
+					<span class="h6-size lowercase italic border-dash positive-tracking-10">Meu nome é</span>
 					<h1>
-						<span class="h1-size bold uppercase positive-tracking-25">Luccas</span>
+						<span class="h1-size uppercase positive-tracking-10">Luccas</span>
 						<span class="h4-size uppercase positive-tracking-10">Carvalho Silveira</span>
 					</h1>
-					<span class="h6-size lowercase italic border-dash">e eu sou</span>
+					<span class="h6-size lowercase italic border-dash positive-tracking-10">e eu sou</span>
 					<h2>
 						<span class="h3-size uppercase positive-tracking-10">desenvolvedor de software_</span>
 					</h2>
-					<a href="#about" role="button" class="button ghost-button" >Saiba mais</a>
+					<a href="#about" role="button" class="button ghost-button">Saiba mais</a>
 				</article>
-			</main>
-			<section id="about" class="row">
+			</header>
+			<main id="about" class="row">
 				<article class="section-content column column-10">
 					<div class="row heading">
 						<div class="column column-12">
@@ -128,7 +126,7 @@
 						</div>
 					</div>
 				</article>
-			</section>
+			</main>
 			<section id="contact" class="row">
 				<div class="section-content column column-10">
 					<div class="row">
