@@ -10,6 +10,11 @@
 }
 
 @font-face {
+	font-family: 'Ubuntu Mono Bold';
+	src: url('UbuntuMono-B.ttf');
+}
+
+@font-face {
 	font-family: 'Lora';
 	src: url('Lora.ttf');
 }
@@ -25,7 +30,6 @@ body {
 	margin: 0;
 	padding: 0;
 	font-size: 100%;
-	line-height: 1.333;
 	font-family: "Ubuntu Mono", "Lucida Console", "Courier New";
 	outline: none;
 	color: #333;
@@ -37,6 +41,12 @@ ul {
 
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+p {
+	line-height: 1.333em;
 }
 /* Reset - End */
 
@@ -45,27 +55,27 @@ h1, h2, h3, h4, h5, h6 {
  *
  * @ratio: 1:1.333
  */
-h1 {
+h1, .h1-size {
 	font-size: 5.61em;
 }
 
-h2 {
+h2, .h2-size {
 	font-size: 4.209em;
 }
 
-h3 {
+h3, .h3-size {
 	font-size: 3.157em;
 }
 
-h4 {
+h4, .h4-size {
 	font-size: 2.369em;
 }
 
-h5 {
+h5, .h5-size {
 	font-size: 1.777em;
 }
 
-h6 {
+h6, .h6-size {
 	font-size: 1.333em;
 }
 /* Typography scale - End */
@@ -150,6 +160,66 @@ h6 {
 }
 /* Responsive layout settings - End */
 
+/* Body style - Begin */
+.uppercase {
+	text-transform: uppercase;
+}
+
+.lowercase {
+	text-transform: lowercase;
+}
+
+.positive-tracking-25 {
+	letter-spacing: 0.24em;
+	text-indent: 0.24em;
+}
+
+.positive-tracking-10 {
+	letter-spacing: 0.10em;
+	text-indent: 0.10em;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.border-dash::before {
+	content: '— ';
+}
+
+.border-dash::after {
+	content: ' —';
+}
+
+.ghost-button {
+	padding: 15px 20px;
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+	border: 1px solid #fff;
+	background: transparent;
+	text-transform: uppercase;
+	text-decoration: none;
+	cursor: pointer;
+	letter-spacing: 0.10em
+}
+
+.ghost-button:hover {
+	color: #222;
+	border: none;
+	background: #fff;
+}
+
+#content {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
 .section-content {
 	/**
 	 * Margin de 1 coluna + gutter para cada lado
@@ -159,69 +229,83 @@ h6 {
 	min-height: 100%;
 }
 
-footer {
-	background-color: #333;
-	color: #fff;
+.nav-content {
+	margin: 0 33.86666666668%;
 }
 
-#content {
-	width: 100%;
-	height: 100%;
-	position: absolute;
+/*nav {
 }
 
-nav {}
+nav ul {
 
-nav ul {}
+}
 
-nav ul li {}
+nav ul li {
+	display: inline-block;
+	text-align: center;
+}
 
-nav ul li a {}
+nav ul li a {
+}
 
-nav ul li a:hover {}
+nav ul li a:hover {}*/
+
+header {
+	background-color: #121212;
+}
+
+nav .list-item {
+	padding: 15px 0;
+	text-align: center;
+}
+
+nav .list-item a {
+	color: #eee;
+	text-decoration: none;
+	font-family: "Ubuntu Mono Bold", "Lucida Console", "Courier New";
+}
+
+nav .list-item a:hover {
+	border-bottom: 4px solid #e5cd34;
+}
+
 
 #main {
-	height: 100%;
+	height: 95%;
+	background-color: #121212;
 }
 
 #main article {
-	width: 98%;
-	height: 100%;
-	margin: 1%;
+	padding-top: 3.5em;
+	text-align: center;
+	color: #eee;
 }
 
 #main span  {
 	display: block;
 }
 
-.big-text {
-	/* h1 size*/
-	font-size: 3.157em;
+#main h1, #main h2 {
+	font-size: 1em;
 }
 
-.medium-text  {
-	/* h4 size*/
-	font-size: 2.369em;
-}
-
-.small-text  {
-	/* 1 / 1.333 */
-	font-size: 0.750em;
-}
-
-.ghost-button {
+#main h1 {
+	margin-bottom: 2em;
 	text-align: center;
-	color: #fff;
-	border: 1px solid #fff;
-	background: transparent;
-	text-transform: uppercase;
-	cursor: pointer;
-	letter-spacing: 2px;
 }
 
-/*h2::before, h2::after {
-	content: '—';
-}*/
+#main .h1-size {
+	font-family: "Ubuntu Mono Bold", "Lucida Console", "Courier New";
+}
+
+#main .border-dash {
+	margin: 1em 0;
+	color: #e5cd34;
+}
+
+#main a[role="button"] {
+	margin-top: 5em;
+}
 
 #about p {
 	margin-bottom: 20px;
@@ -259,6 +343,12 @@ nav ul li a:hover {}
 	height: 200px;
 	resize: none;
 }
+
+footer {
+	background-color: #333;
+	color: #fff;
+}
+/* Body style - End */
 
 /* Media queries - Begin */
 @media screen and (max-width: 1024px) {}

@@ -28,25 +28,37 @@
 		<div id="content">
 			<header>
 				<nav>
-					<ul>
-						<li><a href="#home">Home</a></li>
-						<li><a href="#about">Sobre</a></li>
-						<li><a href="#blog">Blog</a></li>
-						<li><a href="#contact">Contato</a></li>
-					</ul>
+					<div class="row">
+						<div class="nav-content column column-4">
+							<div class="row list h6-size uppercase positive-tracking-10">
+								<div class="column column-3 list-item">
+									<a href="#home">Home</a>
+								</div>
+								<div class="column column-3 list-item">
+									<a href="#about">Sobre</a>
+								</div>
+								<div class="column column-3 list-item">
+									<a href="#blog">Blog</a>
+								</div>
+								<div class="column column-3 list-item">
+									<a href="#contact">Contato</a>
+								</div>
+							</div>
+						</div>
+					</div>
 				</nav>
 			</header>
 			<main id="main" class="row">
 				<article>
-					<span class="h3-size uppercase positive-tracking">Olá, mundo!</span>
-					<span class="h6-size italic border-dash">Meu nome é</span>
+					<span class="h4-size uppercase positive-tracking-10">Olá, mundo!</span>
+					<span class="h6-size lowercase italic border-dash">Meu nome é</span>
 					<h1>
-						<span class="h1-size uppercase positive-tracking">Luccas</span>
-						<span class="h4-size uppercase positive-tracking">Carvalho Silveira</span>
+						<span class="h1-size bold uppercase positive-tracking-25">Luccas</span>
+						<span class="h4-size uppercase positive-tracking-10">Carvalho Silveira</span>
 					</h1>
-					<span class="h6-size italic border-dash">e eu sou</span>
+					<span class="h6-size lowercase italic border-dash">e eu sou</span>
 					<h2>
-						<span class="h3-size uppercase positive-tracking">desenvolvedor de software</span>
+						<span class="h3-size uppercase positive-tracking-10">desenvolvedor de software_</span>
 					</h2>
 					<a href="#about" role="button" class="button ghost-button" >Saiba mais</a>
 				</article>
@@ -55,7 +67,7 @@
 				<article class="section-content column column-10">
 					<div class="row heading">
 						<div class="column column-12">
-							<h3 class="uppercase positive-tracking border-dash">Sobre</h3>
+							<h3 class="uppercase positive-tracking-25 border-dash">Sobre</h3>
 						</div>
 					</div>
 					<div class="row">
@@ -86,7 +98,7 @@
 					<div class="row">
 						<div class="column column-4">
 							<div class="card">
-								<h4 class="uppercase positive-tracking">Programação</h4>
+								<h4 class="uppercase positive-tracking-25">Programação</h4>
 								<p>
 									Basicamente utilizo PHP, MySQL & Javascript (JQuery) no desenvolvimento
 									de sistemas para web. Já tive contato com diversos frameworks de PHP,
@@ -96,7 +108,7 @@
 						</div>
 						<div class="column column-4">
 							<div class="card">
-								<h4 class="uppercase positive-tracking">Design</h4>
+								<h4 class="uppercase positive-tracking-25">Design</h4>
 								<p>
 									No que diz respeito a interface dos sistemas, utilizo HTML5 & CSS3 para
 									construir layouts tableless e responsivos, que se adequem da melhor forma
@@ -106,7 +118,7 @@
 						</div>
 						<div class="column column-4">
 							<div class="card">
-								<h4 class="uppercase positive-tracking">Arquitetura</h4>
+								<h4 class="uppercase positive-tracking-25">Arquitetura</h4>
 								<p>
 									Para garantir a usabilidade, acessibilidade e visibilidade dos sistemas,
 									utilizo técnicas avançadas de diagramação, marcação HTML & SEO, de modo
@@ -121,7 +133,7 @@
 				<div class="section-content column column-10">
 					<div class="row">
 						<div class="column column-12">
-							<h3 class="uppercase positive-tracking border-dash">Contato</h3>
+							<h3 class="uppercase positive-tracking-25 border-dash">Contato</h3>
 						</div>
 					</div>
 					<div class="row">
