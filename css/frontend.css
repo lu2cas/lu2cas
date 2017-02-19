@@ -50,7 +50,7 @@ p {
 }
 /* Reset - End */
 
-/** 
+/**
  * Typography scale - Begin
  *
  * @ratio: 1:1.333
@@ -276,12 +276,12 @@ header {
 }
 
 header article {
-	padding-top: 3.5em;
+	padding-top: 2.5em;
 	text-align: center;
 	color: #eee;
 }
 
-header span  {
+header span {
 	display: block;
 }
 
@@ -304,7 +304,7 @@ header .border-dash {
 }
 
 header a[role="button"] {
-	margin-top: 5em;
+	margin-top: 2.5em;
 }
 
 #about p {

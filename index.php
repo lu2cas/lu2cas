@@ -2,15 +2,15 @@
 <html lang="pt-BR">
 	<head>
 		<title>Luccas Silveira</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="author" content="Luccas Carvalho Silveira" />
-		<meta name="description" content="Página pessoal de Luccas Carvalho Silveira, desenvolvedor web de Esteio/Porto Alegre" />
-		<meta name="keywords" content="Luccas, Silveira, Desenvolvedor, PHP, Web, Sites, Esteio, Porto, Alegre, Sistemas, Informação" />
-		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=3">
-		<link href="images/favicon.png" type="image/x-icon" rel="shortcut icon" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta name="author" content="Luccas Carvalho Silveira"/>
+		<meta name="description" content="Página pessoal de Luccas Carvalho Silveira, desenvolvedor web de Esteio/Porto Alegre"/>
+		<meta name="keywords" content="Luccas, Silveira, Desenvolvedor, PHP, Web, Sites, Esteio, Porto, Alegre, Sistemas, Informação"/>
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=3"/>
+		<link href="images/favicon.png" type="image/x-icon" rel="shortcut icon"/>
 		<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 		<script type="text/javascript" src="bower_components/jquery-ui/jquery-ui.min.js"></script>
-		<script type="text/javascript" src="bower_components/typed.js/dist/typed.min.js"></script>
+		<script type="text/javascript" src="bower_components/typeit/dist/typeit.min.js"></script>
 		<script type="text/javascript" src="js/frontend.js"></script>
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -21,8 +21,24 @@
 			ga('create', 'UA-74371832-1', 'auto');
 			ga('send', 'pageview');
 		</script>
-		<link rel="stylesheet" type="text/css" href="css/frontend.css" />
-		<link rel="stylesheet" type="text/css" href="bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css" />
+		<script type="text/javascript" language="javascript">
+		$('document').ready(function() {
+			$('#occupation').typeIt({
+				strings: [
+					'Entusiasta de design',
+					'Adepto ao software livre',
+					'Desenvolvedor de software',
+				],
+				breakLines: false,
+				loop: true,
+				startDelete: true,
+				deleteDelay: 2500,
+				loopDelay: 2500
+			});
+		});
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/frontend.css"/>
+		<link rel="stylesheet" type="text/css" href="bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css"/>
 	</head>
 	<body>
 		<div id="content">
@@ -56,7 +72,7 @@
 					</h1>
 					<span class="h6-size lowercase italic border-dash positive-tracking-10">e eu sou</span>
 					<h2>
-						<span class="h3-size uppercase positive-tracking-10">desenvolvedor de software_</span>
+						<span id="occupation" class="h3-size uppercase positive-tracking-10">desenvolvedor de software</span>
 					</h2>
 					<a href="#about" role="button" class="button ghost-button">Saiba mais</a>
 				</article>
