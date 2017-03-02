@@ -276,9 +276,11 @@ header {
 }
 
 header article {
-	padding-top: 2.5em;
+	width: 100%;
 	text-align: center;
 	color: #eee;
+	position: absolute;
+	top: 18%;
 }
 
 header span {
