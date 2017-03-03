@@ -1,3 +1,4 @@
 smtp_config.php
 vendor/
 bower_components/
+npm-debug.log
