@@ -65,12 +65,12 @@
 				</nav>
 				<article>
 					<span class="h4-size uppercase positive-tracking-10">Olá, mundo!</span>
-					<span class="h6-size lowercase italic border-dash positive-tracking-10">Meu nome é</span>
+					<span class="h6-size lowercase italic commented positive-tracking-10">Meu nome é</span>
 					<h1>
 						<span class="h1-size uppercase positive-tracking-10">Luccas</span>
 						<span class="h4-size uppercase positive-tracking-10">Carvalho Silveira</span>
 					</h1>
-					<span class="h6-size lowercase italic border-dash positive-tracking-10">e eu sou</span>
+					<span class="h6-size lowercase italic commented positive-tracking-10">e eu sou</span>
 					<h2>
 						<span id="occupation" class="h3-size uppercase positive-tracking-10">desenvolvedor de software</span>
 					</h2>
@@ -81,7 +81,7 @@
 				<article class="section-content column column-10">
 					<div class="row heading">
 						<div class="column column-12">
-							<h3 class="uppercase positive-tracking-25 border-dash">Sobre</h3>
+							<h3 class="uppercase positive-tracking-25 commented">Sobre</h3>
 						</div>
 					</div>
 					<div class="row">
@@ -147,7 +147,7 @@
 				<div class="section-content column column-10">
 					<div class="row">
 						<div class="column column-12">
-							<h3 class="uppercase positive-tracking-25 border-dash">Contato</h3>
+							<h3 class="uppercase positive-tracking-25 commented">Contato</h3>
 						</div>
 					</div>
 					<div class="row">
