@@ -10,7 +10,8 @@
 		<link href="images/favicon.png" type="image/x-icon" rel="shortcut icon"/>
 		<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 		<script type="text/javascript" src="bower_components/jquery-ui/jquery-ui.min.js"></script>
-		<script type="text/javascript" src="bower_components/typeit/dist/typeit.min.js"></script>
+		<script type="text/javascript" src="bower_components/letteringjs/jquery.lettering.js"></script>
+		<script type="text/javascript" src="bower_components/textillate/jquery.textillate.js"></script>
 		<script type="text/javascript" src="js/frontend.js"></script>
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -23,22 +24,14 @@
 		</script>
 		<script type="text/javascript" language="javascript">
 		$('document').ready(function() {
-			$('#occupation').typeIt({
-				strings: [
-					'Entusiasta de design',
-					'Adepto ao software livre',
-					'Desenvolvedor de software',
-				],
-				breakLines: false,
-				loop: true,
-				startDelete: true,
-				deleteDelay: 2500,
-				loopDelay: 2500
+			$('.tlt').textillate({
+				loop: true
 			});
 		});
 		</script>
 		<link rel="stylesheet" type="text/css" href="css/frontend.css"/>
 		<link rel="stylesheet" type="text/css" href="bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css"/>
+		<link rel="stylesheet" type="text/css" href="bower_components/animate.css/animate.min.css"/>
 	</head>
 	<body>
 			<header class="row">
@@ -71,7 +64,13 @@
 					</h1>
 					<span class="h6-size lowercase italic commented positive-tracking-10">e eu sou</span>
 					<h2>
-						<span id="occupation" class="h3-size uppercase positive-tracking-10">desenvolvedor de software</span>
+						<span id="occupation" class="h3-size uppercase positive-tracking-10 tlt">
+							<ul class="texts">
+								<li data-in-effect="flash" data-out-effect="fadeOut" data-out-shuffle="true" data-in-shuffle="true">desenvolvedor de software</li>
+								<li data-in-effect="flash" data-out-effect="fadeOut" data-out-shuffle="true" data-in-shuffle="true">entusiasta de design</li>
+								<li data-in-effect="flash" data-out-effect="fadeOut" data-out-shuffle="true" data-in-shuffle="true">adepto ao software livre</li>
+							</ul>
+						</span>
 					</h2>
 					<a href="#about" role="button" class="button ghost-button">Saiba mais</a>
 				</article>
