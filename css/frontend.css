@@ -287,6 +287,11 @@ header {
 	position: relative;
 	height: 100%;
 	background-color: #121212;
+	background-image: url('../images/chalkboard.jpg');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+	background-attachment: scroll;
 }
 
 header article {
@@ -295,6 +300,7 @@ header article {
 	color: #eee;
 	position: absolute;
 	top: 18%;
+	text-shadow: 0 0 5px #000;
 }
 
 header span {
