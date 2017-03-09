@@ -41,11 +41,10 @@
 		<link rel="stylesheet" type="text/css" href="bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css"/>
 	</head>
 	<body>
-		<div id="content">
 			<header class="row">
-				<nav>
+				<nav id="main-menu">
 					<div class="row">
-						<div class="nav-content column column-4">
+						<div class="column column-4">
 							<div class="row list h6-size uppercase positive-tracking-10">
 								<div class="column column-3 list-item">
 									<a href="#home">Home</a>
@@ -212,6 +211,5 @@
 					lu2cas.com.br - <?php echo date('Y'); ?>
 				</div>
 			</footer>
-		</div>
 	</body>
 </html>
