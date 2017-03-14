@@ -8,6 +8,11 @@
 	font-family: 'DejaVu Sans Mono';
 	src: url('DejaVuSansMono.ttf');
 }
+
+@font-face {
+	font-family: 'Merriweather Light';
+	src: url('Merriweather-Light.ttf');
+}
 /* Font incorporation - End */
 
 /* Reset - Begin */
@@ -42,7 +47,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-	font-size: 1.6em;
+	font-family: "Merriweather Light", "Times New Roman";
+	font-size: 1.8em;
+	line-height: 1.7;
 }
 /* Reset - End */
 
@@ -261,11 +268,11 @@ header article {
 	color: #eee;
 	position: absolute;
 	top: 18%;
-	text-shadow: 0 0 5px #000;
 }
 
 header span {
 	display: block;
+	text-shadow: 0 0 5px #000;
 }
 
 header h1, header h2 {
@@ -290,11 +297,34 @@ header a[role="button"] {
 	margin-top: 2.5em;
 }
 
-#about p {
-	margin-bottom: 20px;
+.heading {
+	margin-bottom: 25px;
+}
+
+.heading h3 {
+	font-family: "DejaVu Sans Mono Bold", "Lucida Console", "Courier New";
+	text-align: center;
+	color: #3a3a3a;
+}
+
+.card h4 {
+	font-family: "DejaVu Sans Mono Bold", "Lucida Console", "Courier New";
+	color: #3a3a3a;
+}
+
+.card p {
+	margin-top: 0.75em;
+}
+
+.card {
+	margin-top: 80px;
+	min-height: 300px;
+	padding: 20px;
+	border: 1px solid #ccc;
 }
 
 #about #portrait {
+	margin-top: 25px;
 	overflow: hidden;
 	box-sizing: border-box;
 	text-align: center;
@@ -302,13 +332,6 @@ header a[role="button"] {
 
 #about #portrait img {
 	width: 250px;
-}
-
-.card {
-	margin-top: 80px;
-	min-height: 300px;
-	padding: 20px;
-	border: 1px solid #ddd;
 }
 
 #contact {}

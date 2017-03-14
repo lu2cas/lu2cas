@@ -24,7 +24,7 @@
 		</script>
 		<script type="text/javascript" language="javascript">
 		$('document').ready(function() {
-			$('.tlt').textillate({
+			$('.textillate').textillate({
 				loop: true
 			});
 		});
@@ -64,7 +64,7 @@
 					</h1>
 					<span class="h6-size lowercase italic commented positive-tracking-10">e eu sou</span>
 					<h2>
-						<span id="occupation" class="h3-size uppercase positive-tracking-10 tlt">
+						<span id="occupation" class="h3-size uppercase positive-tracking-10 textillate">
 							<ul class="texts">
 								<li data-in-effect="flash" data-out-effect="fadeOut" data-out-shuffle="true" data-in-shuffle="true">desenvolvedor de software</li>
 								<li data-in-effect="flash" data-out-effect="fadeOut" data-out-shuffle="true" data-in-shuffle="true">entusiasta de design</li>
@@ -79,7 +79,7 @@
 				<article class="section-content column column-10">
 					<div class="row heading">
 						<div class="column column-12">
-							<h3 class="uppercase positive-tracking-25 commented">Sobre</h3>
+							<h3 class="uppercase positive-tracking-10 commented">Sobre</h3>
 						</div>
 					</div>
 					<div class="row">
@@ -110,7 +110,7 @@
 					<div class="row">
 						<div class="column column-4">
 							<div class="card">
-								<h4 class="uppercase positive-tracking-25">Programação</h4>
+								<h4 class="uppercase">Programação</h4>
 								<p>
 									Basicamente utilizo PHP, MySQL & Javascript (JQuery) no desenvolvimento
 									de sistemas para web. Já tive contato com diversos frameworks de PHP,
@@ -120,7 +120,7 @@
 						</div>
 						<div class="column column-4">
 							<div class="card">
-								<h4 class="uppercase positive-tracking-25">Design</h4>
+								<h4 class="uppercase">Design</h4>
 								<p>
 									No que diz respeito a interface dos sistemas, utilizo HTML5 & CSS3 para
 									construir layouts tableless e responsivos, que se adequem da melhor forma
@@ -130,7 +130,7 @@
 						</div>
 						<div class="column column-4">
 							<div class="card">
-								<h4 class="uppercase positive-tracking-25">Arquitetura</h4>
+								<h4 class="uppercase">Arquitetura</h4>
 								<p>
 									Para garantir a usabilidade, acessibilidade e visibilidade dos sistemas,
 									utilizo técnicas avançadas de diagramação, marcação HTML & SEO, de modo
@@ -143,9 +143,9 @@
 			</main>
 			<section id="contact" class="row">
 				<div class="section-content column column-10">
-					<div class="row">
+					<div class="row heading">
 						<div class="column column-12">
-							<h3 class="uppercase positive-tracking-25 commented">Contato</h3>
+							<h3 class="uppercase positive-tracking-10 commented">Contato</h3>
 						</div>
 					</div>
 					<div class="row">
