@@ -255,11 +255,15 @@ header {
 	position: relative;
 	height: 100%;
 	background-color: #121212;
-	background-image: url('../images/header-background.jpg');
+	background-image: url('../images/header-background.png');
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: cover;
 	background-attachment: scroll;
+}
+
+header::after {
+	content: "";
 }
 
 header article {
