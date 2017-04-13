@@ -79,7 +79,7 @@
 				<article class="section-content column column-10">
 					<div class="row heading">
 						<div class="column column-12">
-							<h3 class="uppercase positive-tracking-10 commented">Sobre</h3>
+							<h3 class="uppercase positive-tracking-10">Sobre</h3>
 						</div>
 					</div>
 					<div class="row">
@@ -107,34 +107,32 @@
 							</div>
 						</div>
 					</div>
-					<div class="row">
-						<div class="column column-4">
+					<div class="row cards-container">
+						<div class="column column-5">
 							<div class="card">
-								<h4 class="uppercase">Programação</h4>
+								<h4 class="uppercase positive-tracking-10">Código</h4>
 								<p>
-									Basicamente utilizo PHP, MySQL & Javascript (JQuery) no desenvolvimento
-									de sistemas para web. Já tive contato com diversos frameworks de PHP,
-									e atualmente tenho preferência pelo CakePHP.
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut turpis turpis,
+									ullamcorper vitae erat id, tempor lacinia est. Sed eu augue tempus, porta
+									lorem semper, tincidunt diam. Phasellus rutrum eros at elit sollicitudin
+									venenatis. Nulla laoreet eros eu pulvinar ultrices. Vestibulum consectetur
+									cursus urna vel vulputate.
 								</p>
 							</div>
 						</div>
-						<div class="column column-4">
-							<div class="card">
-								<h4 class="uppercase">Design</h4>
-								<p>
-									No que diz respeito a interface dos sistemas, utilizo HTML5 & CSS3 para
-									construir layouts tableless e responsivos, que se adequem da melhor forma
-									aos diversos browsers e dispositivos do mercado.
-								</p>
+						<div class="column column-2">
+							<div class="row">
+								<span id="ampersand">&amp;</span>
 							</div>
 						</div>
-						<div class="column column-4">
+						<div class="column column-5">
 							<div class="card">
-								<h4 class="uppercase">Arquitetura</h4>
+								<h4 class="uppercase positive-tracking-10">Design</h4>
 								<p>
-									Para garantir a usabilidade, acessibilidade e visibilidade dos sistemas,
-									utilizo técnicas avançadas de diagramação, marcação HTML & SEO, de modo
-									a oferecer a melhor experiência de usuário possível.
+									Curabitur eu rutrum nunc. Orci varius natoque penatibus et magnis dis parturient
+									montes, nascetur ridiculus mus. Vivamus consequat sed orci vel suscipit. Nulla eu
+									ante mi. Pellentesque sed massa quis leo ultrices eleifend. Pellentesque tincidunt
+									nisi tortor, eu luctus felis convallis quis.
 								</p>
 							</div>
 						</div>
@@ -145,7 +143,7 @@
 				<div class="section-content column column-10">
 					<div class="row heading">
 						<div class="column column-12">
-							<h3 class="uppercase positive-tracking-10 commented">Contato</h3>
+							<h3 class="uppercase positive-tracking-10">Contato</h3>
 						</div>
 					</div>
 					<div class="row">
