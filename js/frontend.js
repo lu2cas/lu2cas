@@ -1,19 +1,4 @@
 $('document').ready(function() {
-	$('#contact-form #send').hover(
-		function() {
-			$(this).animate({
-				backgroundColor: '#FFF',
-				color: '#241536'
-			}, 200);
-		},
-		function() {
-			$(this).animate({
-				backgroundColor: 'transparent',
-				color: '#FFF'
-			}, 200);
-		}
-	);
-
 	$('#contact-form #send').click(function(e) {
 		e.preventDefault();
 
@@ -58,27 +43,12 @@ $('document').ready(function() {
 
 	});
 
-	$('#fixed-nav-bar a').click(function(e) {
+	$('#main-menu a').click(function(e) {
 		e.preventDefault();
 		var element = $(this).attr('href');
 
-		$('html,body').animate({
+		$('html, body').animate({
 			scrollTop: $(element).offset().top
 		}, 300);
 	});
-
-	/*$('#fixed-nav-bar a').hover(
-		function() {
-			$(this).animate({
-				color: '#FFF'
-			}, 200);
-		},
-		function() {
-			$(this).animate({
-				backgroundColor: 'transparent',
-				color: '#CCC'
-			}, 200);
-		}
-	);*/
-
 });

@@ -34,179 +34,192 @@
 		<link rel="stylesheet" type="text/css" href="bower_components/animate.css/animate.min.css"/>
 	</head>
 	<body>
-			<header class="row">
-				<nav id="main-menu">
-					<div class="row">
-						<div class="column column-4">
-							<div class="row list h6-size uppercase positive-tracking-10">
-								<div class="column column-3 list-item">
-									<a href="#home">Home</a>
-								</div>
-								<div class="column column-3 list-item">
-									<a href="#about">Sobre</a>
-								</div>
-								<div class="column column-3 list-item">
-									<a href="#blog">Blog</a>
-								</div>
-								<div class="column column-3 list-item">
-									<a href="#contact">Contato</a>
-								</div>
+		<header class="row">
+			<nav id="main-menu">
+				<div class="row">
+					<div class="column column-4">
+						<div class="row list h6-size uppercase positive-tracking-10">
+							<div class="column column-3 list-item">
+								<a href="#home">Home</a>
+							</div>
+							<div class="column column-3 list-item">
+								<a href="#about">Sobre</a>
+							</div>
+							<div class="column column-3 list-item">
+								<a href="#blog">Blog</a>
+							</div>
+							<div class="column column-3 list-item">
+								<a href="#contact">Contato</a>
 							</div>
 						</div>
 					</div>
-				</nav>
-				<article>
-					<span class="h4-size uppercase positive-tracking-10">Olá, mundo!</span>
-					<span class="h6-size lowercase italic commented positive-tracking-10">Meu nome é</span>
-					<h1>
-						<span class="h1-size uppercase positive-tracking-10">Luccas</span>
-						<span class="h4-size uppercase positive-tracking-10">Carvalho Silveira</span>
-					</h1>
-					<span class="h6-size lowercase italic commented positive-tracking-10">e eu sou</span>
-					<h2>
-						<span id="occupation" class="h3-size uppercase positive-tracking-10 textillate">
-							<ul class="texts">
-								<li data-in-effect="flash" data-out-effect="fadeOut" data-out-shuffle="true" data-in-shuffle="true">desenvolvedor de software</li>
-								<li data-in-effect="flash" data-out-effect="fadeOut" data-out-shuffle="true" data-in-shuffle="true">entusiasta de design</li>
-								<li data-in-effect="flash" data-out-effect="fadeOut" data-out-shuffle="true" data-in-shuffle="true">adepto ao software livre</li>
-							</ul>
-						</span>
-					</h2>
-					<a href="#about" role="button" class="button ghost-button">Saiba mais</a>
-				</article>
-			</header>
-			<main id="about" class="row">
-				<article class="section-content column column-10">
-					<div class="row heading">
-						<div class="column column-12">
-							<h3 class="uppercase positive-tracking-10">Sobre</h3>
+				</div>
+			</nav>
+			<article>
+				<span class="h4-size uppercase positive-tracking-10">Olá, mundo!</span>
+				<span class="h6-size lowercase commented positive-tracking-10">Meu nome é</span>
+				<h1>
+					<span class="h1-size uppercase positive-tracking-10">Luccas</span>
+					<span class="h5-size uppercase positive-tracking-25">Carvalho Silveira</span>
+				</h1>
+				<span class="h6-size lowercase commented positive-tracking-10">e eu sou</span>
+				<h2>
+					<span id="occupation" class="h3-size uppercase positive-tracking-10 textillate">
+						<ul class="texts">
+							<li data-in-effect="flash" data-out-effect="fadeOut" data-out-shuffle="true" data-in-shuffle="true">desenvolvedor de software</li>
+							<li data-in-effect="flash" data-out-effect="fadeOut" data-out-shuffle="true" data-in-shuffle="true">entusiasta de design</li>
+							<li data-in-effect="flash" data-out-effect="fadeOut" data-out-shuffle="true" data-in-shuffle="true">adepto ao software livre</li>
+						</ul>
+					</span>
+				</h2>
+				<a href="#about" role="button" class="button ghost-button">Saiba mais</a>
+			</article>
+		</header>
+		<main id="about" class="row">
+			<article class="section-content column column-10">
+				<div class="row heading">
+					<div class="column column-12">
+						<h3 class="uppercase positive-tracking-10">Sobre</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="column column-3">
+						<div id="portrait">
+							<img src="images/luccas-silveira.png" alt="Luccas C. Silveira" />
 						</div>
 					</div>
-					<div class="row">
-						<div class="column column-4">
-							<div id="portrait">
-								<img src="images/luccas-silveira.png" alt="Luccas C. Silveira" />
-							</div>
-						</div>
-						<div class="column column-8">
-							<div id="presentation">
-								<p>
-									Olá, meu nome é Luccas Carvalho Silveira, sou desenvolvedor de software, adepto
-									ao software livre e entusiasta de design em geral. Estudo sistemas de informação
-									na PUCRS e atualmente sou desenvolvedor de sistemas no Grupo SLC.
-								</p>
-								<p>
-									Neste site você encontra minhas ideias e experimentos, tendências de design e
-									desenvolvimento de software que considero interessantes e projetos em que atuo
-									ou atuei.
-								</p>
-								<p>
-									Fique a vontade para entrar em contato comigo caso queira compartilhar ideias,
-									enviar sugestões ou me incluir em seu projeto.
-								</p>
-							</div>
+					<div class="column column-9">
+						<div id="presentation">
+							<p>
+								Olá, meu nome é Luccas Carvalho Silveira, sou desenvolvedor de software, adepto
+								ao software livre e entusiasta de design em geral. Estudo sistemas de informação
+								na PUCRS e atualmente sou desenvolvedor de sistemas no Grupo SLC.
+							</p>
+							<p>
+								Neste site você encontra minhas ideias e experimentos, tendências de design e
+								desenvolvimento de software que considero interessantes e projetos em que atuo
+								ou atuei.
+							</p>
 						</div>
 					</div>
-					<div class="row cards-container">
-						<div class="column column-5">
-							<div class="card">
-								<h4 class="uppercase positive-tracking-10">Código</h4>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut turpis turpis,
-									ullamcorper vitae erat id, tempor lacinia est. Sed eu augue tempus, porta
-									lorem semper, tincidunt diam. Phasellus rutrum eros at elit sollicitudin
-									venenatis. Nulla laoreet eros eu pulvinar ultrices. Vestibulum consectetur
-									cursus urna vel vulputate.
-								</p>
-							</div>
+				</div>
+				<div class="row cards-container">
+					<div class="column column-5">
+						<div class="card">
+							<h4 class="uppercase positive-tracking-10">Backend</h4>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut turpis turpis,
+								ullamcorper vitae erat id, tempor lacinia est. Sed eu augue tempus, porta
+								lorem semper, tincidunt diam. Phasellus rutrum eros at elit sollicitudin
+								venenatis. Nulla laoreet eros eu pulvinar ultrices. Vestibulum consectetur
+								cursus urna vel vulputate.
+							</p>
 						</div>
-						<div class="column column-2">
+					</div>
+					<div class="column column-2">
+						<div class="row">
+							<span id="ampersand">&amp;</span>
+						</div>
+					</div>
+					<div class="column column-5">
+						<div class="card">
+							<h4 class="uppercase positive-tracking-10">Frontend</h4>
+							<p>
+								Curabitur eu rutrum nunc. Orci varius natoque penatibus et magnis dis parturient
+								montes, nascetur ridiculus mus. Vivamus consequat sed orci vel suscipit. Nulla eu
+								ante mi. Pellentesque sed massa quis leo ultrices eleifend. Pellentesque tincidunt
+								nisi tortor, eu luctus felis convallis quis.
+							</p>
+						</div>
+					</div>
+				</div>
+			</article>
+		</main>
+		<section id="contact" class="row">
+			<div class="section-content column column-10">
+				<div class="row heading">
+					<div class="column column-12">
+						<h3 class="uppercase positive-tracking-10">Contato</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div id="social-links"class="column column-6">
+						<p>
+							Fique a vontade para entrar em contato comigo caso queira compartilhar ideias,
+							enviar sugestões ou me incluir em seu projeto.
+						</p>
+						<p>
+							Me adicione como contato no LinkedIn, dê uma olhada nos meus projetos no GitHub,
+							seja meu amigo no Facebook. me siga no Twitter e salve meus pins no Pinterest!
+						</p>
+						<p>
+							Ou, se você preferir, me mande um "olá" através do e-mail contato@lu2cas.com.br,
+							ou do formulário a seguir.
+						</p>
+						<p>
+							Até logo e obrigado pela visita!
+						</p>
+					</div>
+					<div id="contact-form" class="column column-6">
+						<form action="send_contact.php" method="post" novalidate="novalidate">
 							<div class="row">
-								<span id="ampersand">&amp;</span>
+								<div class="column column-12">
+									<input type="text" id="name" name="name" placeholder="Nome"/>
+								</div>
 							</div>
-						</div>
-						<div class="column column-5">
-							<div class="card">
-								<h4 class="uppercase positive-tracking-10">Design</h4>
-								<p>
-									Curabitur eu rutrum nunc. Orci varius natoque penatibus et magnis dis parturient
-									montes, nascetur ridiculus mus. Vivamus consequat sed orci vel suscipit. Nulla eu
-									ante mi. Pellentesque sed massa quis leo ultrices eleifend. Pellentesque tincidunt
-									nisi tortor, eu luctus felis convallis quis.
-								</p>
+							<div class="row">
+								<div class="column column-12">
+									<input type="email" id="email" name="email" placeholder="E-mail"/>
+								</div>
 							</div>
-						</div>
-					</div>
-				</article>
-			</main>
-			<section id="contact" class="row">
-				<div class="section-content column column-10">
-					<div class="row heading">
-						<div class="column column-12">
-							<h3 class="uppercase positive-tracking-10">Contato</h3>
-						</div>
-					</div>
-					<div class="row">
-						<div id="contact-form" class="column column-6">
-							<form action="send_contact.php" method="post" novalidate="novalidate">
-								<div class="row">
-									<div class="column column-12">
-										<input type="text" id="name" name="name" placeholder="Nome"/>
-									</div>
+							<div class="row">
+								<div class="column column-12">
+									<input type="text" id="subject" name="subject" placeholder="Assunto"/>
 								</div>
-								<div class="row">
-									<div class="column column-12">
-										<input type="email" id="email" name="email" placeholder="E-mail"/>
-									</div>
+							</div>
+							<div class="row">
+								<div class="column column-12">
+									<textarea id="message" name="message" placeholder="Mensagem"></textarea>
 								</div>
-								<div class="row">
-									<div class="column column-12">
-										<input type="text" id="subject" name="subject" placeholder="Assunto"/>
-									</div>
+							</div>
+							<div class="row">
+								<div class="column column-12">
+									<button type="submit" id="send" class="ghost-button">Enviar</button>
 								</div>
-								<div class="row">
-									<div class="column column-12">
-										<textarea id="message" name="message" placeholder="Mensagem"></textarea>
-									</div>
-								</div>
-								<div class="row">
-									<div class="column column-6">
-										<button id="send" type="submit">Enviar</button>
-									</div>
-								</div>
-							</form>
-						</div>
+							</div>
+						</form>
 					</div>
 				</div>
-			</section>
-			<footer id="footer" class="row">
-				<div class="column column-12" id="network-links">
-					<div class="row">
-						<div class="column column-3">
-							<a href="mailto:contato@lu2cas.com.br">
-								contato@lu2cas.com.br
-							</a>
-						</div>
-						<div class="column column-3">
-							<a href="http://www.linkedin.com/in/lu2cas/" target="_blank">
-								linkedin.com/in/lu2cas
-							</a>
-						</div>
-						<div class="column column-3">
-							<a href="http://www.github.com/lu2cas/" target="_blank">
-								github.com/lu2cas
-							</a>
-						</div>
-						<div class="column column-3">
-							<a href="http://www.pinterest.com/lu2cas/" target="_blank">
-								pinterest.com/lu2cas
-							</a>
-						</div>
+			</div>
+		</section>
+		<footer id="footer" class="row">
+			<div class="column column-12" id="network-links">
+				<div class="row">
+					<div class="column column-3">
+						<a href="mailto:contato@lu2cas.com.br">
+							contato@lu2cas.com.br
+						</a>
+					</div>
+					<div class="column column-3">
+						<a href="http://www.linkedin.com/in/lu2cas/" target="_blank">
+							linkedin.com/in/lu2cas
+						</a>
+					</div>
+					<div class="column column-3">
+						<a href="http://www.github.com/lu2cas/" target="_blank">
+							github.com/lu2cas
+						</a>
+					</div>
+					<div class="column column-3">
+						<a href="http://www.pinterest.com/lu2cas/" target="_blank">
+							pinterest.com/lu2cas
+						</a>
 					</div>
 				</div>
-				<div class="column column-12">
-					lu2cas.com.br - <?php echo date('Y'); ?>
-				</div>
-			</footer>
+			</div>
+			<div class="column column-12">
+				lu2cas.com.br - <?php echo date('Y'); ?>
+			</div>
+		</footer>
 	</body>
 </html>

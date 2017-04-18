@@ -201,21 +201,22 @@ h6, .h6-size {
 .ghost-button {
 	display: inline-block;
 	padding: 15px 20px;
-	border: 1px solid #fff;
+	color: #3a3a3a;
+	border: 1px solid #3a3a3a;
 	background: transparent;
-	text-align: center;
-	color: #fff;
+	font-family: "DejaVu Sans Mono Bold", "Lucida Console", "Courier New";
 	font-size: 1.2em;
 	text-transform: uppercase;
 	text-decoration: none;
 	letter-spacing: 0.10em;
 	cursor: pointer;
+	text-align: center;
 }
 
 .ghost-button:hover {
-	color: #222;
+	color: #3a3a3a;
 	border: none;
-	background: #fff;
+	background: #efefef;
 }
 
 .section-content {
@@ -248,10 +249,11 @@ section, main {
 	color: #eee;
 	text-decoration: none;
 	font-family: "DejaVu Sans Mono Bold", "Lucida Console", "Courier New";
+	padding-left: 1px;
 }
 
 #main-menu .list-item a:hover {
-	border-bottom: 4px solid #e5cd34;
+	border-bottom: 5px solid #e5cd34;
 }
 
 header {
@@ -263,10 +265,6 @@ header {
 	background-position: center top;
 	background-size: cover;
 	background-attachment: scroll;
-}
-
-header::after {
-	content: "";
 }
 
 header article {
@@ -291,36 +289,63 @@ header h1 {
 	text-align: center;
 }
 
-header .h1-size {
+header .h1-size, header .h5-size {
 	font-family: "DejaVu Sans Mono Bold", "Lucida Console", "Courier New";
 }
 
 header .commented {
-	margin: 1em 0;
+	margin: 20px 0;
 	color: #e5cd34;
 }
 
 header a[role="button"] {
-	margin-top: 2.5em;
+	margin-top: 52px;
+	color: #efefef;
+	border: 3px solid #efefef;
 }
 
 .heading {
-	margin-bottom: 25px;
+	margin-bottom: 50px;
 }
 
 .heading h3 {
-	border-left: 38px solid #e5cd34;
 	font-family: "DejaVu Sans Mono Bold", "Lucida Console", "Courier New";
-	line-height: 0.8em;
-	padding-left: 8px;
+	line-height: 0.9em;
+	overflow: hidden;
+	text-align: left;
+	border-left: 12px solid #e5cd34;
+	padding: 15px;
+	color: #3a3a3a;
 }
+
+/*.heading h3:before, .heading h3:after {
+	content: "";
+	display: inline-block;
+	width: 50%;
+	margin: 0 0.5em 0 -55%;
+	vertical-align: middle;
+	border-bottom: 7px solid #e5cd34;
+}
+
+.heading h3:after {
+	margin: 0 -55% 0 0.5em;
+}*/
 
 .cards-container {
 	margin-top: 80px;
 }
 
+.card {
+	padding: 32px;
+	height: 380px;
+	background-color: #efefef;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; 
+}
+
 .card h4 {
-	padding-left: 5px;
+	padding: 1px 0 0 2px;
 	line-height: 0.8em;
 	font-family: "DejaVu Sans Mono Bold", "Lucida Console", "Courier New";
 	color: #3a3a3a;
@@ -328,24 +353,18 @@ header a[role="button"] {
 }
 
 .card p {
-	margin-top: 0.75em;
-}
-
-.card {
-	padding: 32px 20px 20px;
-	min-height: 320px;
-	border-top: 10px solid #ececec;
-	background-color: #efefef;
+	margin-top: 22px;
 }
 
 #ampersand {
-	height: 152px;
-	padding: 115px 0;
+	height: 165px;
+	padding: 105px 0;
 	display: block;
-	font-size: 20em;
+	font-size: 21.6em;
 	line-height: 0.8em;
 	text-align: center;
 }
+
 #about #portrait {
 	margin-top: 25px;
 	overflow: hidden;
@@ -357,20 +376,50 @@ header a[role="button"] {
 	width: 250px;
 }
 
-#contact {}
+#about #presentation {
+	padding: 45px 0 0 15px;
+}
+
+#contact #social-links p {
+	padding-right: 40px;
+}
+
+#contact #contact-form {
+	margin-top: 25px;
+}
 
 #contact #contact-form input,
 #contact #contact-form textarea
-{}
+{
+	border: 3px solid #dadada;
+	background-color: #efefef;
+	padding: 12px;
+	width: 100%;
+	margin-bottom: 15px;
+	font-family: 'Merriweather Light', 'Times New Roman';
+	font-size: 1.8em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; 
+}
 
 #contact #contact-form input:focus,
 #contact #contact-form textarea:focus {
-	box-shadow: 0 0 5px #fff;
+	/*border: 3px solid #e5cd34;*/
 }
 
 #contact #contact-form textarea {
 	height: 200px;
 	resize: none;
+}
+
+#contact #contact-form button {
+	margin: 10px 0 0 0;
+	float: right;
+	background-color: #dadada;
+	border: 3px solid #dadada;
+	width: 35%;
+	color: #3a3a3a;
 }
 
 footer {
