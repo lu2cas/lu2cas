@@ -56,15 +56,9 @@
 				</div>
 			</nav>
 			<article>
-				<span class="h4-size uppercase positive-tracking-10">Olá, mundo!</span>
-				<span class="h6-size lowercase commented positive-tracking-10">Meu nome é</span>
-				<h1>
-					<span class="h1-size uppercase positive-tracking-10">Luccas</span>
-					<span class="h5-size uppercase positive-tracking-25">Carvalho Silveira</span>
-				</h1>
-				<span class="h6-size lowercase commented positive-tracking-10">e eu sou</span>
+				<h1 class="h4-size uppercase positive-tracking-10">Luccas Carvalho Silveira</h1>
 				<h2>
-					<span id="occupation" class="h3-size uppercase positive-tracking-10 textillate">
+					<span id="occupation" class="h5-size uppercase positive-tracking-10 textillate">
 						<ul class="texts">
 							<li data-in-effect="flash" data-out-effect="fadeOut" data-out-shuffle="true" data-in-shuffle="true">desenvolvedor de software</li>
 							<li data-in-effect="flash" data-out-effect="fadeOut" data-out-shuffle="true" data-in-shuffle="true">entusiasta de design</li>
@@ -72,14 +66,14 @@
 						</ul>
 					</span>
 				</h2>
-				<a href="#about" role="button" class="button ghost-button">Saiba mais</a>
+				<a href="#about" role="button" class="button">Saiba mais</a>
 			</article>
 		</header>
 		<main id="about" class="row">
 			<article class="section-content column column-10">
 				<div class="row heading">
 					<div class="column column-12">
-						<h3 class="uppercase positive-tracking-10">Sobre</h3>
+						<h3 class="h4-size uppercase positive-tracking-10">Sobre</h3>
 					</div>
 				</div>
 				<div class="row">
@@ -106,7 +100,7 @@
 				<div class="row cards-container">
 					<div class="column column-5">
 						<div class="card">
-							<h4 class="uppercase positive-tracking-10">Backend</h4>
+							<h4 class="h5-size uppercase positive-tracking-10">Backend</h4>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut turpis turpis,
 								ullamcorper vitae erat id, tempor lacinia est. Sed eu augue tempus, porta
@@ -123,7 +117,7 @@
 					</div>
 					<div class="column column-5">
 						<div class="card">
-							<h4 class="uppercase positive-tracking-10">Frontend</h4>
+							<h4 class="h5-size uppercase positive-tracking-10">Frontend</h4>
 							<p>
 								Curabitur eu rutrum nunc. Orci varius natoque penatibus et magnis dis parturient
 								montes, nascetur ridiculus mus. Vivamus consequat sed orci vel suscipit. Nulla eu
@@ -139,7 +133,7 @@
 			<div class="section-content column column-10">
 				<div class="row heading">
 					<div class="column column-12">
-						<h3 class="uppercase positive-tracking-10">Contato</h3>
+						<h3 class="h4-size uppercase positive-tracking-10">Contato</h3>
 					</div>
 				</div>
 				<div class="row">
@@ -149,11 +143,13 @@
 							enviar sugestões ou me incluir em seu projeto.
 						</p>
 						<p>
-							Me adicione como contato no LinkedIn, dê uma olhada nos meus projetos no GitHub,
-							seja meu amigo no Facebook. me siga no Twitter e salve meus pins no Pinterest!
+							Me adicione como contato no <a href="http://www.linkedin.com/in/lu2cas/" target="_blank">LinkedIn</a>,
+							dê uma olhada nos meus projetos no <a href="http://www.github.com/lu2cas/" target="_blank">GitHub</a>,
+							seja meu amigo no <a href="http://www.facebook.com/lu2cas/" target="_blank">Facebook</a> e
+							salve meus pins no <a href="http://www.pinterest.com/lu2cas/" target="_blank">Pinterest</a>!
 						</p>
 						<p>
-							Ou, se você preferir, me mande um "olá" através do e-mail contato@lu2cas.com.br,
+							Ou, se você preferir, me mande um "olá" através do e-mail <a href="mailto:contato@lu2cas.com.br">contato@lu2cas.com.br</a>,
 							ou do formulário a seguir.
 						</p>
 						<p>
@@ -184,7 +180,7 @@
 							</div>
 							<div class="row">
 								<div class="column column-12">
-									<button type="submit" id="send" class="ghost-button">Enviar</button>
+									<button type="submit" id="send" class="button">Enviar</button>
 								</div>
 							</div>
 						</form>
@@ -193,32 +189,8 @@
 			</div>
 		</section>
 		<footer id="footer" class="row">
-			<div class="column column-12" id="network-links">
-				<div class="row">
-					<div class="column column-3">
-						<a href="mailto:contato@lu2cas.com.br">
-							contato@lu2cas.com.br
-						</a>
-					</div>
-					<div class="column column-3">
-						<a href="http://www.linkedin.com/in/lu2cas/" target="_blank">
-							linkedin.com/in/lu2cas
-						</a>
-					</div>
-					<div class="column column-3">
-						<a href="http://www.github.com/lu2cas/" target="_blank">
-							github.com/lu2cas
-						</a>
-					</div>
-					<div class="column column-3">
-						<a href="http://www.pinterest.com/lu2cas/" target="_blank">
-							pinterest.com/lu2cas
-						</a>
-					</div>
-				</div>
-			</div>
 			<div class="column column-12">
-				lu2cas.com.br - <?php echo date('Y'); ?>
+				<small>lu2cas.com.br — cc-by <?php echo date('Y'); ?></small>
 			</div>
 		</footer>
 	</body>
