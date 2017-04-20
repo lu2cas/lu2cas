@@ -1,4 +1,14 @@
 $('document').ready(function() {
+	$('.textillate ul li')
+		.attr('data-in-effect', 'flash')
+		.attr('data-out-effect', 'fadeOut')
+		.attr('data-out-shuffle', 'true')
+		.attr('data-in-shuffle', 'true');
+
+	$('.textillate').textillate({
+		loop: true
+	});
+
 	$('#contact-form #send').click(function(e) {
 		e.preventDefault();
 

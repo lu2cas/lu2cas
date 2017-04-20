@@ -22,13 +22,6 @@
 			ga('create', 'UA-74371832-1', 'auto');
 			ga('send', 'pageview');
 		</script>
-		<script type="text/javascript" language="javascript">
-		$('document').ready(function() {
-			$('.textillate').textillate({
-				loop: true
-			});
-		});
-		</script>
 		<link rel="stylesheet" type="text/css" href="css/frontend.css"/>
 		<link rel="stylesheet" type="text/css" href="bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css"/>
 		<link rel="stylesheet" type="text/css" href="bower_components/animate.css/animate.min.css"/>
@@ -60,9 +53,10 @@
 				<h2>
 					<span id="occupation" class="h5-size uppercase positive-tracking-10 textillate">
 						<ul class="texts">
-							<li data-in-effect="flash" data-out-effect="fadeOut" data-out-shuffle="true" data-in-shuffle="true">desenvolvedor de software</li>
-							<li data-in-effect="flash" data-out-effect="fadeOut" data-out-shuffle="true" data-in-shuffle="true">entusiasta de design</li>
-							<li data-in-effect="flash" data-out-effect="fadeOut" data-out-shuffle="true" data-in-shuffle="true">adepto ao software livre</li>
+							<li>desenvolvedor de software</li>
+							<li>estudante de sistemas de informação</li>
+							<li>entusiasta de web design</li>
+							<li>adepto ao software livre</li>
 						</ul>
 					</span>
 				</h2>
@@ -70,52 +64,53 @@
 			</article>
 		</header>
 		<main id="about" class="row">
-			<article class="section-content column column-10">
+			<article class="section-content column column-8">
 				<div class="row heading">
 					<div class="column column-12">
 						<h3 class="h4-size uppercase positive-tracking-10">Sobre</h3>
 					</div>
 				</div>
 				<div class="row">
-					<div class="column column-3">
+					<div class="column column-4">
 						<div id="portrait">
-							<img src="images/luccas-silveira.png" alt="Luccas C. Silveira" />
+							<img src="images/luccas-silveira.png" alt="Luccas C. Silveira"/>
 						</div>
 					</div>
-					<div class="column column-9">
+					<div class="column column-8">
 						<div id="presentation">
 							<p>
-								Olá, meu nome é Luccas Carvalho Silveira, sou desenvolvedor de software, adepto
-								ao software livre e entusiasta de design em geral. Estudo sistemas de informação
-								na PUCRS e atualmente sou desenvolvedor de sistemas no Grupo SLC.
+								Olá, você! Meu nome é Luccas Carvalho Silveira, sou desenvolvedor de software
+								e entusiasta de web design. Estudo
+								<a href="http://www.pucrs.br/facin/curso/sistemas-de-informacao/" target="_blank">
+								sistemas de informação na PUCRS</a> e atualmente trabalho como desenvolvedor de
+								sistemas no <a href="http://www.slc.com.br/" target="_blank">Grupo SLC</a>.
 							</p>
 							<p>
-								Neste site você encontra minhas ideias e experimentos, tendências de design e
-								desenvolvimento de software que considero interessantes e projetos em que atuo
-								ou atuei.
+								Neste site você encontra meus projetos e experimentos, tendências de design e
+								engenharia de software que considero interessantes e minhas observações sobre
+								o impacto político e cultural da informática na sociedade contemporânea.
 							</p>
 						</div>
 					</div>
 				</div>
 				<div class="row cards-container">
-					<div class="column column-5">
+					<div class="column column-12">
 						<div class="card">
 							<h4 class="h5-size uppercase positive-tracking-10">Backend</h4>
-							<p>
+							<!--p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut turpis turpis,
 								ullamcorper vitae erat id, tempor lacinia est. Sed eu augue tempus, porta
 								lorem semper, tincidunt diam. Phasellus rutrum eros at elit sollicitudin
 								venenatis. Nulla laoreet eros eu pulvinar ultrices. Vestibulum consectetur
 								cursus urna vel vulputate.
+							</p-->
+							<p>
+								Como desenvolvedor de software profissional desde 2010, desenvolvi domínio
+								pleno de PHP orientado a objetos aliado a bancos de dados MySQL.
 							</p>
 						</div>
 					</div>
-					<div class="column column-2">
-						<div class="row">
-							<span id="ampersand">&amp;</span>
-						</div>
-					</div>
-					<div class="column column-5">
+					<div class="column column-12">
 						<div class="card">
 							<h4 class="h5-size uppercase positive-tracking-10">Frontend</h4>
 							<p>
@@ -130,21 +125,21 @@
 			</article>
 		</main>
 		<section id="contact" class="row">
-			<div class="section-content column column-10">
+			<div class="section-content column column-8">
 				<div class="row heading">
 					<div class="column column-12">
 						<h3 class="h4-size uppercase positive-tracking-10">Contato</h3>
 					</div>
 				</div>
 				<div class="row">
-					<div id="social-links"class="column column-6">
+					<div id="social-links"class="column column-12">
 						<p>
 							Fique a vontade para entrar em contato comigo caso queira compartilhar ideias,
 							enviar sugestões ou me incluir em seu projeto.
 						</p>
 						<p>
 							Me adicione como contato no <a href="http://www.linkedin.com/in/lu2cas/" target="_blank">LinkedIn</a>,
-							dê uma olhada nos meus projetos no <a href="http://www.github.com/lu2cas/" target="_blank">GitHub</a>,
+							faça um fork dos meus projetos no <a href="http://www.github.com/lu2cas/" target="_blank">GitHub</a>,
 							seja meu amigo no <a href="http://www.facebook.com/lu2cas/" target="_blank">Facebook</a> e
 							salve meus pins no <a href="http://www.pinterest.com/lu2cas/" target="_blank">Pinterest</a>!
 						</p>
@@ -153,10 +148,10 @@
 							ou do formulário a seguir.
 						</p>
 						<p>
-							Até logo e obrigado pela visita!
+							:)
 						</p>
 					</div>
-					<div id="contact-form" class="column column-6">
+					<div id="contact-form" class="column column-12">
 						<form action="send_contact.php" method="post" novalidate="novalidate">
 							<div class="row">
 								<div class="column column-12">
@@ -190,7 +185,7 @@
 		</section>
 		<footer id="footer" class="row">
 			<div class="column column-12">
-				<small>lu2cas.com.br — cc-by <?php echo date('Y'); ?></small>
+				<small>lu2cas.com.br — <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank">cc by 3.0</a></small>
 			</div>
 		</footer>
 	</body>

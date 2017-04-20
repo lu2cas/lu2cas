@@ -222,12 +222,12 @@ h6, .h6-size {
 	 * Margin de 1 coluna + gutter para cada lado
 	 * O conteúdo tem largura de 10 colunas
 	 */
-	margin: 0 8.46666666667%;
-	min-height: 100%;
+	margin: 0 16.933333333334%;
+		min-height: 100%;
 }
 
 section, main {
-	margin: 80px 0;
+	margin: 70px 0;
 }
 
 #main-menu {
@@ -312,17 +312,14 @@ header a[role="button"]:hover {
 	color: #222;
 }
 
-.cards-container {
-	margin-top: 80px;
-}
 
 .card {
-	padding: 32px;
-	height: 380px;
+	margin-top: 35px;
+	padding: 35px;
+	min-height: 170px;
 	background-color: #efefef;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box; 
+	border-bottom: 3px solid #dadada;
+	border-radius: 3px;
 }
 
 .card h4 {
@@ -337,15 +334,6 @@ header a[role="button"]:hover {
 	margin-top: 22px;
 }
 
-#ampersand {
-	height: 165px;
-	padding: 105px 0;
-	display: block;
-	font-size: 21.6em;
-	line-height: 0.8em;
-	text-align: center;
-}
-
 #about #portrait {
 	margin-top: 25px;
 	overflow: hidden;
@@ -358,11 +346,15 @@ header a[role="button"]:hover {
 }
 
 #about #presentation {
-	padding: 45px 0 0 15px;
+	padding-left: 15px;
+}
+
+#about #presentation a:hover {
+	color: #ffa600;
 }
 
 #contact #social-links p {
-	padding-right: 40px;
+	padding-right: 25px;
 }
 
 #contact #social-links a {
@@ -390,6 +382,7 @@ header a[role="button"]:hover {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box; 
+	border-radius: 3px;
 }
 
 #contact #contact-form input:focus,
@@ -408,11 +401,11 @@ header a[role="button"]:hover {
 	background-color: #dadada;
 	border: none;
 	width: 35%;
-	color: #222;
+	color: #fff;
+	border-radius: 3px;
 }
 
 #contact #contact-form button:hover {
-	color: #efefef;
 	border: none;
 	background: #ffa600;
 }
@@ -429,8 +422,12 @@ footer {
 }
 
 footer small {
-	color: #efefef;
+	color: #fff;
 	text-transform: uppercase;
+}
+
+footer a {
+	color: #fff;
 }
 
 /* Body style - End */
