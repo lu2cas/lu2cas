@@ -275,7 +275,7 @@ header article {
 
 header h1, header h2 {
 	font-size: 1em;
-	text-shadow: 0 0 10px #000;
+	text-shadow: 0 5px 10px #000;
 	font-family: "DejaVu Sans Mono Bold", "Lucida Console", "Courier New";
 }
 
@@ -290,7 +290,7 @@ header h2 {
 header a[role="button"] {
 	color: #fff;
 	border: 3px solid #efefef;
-	box-shadow: 0 0 10px #000;
+	box-shadow: 0 5px 10px #000;
 }
 
 header a[role="button"]:hover {
