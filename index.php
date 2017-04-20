@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 	<head>
-		<title>Luccas Silveira</title>
+		<title>Luccas</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<meta name="author" content="Luccas Carvalho Silveira"/>
 		<meta name="description" content="Página pessoal de Luccas Carvalho Silveira, desenvolvedor web de Esteio/Porto Alegre"/>
@@ -56,7 +56,7 @@
 				</div>
 			</nav>
 			<article>
-				<h1 class="h4-size uppercase positive-tracking-10">Luccas Carvalho Silveira</h1>
+				<h1 class="h3-size uppercase positive-tracking-10">Luccas Carvalho Silveira</h1>
 				<h2>
 					<span id="occupation" class="h5-size uppercase positive-tracking-10 textillate">
 						<ul class="texts">

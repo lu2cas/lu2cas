@@ -217,12 +217,6 @@ h6, .h6-size {
 	text-align: center;
 }
 
-.button:hover {
-	color: #222;
-	border: none;
-	background: #efefef;
-}
-
 .section-content {
 	/**
 	 * Margin de 1 coluna + gutter para cada lado
@@ -250,7 +244,7 @@ section, main {
 }
 
 #main-menu .list-item a {
-	color: #efefef;
+	color: #fff;
 	text-decoration: none;
 	font-family: "DejaVu Sans Mono Bold", "Lucida Console", "Courier New";
 	padding-left: 1px;
@@ -281,7 +275,7 @@ header article {
 
 header h1, header h2 {
 	font-size: 1em;
-	text-shadow: 0 0 15px #000;
+	text-shadow: 0 0 10px #000;
 	font-family: "DejaVu Sans Mono Bold", "Lucida Console", "Courier New";
 }
 
@@ -294,13 +288,12 @@ header h2 {
 }
 
 header a[role="button"] {
-	color: #efefef;
+	color: #fff;
 	border: 3px solid #efefef;
-	box-shadow: 0 0 5px #000;
+	box-shadow: 0 0 10px #000;
 }
 
 header a[role="button"]:hover {
-	color: #efefef;
 	border: none;
 	background: #ffa600;
 }
