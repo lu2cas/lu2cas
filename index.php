@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 	<head>
-		<title>Luccas</title>
+		<title>Luccas Silveira</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<meta name="author" content="Luccas Carvalho Silveira"/>
 		<meta name="description" content="Página pessoal de Luccas Carvalho Silveira, desenvolvedor web de Esteio/Porto Alegre"/>
@@ -49,7 +49,7 @@
 				</div>
 			</nav>
 			<article>
-				<h1 class="h3-size uppercase positive-tracking-10">Luccas Carvalho Silveira</h1>
+				<h1 class="h3-size uppercase positive-tracking-10">Luccas Silveira</h1>
 				<h2>
 					<span id="occupation" class="h5-size uppercase positive-tracking-10 textillate">
 						<ul class="texts">
@@ -79,7 +79,7 @@
 					<div class="column column-8">
 						<div id="presentation">
 							<p>
-								Olá, você! Meu nome é Luccas Carvalho Silveira, sou desenvolvedor de software
+								Olá, você! Meu nome é Luccas Silveira, sou desenvolvedor de software
 								e entusiasta de web design. Estudo
 								<a href="http://www.pucrs.br/facin/curso/sistemas-de-informacao/" target="_blank">
 								sistemas de informação na PUCRS</a> e atualmente trabalho como desenvolvedor de

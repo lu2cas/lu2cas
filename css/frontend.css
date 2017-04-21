@@ -353,10 +353,6 @@ header a[role="button"]:hover {
 	color: #ffa600;
 }
 
-#contact #social-links p {
-	padding-right: 25px;
-}
-
 #contact #social-links a {
 	color: #333;
 }
@@ -417,8 +413,6 @@ footer {
 	background-image: url('../images/header-background.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-size: cover;
-	background-attachment: scroll;
 }
 
 footer small {
@@ -465,6 +459,24 @@ footer a {
 	.section-content {
 		margin: 0 8.466666667%;
 	}
+
+	header a[role="button"],
+	#main-menu
+	{
+		display: none;
+	}
+
+	header article {
+		top: 35%;
+	}
+
+	header .h3-size {
+		font-size: 3.6em;
+	}
+
+	header .h5-size {
+		font-size: 1.8em;
+	}
 }
 
 @media screen and (max-width: 320px) {
@@ -490,6 +502,24 @@ footer a {
 
 	.section-content {
 		margin: 80px 8.466666667%;
+	}
+
+	header a[role="button"],
+	#main-menu
+	{
+		display: none;
+	}
+
+	header article {
+		top: 35%;
+	}
+
+	header .h3-size {
+		font-size: 3.6em;
+	}
+
+	header .h5-size {
+		font-size: 1.8em;
 	}
 }
 /* Media queries - End */
