@@ -343,6 +343,7 @@ header a[role="button"]:hover {
 
 #about #portrait img {
 	width: 250px;
+	border-radius: 50%;
 }
 
 #about #presentation a:hover {
@@ -476,6 +477,10 @@ footer a {
 	header .h5-size {
 		font-size: 1.8em;
 	}
+
+	#about #portrait {
+		text-align: center;
+	}
 }
 
 @media screen and (max-width: 320px) {
@@ -519,6 +524,10 @@ footer a {
 
 	header .h5-size {
 		font-size: 1.8em;
+	}
+
+	#about #portrait {
+		text-align: center;
 	}
 }
 /* Media queries - End */

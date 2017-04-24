@@ -73,7 +73,7 @@
 				<div class="row">
 					<div class="column column-4">
 						<div id="portrait">
-							<img src="images/luccas-silveira.jpg" alt="Luccas Carvalho Silveira" style="border-radius: 3px;"/>
+							<img src="images/luccas-silveira.jpg" alt="Luccas Carvalho Silveira"/>
 						</div>
 					</div>
 					<div class="column column-8">
