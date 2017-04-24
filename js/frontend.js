@@ -9,6 +9,15 @@ $('document').ready(function() {
 		loop: true
 	});
 
+	$('#main-menu a').click(function(e) {
+		e.preventDefault();
+		var element = $(this).attr('href');
+
+		$('html, body').animate({
+			scrollTop: $(element).offset().top
+		}, 300);
+	});
+
 	$('#contact-form #send').click(function(e) {
 		e.preventDefault();
 
@@ -26,7 +35,7 @@ $('document').ready(function() {
 			},
 			success: function(data) {
 				if (data.is_valid_form) {
-					form.find(':input').not('button[type="submit"]').css('border', 'none').css('box-shadow', '');
+					form.find(':input').not('button[type="submit"]').css('border', '3px solid #dadada');
 					if (data.send_email_success) {
 						form.find(':input').val('');
 					}
@@ -38,11 +47,11 @@ $('document').ready(function() {
 				} else {
 					submit.html('Enviar').prop('disabled', false);
 					$.each(data.fields, function (j, field) {
-						$('#' + field.name).css('border', 'none').css('box-shadow', '');
+						$('#' + field.name).css('border', '3px solid #dadada');
 						$.each(this.checks, function(k, check) {
 							if (!check.is_valid) {
 								console.log(check.message);
-								$('#' + field.name).css('border', '1px solid #f00;').css('box-shadow', '0 0 4px 2px #f00').focus();
+								$('#' + field.name).css('border', '3px solid #ffa600').focus();
 							}
 						});
 					});
@@ -51,14 +60,5 @@ $('document').ready(function() {
 			dataType: 'json'
 		});
 
-	});
-
-	$('#main-menu a').click(function(e) {
-		e.preventDefault();
-		var element = $(this).attr('href');
-
-		$('html, body').animate({
-			scrollTop: $(element).offset().top
-		}, 300);
 	});
 });

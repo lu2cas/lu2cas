@@ -73,14 +73,14 @@
 				<div class="row">
 					<div class="column column-4">
 						<div id="portrait">
-							<img src="images/luccas-silveira.png" alt="Luccas C. Silveira"/>
+							<img src="images/luccas-silveira.jpg" alt="Luccas Carvalho Silveira" style="border-radius: 3px;"/>
 						</div>
 					</div>
 					<div class="column column-8">
 						<div id="presentation">
 							<p>
-								Olá, você! Meu nome é Luccas Silveira, sou desenvolvedor de software
-								e entusiasta de web design. Estudo
+								Olá! Meu nome é Luccas Carvalho Silveira, sou desenvolvedor de software,
+								adepto ao software livre e entusiasta de web design. Estudo
 								<a href="http://www.pucrs.br/facin/curso/sistemas-de-informacao/" target="_blank">
 								sistemas de informação na PUCRS</a> e atualmente trabalho como desenvolvedor de
 								sistemas no <a href="http://www.slc.com.br/" target="_blank">Grupo SLC</a>.
@@ -97,16 +97,10 @@
 					<div class="column column-12">
 						<div class="card">
 							<h4 class="h5-size uppercase positive-tracking-10">Backend</h4>
-							<!--p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut turpis turpis,
-								ullamcorper vitae erat id, tempor lacinia est. Sed eu augue tempus, porta
-								lorem semper, tincidunt diam. Phasellus rutrum eros at elit sollicitudin
-								venenatis. Nulla laoreet eros eu pulvinar ultrices. Vestibulum consectetur
-								cursus urna vel vulputate.
-							</p-->
 							<p>
-								Como desenvolvedor de software profissional desde 2010, desenvolvi domínio
-								pleno de PHP orientado a objetos aliado a bancos de dados MySQL.
+								Trabalhando profissionalmente com desenvolvimento de sistemas para internet
+								desde 2010, desenvolvi conhecimentos avançados em PHP orientado a objetos, bancos
+								de dados MySQL e RESTful webservices.
 							</p>
 						</div>
 					</div>
@@ -114,10 +108,9 @@
 						<div class="card">
 							<h4 class="h5-size uppercase positive-tracking-10">Frontend</h4>
 							<p>
-								Curabitur eu rutrum nunc. Orci varius natoque penatibus et magnis dis parturient
-								montes, nascetur ridiculus mus. Vivamus consequat sed orci vel suscipit. Nulla eu
-								ante mi. Pellentesque sed massa quis leo ultrices eleifend. Pellentesque tincidunt
-								nisi tortor, eu luctus felis convallis quis.
+								Como um entusiasta de web design, desenvolvi conhecimentos sólidos na contrução de
+								interfaces responsivas e cross-browser utilizando técnicas avançadas de HTML5, CSS3
+								e JavaScript.
 							</p>
 						</div>
 					</div>
@@ -132,7 +125,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div id="social-links"class="column column-12">
+					<div id="social-links"class="column column-6">
 						<p>
 							Fique a vontade para entrar em contato comigo caso queira compartilhar ideias,
 							enviar sugestões ou me incluir em seu projeto.
@@ -151,7 +144,7 @@
 							:)
 						</p>
 					</div>
-					<div id="contact-form" class="column column-12">
+					<div id="contact-form" class="column column-6">
 						<form action="send_contact.php" method="post" novalidate="novalidate">
 							<div class="row">
 								<div class="column column-12">

@@ -316,7 +316,7 @@ header a[role="button"]:hover {
 .card {
 	margin-top: 35px;
 	padding: 35px;
-	min-height: 170px;
+	min-height: 150px;
 	background-color: #efefef;
 	border-bottom: 3px solid #dadada;
 	border-radius: 3px;
@@ -338,21 +338,20 @@ header a[role="button"]:hover {
 	margin-top: 25px;
 	overflow: hidden;
 	box-sizing: border-box;
-	text-align: center;
+	text-align: left;
 }
 
 #about #portrait img {
 	width: 250px;
 }
 
-#about #presentation {
-	padding-left: 15px;
-}
-
 #about #presentation a:hover {
 	color: #ffa600;
 }
 
+#contact #social-links {
+	padding-right: 10px;
+}
 #contact #social-links a {
 	color: #333;
 }
