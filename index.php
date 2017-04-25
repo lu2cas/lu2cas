@@ -79,16 +79,20 @@
 					<div class="column column-8">
 						<div id="presentation">
 							<p>
-								Olá! Meu nome é Luccas Carvalho Silveira, sou desenvolvedor de software,
-								adepto ao software livre e entusiasta de web design. Estudo
+								Olá! Meu nome é Luccas Carvalho Silveira e eu sou desenvolvedor de software.
+								Atuo profissionalmente no desenvolvimento de sistemas baseados em PHP desde
+								2010 e atualmente estou cursando o quinto período do
 								<a href="http://www.pucrs.br/facin/curso/sistemas-de-informacao/" target="_blank">
-								sistemas de informação na PUCRS</a> e atualmente trabalho como desenvolvedor de
-								sistemas no <a href="http://www.slc.com.br/" target="_blank">Grupo SLC</a>.
+								bacharelado de sistemas de informação da PUCRS</a>.
 							</p>
 							<p>
-								Neste site você encontra meus projetos e experimentos, tendências de design e
-								engenharia de software que considero interessantes e minhas observações sobre
-								o impacto político e cultural da informática na sociedade contemporânea.
+								Este espaço foi criado com o objetivo de compartilhar minhas experiências
+								na área de engenharia de software e web design, além de tornar públicas
+								algumas observações pessoais sobre tendências de tecnologia da informação.
+							</p>
+							<p>
+								Sinta-se a vontade para explorar e compartilhar o conteúdo disponível neste
+								site.
 							</p>
 						</div>
 					</div>
@@ -178,7 +182,7 @@
 		</section>
 		<footer id="footer" class="row">
 			<div class="column column-12">
-				<small>lu2cas.com.br — <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank">cc by 3.0</a></small>
+				<small>lu2cas.com.br — todo o conteúdo licenciado sob a <a href="https://creativecommons.org/licenses/by/3.0" target="_blank">cc by 3.0</a></small>
 			</div>
 		</footer>
 	</body>
