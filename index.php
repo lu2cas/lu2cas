@@ -28,49 +28,49 @@
 	</head>
 	<body>
 		<header class="row">
-			<nav id="main-menu">
-				<div class="row">
-					<div class="column column-4">
-						<div class="row list h6-size uppercase positive-tracking-10">
-							<div class="column column-3 list-item">
-								<a href="#home">Home</a>
-							</div>
-							<div class="column column-3 list-item">
-								<a href="#about">Sobre</a>
-							</div>
-							<div class="column column-3 list-item">
-								<a href="#blog">Blog</a>
-							</div>
-							<div class="column column-3 list-item">
-								<a href="#contact">Contato</a>
-							</div>
+			<nav id="main-menu" class="row">
+				<div class="column column-4">
+					<div class="row list h6-size uppercase positive-tracking-10">
+						<div class="column column-3 list-item">
+							<a href="#home">Home</a>
+						</div>
+						<div class="column column-3 list-item">
+							<a href="#about">Sobre</a>
+						</div>
+						<div class="column column-3 list-item">
+							<a href="#blog">Blog</a>
+						</div>
+						<div class="column column-3 list-item">
+							<a href="#contact">Contato</a>
 						</div>
 					</div>
 				</div>
 			</nav>
-			<article>
-				<h1 class="h3-size uppercase positive-tracking-10">Luccas Silveira</h1>
-				<h2>
-					<span id="occupation" class="h5-size uppercase positive-tracking-10 textillate">
-						<ul class="texts">
-							<li>desenvolvedor de software</li>
-							<li>estudante de sistemas de informação</li>
-							<li>entusiasta de web design</li>
-							<li>adepto ao software livre</li>
-						</ul>
-					</span>
+			<div id="title-container" class="row">
+				<h1 class="h3-size uppercase positive-tracking-10 column column-12">Luccas Silveira</h1>
+				<h2 id="occupation" class="h5-size uppercase positive-tracking-10 textillate column column-12">
+					<ul class="texts">
+						<li>desenvolvedor de software</li>
+						<li>estudante de sistemas de informação</li>
+						<li>entusiasta de web design</li>
+						<li>adepto ao software livre</li>
+					</ul>
 				</h2>
-				<a href="#about" role="button" class="button">Saiba mais</a>
-			</article>
+			</div>
+			<div id="button-container" class="row">
+				<div class="column column-12">
+					<a href="#about" role="button" class="button">Saiba mais</a>
+				</div>
+			</div>
 		</header>
 		<main id="about" class="row">
-			<article class="section-content column column-10">
+			<div class="section-content column column-10">
 				<div class="row heading">
 					<div class="column column-12">
 						<h3 class="h4-size uppercase positive-tracking-10">Sobre</h3>
 					</div>
 				</div>
-				<div class="row">
+				<article class="row">
 					<div class="column column-4">
 						<div id="portrait">
 							<img src="images/luccas-silveira.jpg" alt="Luccas Carvalho Silveira"/>
@@ -81,14 +81,14 @@
 							<p>
 								Olá! Meu nome é Luccas Carvalho Silveira e eu sou desenvolvedor de software.
 								Atuo profissionalmente no desenvolvimento de sistemas baseados em PHP desde
-								2010 e atualmente estou cursando o quinto período do
+								2010 e atualmente estou cursando o
 								<a href="http://www.pucrs.br/facin/curso/sistemas-de-informacao/" target="_blank">
 								bacharelado de sistemas de informação da PUCRS</a>.
 							</p>
 							<p>
 								Este espaço foi criado com o objetivo de compartilhar minhas experiências
-								na área de engenharia de software e web design, além de tornar públicas
-								algumas observações pessoais sobre tendências de tecnologia da informação.
+								na área de engenharia de software e web design, além de e dissertar sobre
+								tendências relevantes da área de tecnologia da informação.
 							</p>
 							<p>
 								Sinta-se a vontade para explorar e compartilhar o conteúdo disponível neste
@@ -96,8 +96,8 @@
 							</p>
 						</div>
 					</div>
-				</div>
-			</article>
+				</article>
+			</div>
 		</main>
 		<section id="blog" class="row">
 			<div class="section-content column column-10">
@@ -195,7 +195,7 @@
 		</section>
 		<footer id="footer" class="row">
 			<div class="column column-12">
-				<small>lu2cas.com.br — todo o conteúdo licenciado sob a <a href="https://creativecommons.org/licenses/by/3.0" target="_blank">cc by 3.0</a></small>
+				<small>lu2cas.com.br — <a href="https://creativecommons.org/licenses/by/3.0" target="_blank">cc by 3.0</a></small>
 			</div>
 		</footer>
 	</body>

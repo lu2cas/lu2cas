@@ -223,32 +223,7 @@ section, main {
 	margin: 70px 0;
 }
 
-#main-menu {
-	/*background: rgba(31, 31, 31, 0.75);*/
-}
-
-#main-menu .column-4 {
-	margin: 0 33.86666666668%;
-}
-
-#main-menu .list-item {
-	padding: 30px 0 15px 0;
-	text-align: center;
-}
-
-#main-menu .list-item a {
-	color: #fff;
-	text-decoration: none;
-	font-family: "DejaVu Sans Mono Bold", "Lucida Console", "Courier New";
-	padding-left: 1px;
-}
-
-#main-menu .list-item a:hover {
-	border-bottom: 5px solid #ffa600;
-}
-
 header {
-	position: relative;
 	height: 100%;
 	background-color: #121212;
 	background-image: url('../images/header-background.jpg');
@@ -256,14 +231,39 @@ header {
 	background-position: center center;
 	background-size: cover;
 	background-attachment: scroll;
+	text-align: center;
+	position: relative;
 }
 
-header article {
-	width: 100%;
+header #main-menu {
+	/*background: rgba(31, 31, 31, 0.75);*/
+}
+
+header #main-menu .column-4 {
+	margin: 0 33.86666666668%;
+}
+
+header #main-menu .list-item {
+	padding: 30px 0 15px 0;
 	text-align: center;
+}
+
+header #main-menu .list-item a {
+	color: #fff;
+	text-decoration: none;
+	font-family: "DejaVu Sans Mono Bold", "Lucida Console", "Courier New";
+	padding-left: 1px;
+}
+
+header #main-menu .list-item a:hover {
+	border-bottom: 5px solid #ffa600;
+}
+
+header #title-container {
+	width: 100%;
 	color: #efefef;
 	position: absolute;
-	top: 40%;
+	top: 38%;
 }
 
 header h1, header h2 {
@@ -273,17 +273,19 @@ header h1, header h2 {
 }
 
 header h1 {
-	margin-bottom: 18px;
+	margin-bottom: 10px;
 }
 
-header h2 {
-	margin-bottom: 128px;
+header #button-container {
+	width: 100%;
+	position: absolute;
+	bottom: 25%;
 }
-
 header a[role="button"] {
 	color: #fff;
 	border: 3px solid #efefef;
 	box-shadow: 0 5px 10px #000;
+	border-radius: 3px;
 }
 
 header a[role="button"]:hover {
@@ -305,12 +307,22 @@ header a[role="button"]:hover {
 	color: #222;
 }
 
-.card {
-	padding: 35px;
-	min-height: 150px;
-	background-color: #efefef;
-	border-bottom: 3px solid #dadada;
-	border-radius: 3px;
+
+#about #portrait {
+	margin-top: 25px;
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: left;
+	text-align: center;
+}
+
+#about #portrait img {
+	width: 265px;
+	border-radius: 50%;
+}
+
+#about #presentation a:hover {
+	color: #ffa600;
 }
 
 #blog #posts {
@@ -326,32 +338,24 @@ header a[role="button"]:hover {
 	margin-bottom: 0;
 }
 
-.card h4 {
-	padding: 2px 0 0 5px;
-	line-height: 0.9em;
-	font-family: "DejaVu Sans Mono Bold", "Lucida Console", "Courier New";
-	color: #222;
-	border-left: 22px solid #ffa600;
+.card {
+	padding: 35px;
+	min-height: 150px;
+	background-color: #efefef;
+	border-bottom: 3px solid #dadada;
+	border-radius: 3px;
 }
 
 .card p {
 	margin-top: 22px;
 }
 
-#about #portrait {
-	margin-top: 25px;
-	overflow: hidden;
-	box-sizing: border-box;
-	text-align: left;
-}
-
-#about #portrait img {
-	width: 250px;
-	border-radius: 50%;
-}
-
-#about #presentation a:hover {
-	color: #ffa600;
+.card h4 {
+	padding: 2px 0 0 5px;
+	line-height: 0.9em;
+	font-family: "DejaVu Sans Mono Bold", "Lucida Console", "Courier New";
+	color: #222;
+	border-left: 22px solid #ffa600;
 }
 
 #contact #social-links {
