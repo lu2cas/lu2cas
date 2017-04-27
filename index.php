@@ -64,7 +64,7 @@
 			</article>
 		</header>
 		<main id="about" class="row">
-			<article class="section-content column column-8">
+			<article class="section-content column column-10">
 				<div class="row heading">
 					<div class="column column-12">
 						<h3 class="h4-size uppercase positive-tracking-10">Sobre</h3>
@@ -97,32 +97,45 @@
 						</div>
 					</div>
 				</div>
-				<div class="row cards-container">
-					<div class="column column-12">
-						<div class="card">
-							<h4 class="h5-size uppercase positive-tracking-10">Backend</h4>
-							<p>
-								Trabalhando profissionalmente com desenvolvimento de sistemas para internet
-								desde 2010, desenvolvi conhecimentos avançados em PHP orientado a objetos, bancos
-								de dados MySQL e RESTful webservices.
-							</p>
-						</div>
-					</div>
-					<div class="column column-12">
-						<div class="card">
-							<h4 class="h5-size uppercase positive-tracking-10">Frontend</h4>
-							<p>
-								Como um entusiasta de web design, desenvolvi conhecimentos sólidos na contrução de
-								interfaces responsivas e cross-browser utilizando técnicas avançadas de HTML5, CSS3
-								e JavaScript.
-							</p>
-						</div>
-					</div>
-				</div>
 			</article>
 		</main>
+		<section id="blog" class="row">
+			<div class="section-content column column-10">
+				<div class="row heading">
+					<div class="column column-12">
+						<h3 class="h4-size uppercase positive-tracking-10">Blog</h3>
+					</div>
+				</div>
+				<ul id="posts">
+					<li class="row">
+						<div class="column column-12">
+							<div class="card">
+								<h4 class="h5-size uppercase positive-tracking-10">Backend</h4>
+								<p>
+									Trabalhando profissionalmente com desenvolvimento de sistemas para internet
+									desde 2010, desenvolvi conhecimentos avançados em PHP orientado a objetos, bancos
+									de dados MySQL e RESTful webservices.
+								</p>
+							</div>
+						</div>
+					</li>
+					<li class="row">
+						<div class="column column-12">
+							<div class="card">
+								<h4 class="h5-size uppercase positive-tracking-10">Frontend</h4>
+								<p>
+									Como um entusiasta de web design, desenvolvi conhecimentos sólidos na contrução de
+									interfaces responsivas e cross-browser utilizando técnicas avançadas de HTML5, CSS3
+									e JavaScript.
+								</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
 		<section id="contact" class="row">
-			<div class="section-content column column-8">
+			<div class="section-content column column-10">
 				<div class="row heading">
 					<div class="column column-12">
 						<h3 class="h4-size uppercase positive-tracking-10">Contato</h3>
