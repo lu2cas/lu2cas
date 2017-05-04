@@ -219,8 +219,8 @@ h6, .h6-size {
 	min-height: 100%;
 }
 
-section, main {
-	margin: 70px 0;
+header, section, main {
+	margin-bottom: 70px;
 }
 
 header {
@@ -349,15 +349,47 @@ header a[role="button"]:hover {
 	border-radius: 3px;
 }
 
-.card p {
-	margin-top: 22px;
-}
-
 .card h4 {
 	padding: 2px 0 0 5px;
 	line-height: 0.9em;
 	font-family: "DejaVu Sans Mono Bold", "Lucida Console", "Courier New";
 	border-left: 22px solid #ffa600;
+}
+
+.card .date {
+	margin-top: 1em;
+	display: block;
+	font-size: 1.4em;
+	color: #888;
+	text-transform: uppercase;
+	/*font-style: italic;*/
+}
+
+.card p {
+	margin-top: 22px;
+}
+
+.card a.continue_reading, #pagination a {
+	font-size: 1.4em;
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: "DejaVu Sans Mono Bold", "Lucida Console", "Courier New";
+}
+
+#blog #pagination {
+	margin-top: 25px;
+}
+
+#blog #earlier-posts {
+	float: left;
+}
+
+#blog #latest-posts {
+	float: right;
+}
+
+.card a.continue_reading:hover, #blog a.blog-pagination:hover {
+	color: #ffa600;
 }
 
 #contact #social-links {

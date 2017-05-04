@@ -111,11 +111,13 @@
 						<div class="column column-12">
 							<div class="card">
 								<h4 class="h5-size uppercase positive-tracking-10">Lorem ipsum dolor sit amet consectetur</h4>
+								<span class="date">Porto Alegre, 15 de maio de 2017</span>
 								<p>
 									Etiam commodo ligula eu eros fringilla vestibulum. Proin vel enim turpis. Etiam placerat odio non
 									ullamcorper efficitur. Donec interdum rhoncus nisl, sed efficitur neque mattis id. Interdum et
 									smalesuada fames ac ante ipsum primis in faucibus. Phasellus ultrices fringilla odio a tempus.
 								</p>
+								<a href="http://www.google.com" class="continue_reading" target="_blank">Continue lendo</a>
 							</div>
 						</div>
 					</li>
@@ -123,11 +125,13 @@
 						<div class="column column-12">
 							<div class="card">
 								<h4 class="h5-size uppercase positive-tracking-10">Vivamus commodo lorem fermentum, scelerisque lorem quis</h4>
+								<span class="date">Porto Alegre, 10 de maio de 2017</span>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo lorem fermentum, scelerisque
 									lorem quis, semper ante. Aliquam erat volutpat. Curabitur pretium eget est a tristique. Suspendisse
 									porta tellus urna, nec rhoncus nulla suscipit ultricies.
 								</p>
+								<a href="http://www.google.com" class="continue_reading" target="_blank">Continue lendo</a>
 							</div>
 						</div>
 					</li>
@@ -135,16 +139,24 @@
 						<div class="column column-12">
 							<div class="card">
 								<h4 class="h5-size uppercase positive-tracking-10">Curabitur pretium eget est a tristique</h4>
+								<span class="date">Porto Alegre, 05 de maio de 2017</span>
 								<p>
 									Nam sodales lectus feugiat odio tincidunt, eget lacinia mauris scelerisque. Fusce mi nunc, efficitur
 									at sem aliquam, mattis feugiat ipsum. In lobortis, diam pellentesque imperdiet dignissim, mi risus
 									vestibulum orci, non mollis ex magna id diam. Donec ut metus vel leo dignissim porta finibus aliquam
 									odio.
 								</p>
+								<a href="http://www.google.com" class="continue_reading" target="_blank">Continue lendo</a>
 							</div>
 						</div>
 					</li>
 				</ul>
+				<div class="row" id="pagination">
+					<div class="column column-12">
+						<a href="http://www.google.com" id="earlier-posts" class="blog-pagination">Posts mais antigos</a>
+						<!--a href="http://www.google.com" id="latest-posts" class="blog-pagination">Posts mais recentes</a-->
+					</div>
+				</div>
 			</div>
 		</section>
 		<section id="contact" class="row">
