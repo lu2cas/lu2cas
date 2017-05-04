@@ -47,6 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
+	margin: 0 0 1em 0;
 	font-family: "Merriweather Light", "Times New Roman";
 	font-size: 1.8em;
 	line-height: 1.7;
@@ -197,7 +198,6 @@ h6, .h6-size {
 .button {
 	display: inline-block;
 	padding: 15px 20px;
-	color: #222;
 	border: 1px solid #22;
 	background: transparent;
 	font-family: "DejaVu Sans Mono Bold", "Lucida Console", "Courier New";
@@ -261,7 +261,7 @@ header #main-menu .list-item a:hover {
 
 header #title-container {
 	width: 100%;
-	color: #efefef;
+	color: #fff;
 	position: absolute;
 	top: 38%;
 }
@@ -294,7 +294,7 @@ header a[role="button"]:hover {
 }
 
 .heading {
-	margin-bottom: 25px;
+	margin-bottom: 3em;
 }
 
 .heading h3 {
@@ -304,12 +304,10 @@ header a[role="button"]:hover {
 	text-align: left;
 	border-left: 10px solid #ffa600;
 	padding: 1px 0 0 5px;
-	color: #222;
 }
 
 
 #about #portrait {
-	margin-top: 25px;
 	overflow: hidden;
 	box-sizing: border-box;
 	text-align: left;
@@ -331,11 +329,16 @@ header a[role="button"]:hover {
 }
 
 #blog #posts li {
-	margin: 0 0 35px 0;
+	margin: 0 0 3em 0;
+	display: inline-block;
 }
 
 #blog #posts li:last-child {
-	margin-bottom: 0;
+	margin: 0;
+}
+
+#blog #posts li:first-child {
+	margin: 1em 0 3em 0;
 }
 
 .card {
@@ -354,15 +357,11 @@ header a[role="button"]:hover {
 	padding: 2px 0 0 5px;
 	line-height: 0.9em;
 	font-family: "DejaVu Sans Mono Bold", "Lucida Console", "Courier New";
-	color: #222;
 	border-left: 22px solid #ffa600;
 }
 
 #contact #social-links {
 	padding-right: 10px;
-}
-#contact #social-links a {
-	color: #333;
 }
 
 #contact #social-links a:hover {
@@ -370,7 +369,7 @@ header a[role="button"]:hover {
 }
 
 #contact #contact-form {
-	margin-top: 25px;
+	margin-top: 1em;
 }
 
 #contact #contact-form input,
@@ -391,7 +390,7 @@ header a[role="button"]:hover {
 
 #contact #contact-form input:focus,
 #contact #contact-form textarea:focus {
-	border: 3px solid #888;
+	border: 3px solid #dadada;
 }
 
 #contact #contact-form textarea {

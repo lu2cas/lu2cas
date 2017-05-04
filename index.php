@@ -110,11 +110,11 @@
 					<li class="row">
 						<div class="column column-12">
 							<div class="card">
-								<h4 class="h5-size uppercase positive-tracking-10">Backend</h4>
+								<h4 class="h5-size uppercase positive-tracking-10">Lorem ipsum dolor sit amet consectetur</h4>
 								<p>
-									Trabalhando profissionalmente com desenvolvimento de sistemas para internet
-									desde 2010, desenvolvi conhecimentos avançados em PHP orientado a objetos, bancos
-									de dados MySQL e RESTful webservices.
+									Etiam commodo ligula eu eros fringilla vestibulum. Proin vel enim turpis. Etiam placerat odio non
+									ullamcorper efficitur. Donec interdum rhoncus nisl, sed efficitur neque mattis id. Interdum et
+									smalesuada fames ac ante ipsum primis in faucibus. Phasellus ultrices fringilla odio a tempus.
 								</p>
 							</div>
 						</div>
@@ -122,11 +122,24 @@
 					<li class="row">
 						<div class="column column-12">
 							<div class="card">
-								<h4 class="h5-size uppercase positive-tracking-10">Frontend</h4>
+								<h4 class="h5-size uppercase positive-tracking-10">Vivamus commodo lorem fermentum, scelerisque lorem quis</h4>
 								<p>
-									Como um entusiasta de web design, desenvolvi conhecimentos sólidos na contrução de
-									interfaces responsivas e cross-browser utilizando técnicas avançadas de HTML5, CSS3
-									e JavaScript.
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo lorem fermentum, scelerisque
+									lorem quis, semper ante. Aliquam erat volutpat. Curabitur pretium eget est a tristique. Suspendisse
+									porta tellus urna, nec rhoncus nulla suscipit ultricies.
+								</p>
+							</div>
+						</div>
+					</li>
+					<li class="row">
+						<div class="column column-12">
+							<div class="card">
+								<h4 class="h5-size uppercase positive-tracking-10">Curabitur pretium eget est a tristique</h4>
+								<p>
+									Nam sodales lectus feugiat odio tincidunt, eget lacinia mauris scelerisque. Fusce mi nunc, efficitur
+									at sem aliquam, mattis feugiat ipsum. In lobortis, diam pellentesque imperdiet dignissim, mi risus
+									vestibulum orci, non mollis ex magna id diam. Donec ut metus vel leo dignissim porta finibus aliquam
+									odio.
 								</p>
 							</div>
 						</div>
