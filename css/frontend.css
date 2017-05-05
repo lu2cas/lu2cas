@@ -326,15 +326,15 @@ header a[role="button"]:hover {
 }
 
 #about #portrait {
-	overflow: hidden;
 	box-sizing: border-box;
-	text-align: left;
 	text-align: center;
 }
 
 #about #portrait img {
-	width: 265px;
+	width: 245px;
+	border: 8px solid #fff;
 	border-radius: 50%;
+	box-shadow: 0 0 20px #dadada;
 }
 
 #about #presentation a:hover {
@@ -384,7 +384,6 @@ header a[role="button"]:hover {
 	font-size: 1.4em;
 	color: #888;
 	text-transform: uppercase;
-	/*font-style: italic;*/
 }
 
 .card p {
