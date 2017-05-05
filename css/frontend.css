@@ -472,20 +472,16 @@ footer {
 	padding: 15px 0;
 	text-align: center;
 	background-color: #121212;
-	background-image: url('../images/header-background.jpg');
-	background-repeat: no-repeat;
-	background-position: center center;
 }
 
-footer small {
-	color: #fff;
+footer small, footer small a {
 	text-transform: uppercase;
+	color: #ffa600;
 }
 
-footer a {
+footer small a:hover {
 	color: #fff;
 }
-
 /* Body style - End */
 
 /* Media queries - Begin */
