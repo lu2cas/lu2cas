@@ -11,11 +11,23 @@ $('document').ready(function() {
 
 	$('#main-menu a').click(function(e) {
 		e.preventDefault();
+		
+		$('#sandwich-menu span').click();
+
 		var element = $(this).attr('href');
 
 		$('html, body').animate({
 			scrollTop: $(element).offset().top
 		}, 300);
+	});
+
+	$('#sandwich-menu span').click(function() {
+		if (!$('#main-menu').is(':visible')) {
+			$('#sandwich-menu').css('background-color', '#121212');
+		} else {
+			$('#sandwich-menu').css('background-color', 'transparent');
+		}
+		$('#main-menu').slideToggle('fast');
 	});
 
 	$('#contact-form #send').click(function(e) {
