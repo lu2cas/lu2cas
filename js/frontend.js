@@ -11,8 +11,10 @@ $('document').ready(function() {
 
 	$('#main-menu a').click(function(e) {
 		e.preventDefault();
-		
-		$('#sandwich-menu span').click();
+
+		if ($('#sandwich-menu span').is(':visible')) {
+			$('#sandwich-menu span').click();
+		}
 
 		var element = $(this).attr('href');
 
