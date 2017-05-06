@@ -30,7 +30,7 @@
 		<header class="row">
 			<div id="sandwich-menu" class="row">
 				<div class="section-content column column-12">
-					<span class="button"></span>
+					<span class="button" role="button">Menu</span>
 				</div>
 			</div>
 			<nav id="main-menu" class="row">
@@ -221,7 +221,9 @@
 		</section>
 		<footer id="footer" class="row">
 			<div class="column column-12">
-				<small>lu2cas.com.br — <a href="https://creativecommons.org/licenses/by/3.0" target="_blank">cc by 3.0</a></small>
+				<small>
+					<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">Site pessoal</span> de <a xmlns:cc="http://creativecommons.org/ns#" href="http://lu2cas.com.br" property="cc:attributionName" rel="cc:attributionURL">Luccas Carvalho Silveira</a> — <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+				</small>
 			</div>
 		</footer>
 	</body>

@@ -236,8 +236,9 @@ header {
 }
 
 header #sandwich-menu {
-	display: none;
 	width: 100%;
+	text-indent: -999px;
+	display: none;
 }
 
 header #sandwich-menu span {
