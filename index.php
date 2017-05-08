@@ -4,8 +4,8 @@
 		<title>Luccas Silveira</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<meta name="author" content="Luccas Carvalho Silveira"/>
-		<meta name="description" content="Página pessoal de Luccas Carvalho Silveira, desenvolvedor web de Esteio/Porto Alegre"/>
-		<meta name="keywords" content="Luccas, Silveira, Desenvolvedor, PHP, Web, Sites, Esteio, Porto, Alegre, Sistemas, Informação"/>
+		<meta name="description" content="Site pessoal de Luccas Carvalho Silveira, desenvolvedor web do Rio Grande do Sul, Brasil"/>
+		<meta name="keywords" content="Luccas, Carvalho, Silveira, Desenvolvedor, Software, PHP, Web, Sites, Sistemas, Informação"/>
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=3"/>
 		<link href="images/favicon.png" type="image/x-icon" rel="shortcut icon"/>
 		<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
@@ -155,7 +155,7 @@
 				<div class="row" id="pagination">
 					<div class="column column-12">
 						<a href="http://www.google.com" id="earlier-posts" class="blog-pagination">Posts mais antigos</a>
-						<!--a href="http://www.google.com" id="latest-posts" class="blog-pagination">Posts mais recentes</a-->
+						<!--a href="#" id="latest-posts" class="blog-pagination">Posts mais recentes</a-->
 					</div>
 				</div>
 			</div>

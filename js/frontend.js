@@ -24,12 +24,13 @@ $('document').ready(function() {
 	});
 
 	$('#sandwich-menu span').click(function() {
-		if (!$('#main-menu').is(':visible')) {
-			$('#sandwich-menu').css('background-color', '#121212');
-		} else {
+		if ($('#main-menu').is(':visible')) {
+			$('#main-menu').slideToggle('fast');
 			$('#sandwich-menu').css('background-color', 'transparent');
+		} else {
+			$('#sandwich-menu').css('background-color', '#121212');
+			$('#main-menu').slideToggle('fast');
 		}
-		$('#main-menu').slideToggle('fast');
 	});
 
 	$('#contact-form #send').click(function(e) {
