@@ -118,7 +118,7 @@
 									ullamcorper efficitur. Donec interdum rhoncus nisl, sed efficitur neque mattis id. Interdum et
 									smalesuada fames ac ante ipsum primis in faucibus. Phasellus ultrices fringilla odio a tempus.
 								</p>
-								<a href="lorem-ipsum-dolor-sit-amet-consectetur.php" class="continue_reading" target="_blank">Continue lendo</a>
+								<a href="lorem-ipsum-dolor-sit-amet-consectetur.php" class="continue_reading">Continue lendo</a>
 							</div>
 						</div>
 					</li>
@@ -132,7 +132,7 @@
 									lorem quis, semper ante. Aliquam erat volutpat. Curabitur pretium eget est a tristique. Suspendisse
 									porta tellus urna, nec rhoncus nulla suscipit ultricies.
 								</p>
-								<a href="#" class="continue_reading" target="_blank">Continue lendo</a>
+								<a href="#" class="continue_reading">Continue lendo</a>
 							</div>
 						</div>
 					</li>
@@ -147,7 +147,7 @@
 									vestibulum orci, non mollis ex magna id diam. Donec ut metus vel leo dignissim porta finibus aliquam
 									odio.
 								</p>
-								<a href="#" class="continue_reading" target="_blank">Continue lendo</a>
+								<a href="#" class="continue_reading">Continue lendo</a>
 							</div>
 						</div>
 					</li>

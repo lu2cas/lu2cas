@@ -34,7 +34,7 @@
 						<h1 class="h4-size uppercase positive-tracking-10">Lorem ipsum dolor sit amet consectetur</h3>
 					</div>
 					<div class="column column-12">
-						<span class="date">Porto Alegre, 15 de maio de 2017</span>
+						<span class="post-date">Porto Alegre, 15 de maio de 2017</span>
 					</div>
 				</div>
 				<div class="row">
