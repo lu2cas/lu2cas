@@ -319,7 +319,7 @@ header a[role="button"]:hover {
 	margin-bottom: 3em;
 }
 
-.heading h3 {
+.heading h3, .heading h1 {
 	font-family: "DejaVu Sans Mono Bold", "Lucida Console", "Courier New";
 	line-height: 0.85em;
 	overflow: hidden;
@@ -381,7 +381,7 @@ header a[role="button"]:hover {
 	border-left: 8px solid #ffa600
 }
 
-.card .date {
+.post-date {
 	margin-top: 1em;
 	display: block;
 	font-size: 1.4em;

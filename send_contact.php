@@ -60,6 +60,8 @@
 		require_once 'vendor/phpmailer/phpmailer/class.smtp.php';
 		require_once 'smtp_config.php';
 
+		$smtp_config = getSmtpConfig();
+
 		$phpMailer = new PHPMailer;
 
 		$phpMailer->CharSet = 'UTF-8';
