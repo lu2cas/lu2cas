@@ -373,7 +373,7 @@ ul.inline-list li {
 	display: none;
 }
 
-#sandwich-menu span {
+#sandwich-menu span[role="button"] {
 	margin-top: 30px;
 	float: left;
 	border: 0;
@@ -384,7 +384,9 @@ ul.inline-list li {
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
+	cursor: pointer;
 }
+
 
 #main-menu {
 	z-index: 9999;

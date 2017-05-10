@@ -30,7 +30,7 @@
 		<header class="row">
 			<div id="sandwich-menu" class="row">
 				<div class="section-wrapper column column-12">
-					<span class="button" role="button">Menu</span>
+					<span role="button">Menu</span>
 				</div>
 			</div>
 			<nav id="main-menu" class="row">
