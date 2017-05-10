@@ -10,8 +10,6 @@
 		<link href="images/favicon.png" type="image/x-icon" rel="shortcut icon"/>
 		<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 		<script type="text/javascript" src="bower_components/jquery-ui/jquery-ui.min.js"></script>
-		<script type="text/javascript" src="bower_components/letteringjs/jquery.lettering.js"></script>
-		<script type="text/javascript" src="bower_components/textillate/jquery.textillate.js"></script>
 		<script type="text/javascript" src="js/frontend.js"></script>
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -24,22 +22,26 @@
 		</script>
 		<link rel="stylesheet" type="text/css" href="css/frontend.css"/>
 		<link rel="stylesheet" type="text/css" href="bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css"/>
-		<link rel="stylesheet" type="text/css" href="bower_components/animate.css/animate.min.css"/>
 	</head>
-	<body>
-		<main id="about" class="row">
-			<article class="section-content column column-10">
+	<body id="post-content">
+		<header class="row">
+			<nav class="section-wrapper column column-8">
+				<a href="index.php#blog" class="navigation-link positive-tracking-10">&laquo;Home</a>
+			</nav>
+		</header>
+		<main id="post" class="row">
+			<article class="section-wrapper column column-8">
 				<div class="row heading">
 					<div class="column column-12">
-						<h1 class="h4-size uppercase positive-tracking-10">Lorem ipsum dolor sit amet consectetur</h3>
+						<h1 class="h3-size uppercase">Lorem ipsum dolor sit amet consectetur</h1>
 					</div>
 					<div class="column column-12">
-						<span class="post-date">Porto Alegre, 15 de maio de 2017</span>
+						<span class="post-title">Por <span>Luccas Silveira</span> em <span>15 de maio de 2017</span></span>
 					</div>
 				</div>
 				<div class="row">
 					<div class="column column-12">
-						<p>
+						<p class="italic">
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque massa ipsum, ultrices
 							vitae varius et, ullamcorper quis neque. In pulvinar libero ex. Donec non elit nunc.
 							Nam eu metus venenatis, molestie dolor non, cursus nibh. Donec sed ornare mi, sit amet
@@ -49,6 +51,7 @@
 							neque. Aliquam auctor erat eu ligula faucibus, sed faucibus diam lobortis. Curabitur
 							in dictum diam, ut sodales enim. 
 						</p>
+						<h2 class="h5-size uppercase">Introdução</h2>
 						<p>
 							Maecenas ac tortor ipsum. Fusce cursus vel nisi ut cursus. Donec eleifend, dolor id
 							rhoncus lobortis, ante orci lobortis elit, quis pellentesque quam elit eu diam. Vestibulum
@@ -57,6 +60,7 @@
 							tortor, volutpat dapibus massa magna nec mauris. Aenean ac quam a nunc varius pretium
 							vitae vitae augue. Nullam tristique pulvinar erat quis bibendum. 
 						</p>
+						<h2 class="h5-size uppercase">Lorem ipsum</h2>
 						<p>
 							Sed viverra dui sed lectus pellentesque, eu hendrerit purus aliquam. Cras nec arcu quis sem
 							imperdiet luctus. Nulla ac interdum justo. Sed lacinia egestas posuere. Vivamus euismod,
@@ -76,6 +80,7 @@
 							pharetra, commodo vel nibh. Morbi fermentum, erat eu rhoncus faucibus, justo risus iaculis
 							leo, id sagittis libero eros sit amet enim. Maecenas imperdiet quis odio sit amet mattis. 
 						</p>
+						<h2 class="h5-size uppercase positive">Conclusão</h2>
 						<p>
 							Proin elementum odio id dictum semper. In sed orci sodales, aliquet lacus vitae, facilisis
 							ante. Sed venenatis et quam nec venenatis. Duis sit amet congue erat. Maecenas aliquet
@@ -86,6 +91,19 @@
 							tortor. Vestibulum eu odio diam. Phasellus eget tempor sem. Mauris libero purus, ultricies
 							vel augue rhoncus, fringilla aliquam mi. 
 						</p>
+						<h2 class="h5-size uppercase positive">Saiba mais</h2>
+						<ul class="block-list">
+							<li><a href="#" target="_blank">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
+							<li><a href="#" target="_blank">Ut placerat, arcu non laoreet efficitur, sem tellus pulvinar urna, a tincidunt erat est at metus</a></li>
+							<li><a href="#" target="_blank">Integer consequat, urna at congue blandit, dui tellus auctor magna</a></li>
+							<li><a href="#" target="_blank">Donec quis ipsum a elit posuere auctor eu id dui</a></li>
+						</ul>
+						<h2 class="h5-size uppercase positive">Compartilhe</h2>
+						<div id="share-links" class="row">
+							<div class="column column-4"><a href="#" target="_blank" class="button">LinkedIn</a></div>
+							<div class="column column-4"><a href="#" target="_blank" class="button">Facebook</a></div>
+							<div class="column column-4"><a href="#" target="_blank" class="button">Twitter</a></div>
+						</div>
 					</div>
 				</div>
 			</article>
@@ -93,7 +111,7 @@
 		<footer id="footer" class="row">
 			<div class="column column-12">
 				<small>
-					<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">Site pessoal</span> de <a xmlns:cc="http://creativecommons.org/ns#" href="http://lu2cas.com.br" property="cc:attributionName" rel="cc:attributionURL">Luccas Carvalho Silveira</a> — <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+					<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">Site pessoal</span> de <a xmlns:cc="http://creativecommons.org/ns#" href="http://lu2cas.com.br" property="cc:attributionName" rel="cc:attributionURL">Luccas Silveira</a> — <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
 				</small>
 			</div>
 		</footer>
