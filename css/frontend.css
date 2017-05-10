@@ -601,7 +601,8 @@ footer small a:hover {
 		margin-left: 0;
 	}
 
-	.section-wrapper {
+	#home-content .section-wrapper,
+	#post-content .section-wrapper {
 		margin: 0 8.466666667%;
 	}
 
@@ -622,6 +623,14 @@ footer small a:hover {
 	#home-content header a[role="button"] {
 		display: none;
 	}
+
+	#post-content #share-links .column {
+		margin-bottom: 1em;
+	}
+
+	#post-content #share-links .column:last-child {
+		margin-bottom: 0;
+	}
 }
 
 @media screen and (max-width: 640px) {
@@ -635,11 +644,11 @@ footer small a:hover {
 }
 
 @media screen and (max-width: 480px) {
-	#home-content header .h3-size {
+	.h3-size {
 		font-size: 3.6em;
 	}
 
-	#home-content header .h5-size {
+	.h5-size {
 		font-size: 1.8em;
 	}
 }
