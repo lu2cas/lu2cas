@@ -202,7 +202,7 @@ h6, .h6-size {
 	border: 1px solid #222;
 	background: transparent;
 	font-family: "DejaVu Sans Mono Bold", "Lucida Console", "Courier New";
-	font-size: 1.4em;
+	font-size: 1.2em;
 	text-transform: uppercase;
 	text-decoration: none;
 	letter-spacing: 0.10em;
@@ -226,11 +226,16 @@ h6, .h6-size {
 	margin-bottom: 3em;
 }
 
-h3, h2, h1 {
+.heading h3 {
+	padding: 1px 0 0 5px;
+	line-height: 0.85em;
+	border-left: 30px solid #ffa600;
+}
+/*h1, h2, h3 {
 	line-height: 1.1em;
 	border-left: 30px solid #ffa600;
 	padding: 1px 0 0 5px;
-}
+}*/
 
 .post-title {
 	margin-top: 1em;
@@ -260,6 +265,29 @@ h3, h2, h1 {
 
 .card p {
 	margin-top: 22px;
+}
+
+ul.block-list {
+	width: 100%;
+	padding-left: 17px;
+	margin: 0 0 1em 0;
+	font-size: 1.8em;
+	display: inline-block;
+}
+
+ul.block-list li {
+	font-family: "Merriweather Light", "Times New Roman";
+	list-style: square;
+	padding: 9px 0;
+}
+
+ul.inline-list {
+	margin: 0;
+	padding: 0;
+}
+
+ul.inline-list li {
+	display: inline;
 }
 
 #home-content .section-wrapper {
@@ -300,102 +328,6 @@ header, main, section {
 	border-left: 0;
 }
 
-#post-content header {
-	margin: 15px 0;
-}
-
-#post-content h1,
-#post-content h2 {
-	border-left: 10px solid #ffa600;
-}
-
-#post-content h2 {
-	margin: 20px 0;
-}
-
-#post-content p {
-	display: inline-block;
-}
-
-#post-content .navigation-link {
-	font-size: 1.6em;
-	text-decoration: none;
-}
-
-#post-content .post-title {
-	font-size: 1.4em;
-}
-
-ul.block-list {
-	width: 100%;
-	padding-left: 17px;
-	margin: 0 0 1em 0;
-	font-size: 1.8em;
-	display: inline-block;
-}
-
-ul.block-list li {
-	font-family: "Merriweather Light", "Times New Roman";
-	list-style: square;
-	padding: 9px 0;
-}
-
-ul.inline-list {
-	margin: 0;
-	padding: 0;
-}
-
-ul.inline-list li {
-	display: inline;
-}
-
-#share-links {
-	padding-top: 9px;
-}
-
-#share-links .button {
-	width: 100%;
-	display: block;
-	background-color: #dadada;
-	border: none;
-	color: #fff;
-}
-
-#share-links .button:hover {
-	border: none;
-	background: #ffa600;
-}
-
-#share-links .button .icon {
-	width: 15px;
-	height: 15px;
-	margin-right: 5px;
-	display: inline-block;
-	text-indent: -9999px;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-}
-
-#linkedin-icon {
-	background-image: url('../images/linkedin-icon.png');
-}
-
-#facebook-icon {
-	background-image: url('../images/facebook-icon.png');
-
-}
-
-#twitter-icon {
-	background-image: url('../images/twitter-icon.png');
-}
-
-#sandwich-menu {
-	width: 100%;
-	text-indent: -999px;
-	display: none;
-}
-
 #sandwich-menu span[role="button"] {
 	margin-top: 30px;
 	float: left;
@@ -413,7 +345,7 @@ ul.inline-list li {
 #main-menu {
 	z-index: 9999;
 	position: relative;
-	margin-top: 15px;
+	top: 8%;
 }
 
 #main-menu .column-3 {
@@ -423,6 +355,7 @@ ul.inline-list li {
 #main-menu .list-item {
 	padding: 15px 0;
 	text-align: center;
+	margin-left: 0;
 }
 
 #main-menu .list-item a {
@@ -445,14 +378,15 @@ ul.inline-list li {
 }
 
 #home-content header h1 {
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 
 #home-content header #button-container {
 	width: 100%;
 	position: absolute;
-	bottom: 25%;
+	bottom: 15%;
 }
+
 #home-content header a[role="button"] {
 	padding: 15px 20px;
 	color: #fff;
@@ -573,6 +507,80 @@ footer small, footer small a {
 footer small a:hover {
 	color: #fff;
 }
+
+#post-content header {
+	margin: 15px 0;
+}
+
+#post-content h1,
+#post-content h2 {
+	border-left: 10px solid #ffa600;
+	line-height: 1em;
+	padding: 1px 0 0 5px;
+}
+
+#post-content h2 {
+	margin: 20px 0;
+}
+
+#post-content p {
+	display: inline-block;
+}
+
+#post-content .navigation-link {
+	font-size: 1.6em;
+	text-decoration: none;
+}
+
+#post-content .post-title {
+	font-size: 1.4em;
+}
+
+#share-links {
+	padding-top: 9px;
+}
+
+#share-links .button {
+	width: 100%;
+	display: block;
+	background-color: #dadada;
+	border: none;
+	color: #fff;
+}
+
+#share-links .button:hover {
+	border: none;
+	background: #ffa600;
+}
+
+#share-links .button .icon {
+	width: 15px;
+	height: 15px;
+	margin-right: 5px;
+	display: inline-block;
+	text-indent: -9999px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+#linkedin-icon {
+	background-image: url('../images/linkedin-icon.png');
+}
+
+#facebook-icon {
+	background-image: url('../images/facebook-icon.png');
+}
+
+#twitter-icon {
+	background-image: url('../images/twitter-icon.png');
+}
+
+#sandwich-menu {
+	width: 100%;
+	text-indent: -999px;
+	display: none;
+}
 /* Body style - End */
 
 /* Media queries - Begin */
@@ -674,6 +682,10 @@ footer small a:hover {
 
 	.h5-size {
 		font-size: 2.4em;
+	}
+
+	#home-content #title-container .h5-size {
+		font-size: 1.8em;
 	}
 }
 

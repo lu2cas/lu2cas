@@ -35,7 +35,7 @@
 			</div>
 			<nav id="main-menu" class="row">
 				<div class="column column-3">
-					<div class="row list h6-size uppercase positive-tracking-10">
+					<div class="row h6-size uppercase positive-tracking-10">
 						<div class="column column-4 list-item">
 							<a href="#about">Sobre</a>
 						</div>
