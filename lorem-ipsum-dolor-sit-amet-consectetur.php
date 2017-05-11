@@ -100,9 +100,9 @@
 						</ul>
 						<h2 class="h5-size uppercase positive">Compartilhe</h2>
 						<div id="share-links" class="row">
-							<div class="column column-4"><a href="#" target="_blank" class="button">LinkedIn</a></div>
-							<div class="column column-4"><a href="#" target="_blank" class="button">Facebook</a></div>
-							<div class="column column-4"><a href="#" target="_blank" class="button">Twitter</a></div>
+							<div class="column column-4"><a href="#" target="_blank" class="button"><span class="icon" id="linkedin-icon">LinkedIn icon</span>LinkedIn</a></div>
+							<div class="column column-4"><a href="#" target="_blank" class="button"><span class="icon" id="facebook-icon">Facebook icon</span>Facebook</a></div>
+							<div class="column column-4"><a href="#" target="_blank" class="button"><span class="icon" id="twitter-icon">Twitter icon</span>Twitter</a></div>
 						</div>
 					</div>
 				</div>

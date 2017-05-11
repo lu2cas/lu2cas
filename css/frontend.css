@@ -68,7 +68,7 @@ a:hover {
  * @ratio: 1:1.333
  */
 
-h1, h1, h3, h4, h5, h6, .h1-size, .h2-size, .h3-size, .h4-size, .h5-size, .h6-size {
+h1, h2, h3, h4, h5, h6, .h1-size, .h2-size, .h3-size, .h4-size, .h5-size, .h6-size {
 	font-family: "DejaVu Sans Mono Bold", "Lucida Console", "Courier New";
 }
 
@@ -202,7 +202,7 @@ h6, .h6-size {
 	border: 1px solid #222;
 	background: transparent;
 	font-family: "DejaVu Sans Mono Bold", "Lucida Console", "Courier New";
-	font-size: 1.2em;
+	font-size: 1.4em;
 	text-transform: uppercase;
 	text-decoration: none;
 	letter-spacing: 0.10em;
@@ -227,7 +227,7 @@ h6, .h6-size {
 }
 
 h3, h2, h1 {
-	line-height: 0.85em;
+	line-height: 1.1em;
 	border-left: 30px solid #ffa600;
 	padding: 1px 0 0 5px;
 }
@@ -307,7 +307,6 @@ header, main, section {
 #post-content h1,
 #post-content h2 {
 	border-left: 10px solid #ffa600;
-	line-height: 1.1em;
 }
 
 #post-content h2 {
@@ -367,6 +366,30 @@ ul.inline-list li {
 	background: #ffa600;
 }
 
+#share-links .button .icon {
+	width: 15px;
+	height: 15px;
+	margin-right: 5px;
+	display: inline-block;
+	text-indent: -9999px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+#linkedin-icon {
+	background-image: url('../images/linkedin-icon.png');
+}
+
+#facebook-icon {
+	background-image: url('../images/facebook-icon.png');
+
+}
+
+#twitter-icon {
+	background-image: url('../images/twitter-icon.png');
+}
+
 #sandwich-menu {
 	width: 100%;
 	text-indent: -999px;
@@ -382,11 +405,10 @@ ul.inline-list li {
 	padding: 0;
 	background-image: url('../images/sandwich-menu-icon.png');
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: bottom center;
 	background-size: cover;
 	cursor: pointer;
 }
-
 
 #main-menu {
 	z-index: 9999;
@@ -651,7 +673,7 @@ footer small a:hover {
 	}
 
 	.h5-size {
-		font-size: 1.8em;
+		font-size: 2.4em;
 	}
 }
 
