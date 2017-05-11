@@ -231,11 +231,6 @@ h6, .h6-size {
 	line-height: 0.85em;
 	border-left: 30px solid #ffa600;
 }
-/*h1, h2, h3 {
-	line-height: 1.1em;
-	border-left: 30px solid #ffa600;
-	padding: 1px 0 0 5px;
-}*/
 
 .post-title {
 	margin-top: 1em;
@@ -346,16 +341,11 @@ header, main, section {
 	z-index: 9999;
 	position: relative;
 	top: 8%;
-}
-
-#main-menu .column-3 {
-	margin: 0 38.100000000015%;
+	text-align: center;
 }
 
 #main-menu .list-item {
-	padding: 15px 0;
-	text-align: center;
-	margin-left: 0;
+	padding: 15px 20px;
 }
 
 #main-menu .list-item a {
@@ -639,9 +629,16 @@ footer small a:hover {
 	}
 
 	#home-content header #main-menu {
-		margin-top: 0;
+		top: 0;
 		background: #121212;
 		display: none;
+	}
+
+	#home-content header #main-menu .list-item {
+		width: 100%;
+		position: relative;
+		float: left;
+		box-sizing: border-box;
 	}
 
 	#home-content header #main-menu .list-item:last-child {
