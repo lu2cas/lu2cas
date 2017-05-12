@@ -34,19 +34,6 @@
 				</div>
 			</div>
 			<nav id="main-menu" class="row">
-				<!--div class="column column-3">
-					<div class="row h6-size uppercase positive-tracking-10">
-						<div class="column column-4 list-item">
-							<a href="#about">Sobre</a>
-						</div>
-						<div class="column column-4 list-item">
-							<a href="#blog">Blog</a>
-						</div>
-						<div class="column column-4 list-item">
-							<a href="#contact">Contato</a>
-						</div>
-					</div>
-				</div-->
 				<div class="column column-12">
 					<ul class="inline-list h6-size uppercase positive-tracking-10">
 						<li class="list-item">

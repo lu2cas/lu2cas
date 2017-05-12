@@ -398,7 +398,7 @@ header, main, section {
 	width: 245px;
 	border: 8px solid #fff;
 	border-radius: 50%;
-	box-shadow: 0 0 20px #dadada;
+	box-shadow: 0 0 5px #999;
 }
 
 #about #presentation p:last-child {
