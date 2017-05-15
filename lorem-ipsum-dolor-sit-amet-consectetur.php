@@ -25,8 +25,15 @@
 	</head>
 	<body id="post-content">
 		<header class="row">
-			<nav class="section-wrapper column column-8">
-				<a href="index.php#blog" class="navigation-link positive-tracking-10">&laquo;Home</a>
+			<nav class="breadcrumbs section-wrapper column column-8">
+				<ul class="inline-list">
+					<li>
+						<a href="index.php#home" class="positive-tracking-10">Home</a>
+					</li>
+					<li>
+						<a href="index.php#blog" class="positive-tracking-10">Blog</a>
+					</li>
+				</ul>
 			</nav>
 		</header>
 		<main id="post" class="row">
@@ -36,7 +43,7 @@
 						<h1 class="h3-size uppercase">Lorem ipsum dolor sit amet consectetur</h1>
 					</div>
 					<div class="column column-12">
-						<span class="post-title">Por <span>Luccas Silveira</span> em <span>15 de maio de 2017</span></span>
+						<span class="post-info">Postado em 15 de maio de 2017</span></span>
 					</div>
 				</div>
 				<div class="row">

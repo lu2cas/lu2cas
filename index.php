@@ -109,7 +109,7 @@
 						<div class="column column-12">
 							<div class="card">
 								<h4 class="h5-size uppercase">Lorem ipsum dolor sit amet consectetur</h4>
-								<span class="post-title">Por <span>Luccas Silveira</span> em <span>15 de maio de 2017</span></span>
+								<span class="post-info">Postado em <span>15 de maio de 2017</span></span>
 								<p>
 									Etiam commodo ligula eu eros fringilla vestibulum. Proin vel enim turpis. Etiam placerat odio non
 									ullamcorper efficitur. Donec interdum rhoncus nisl, sed efficitur neque mattis id. Interdum et
@@ -123,7 +123,7 @@
 						<div class="column column-12">
 							<div class="card">
 								<h4 class="h5-size uppercase">Vivamus commodo lorem fermentum, scelerisque lorem quis</h4>
-								<span class="post-title">Por <span>Luccas Silveira</span> em <span>15 de maio de 2017</span></span>
+								<span class="post-info">Postado em <span>15 de maio de 2017</span></span>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo lorem fermentum, scelerisque
 									lorem quis, semper ante. Aliquam erat volutpat. Curabitur pretium eget est a tristique. Suspendisse
@@ -137,7 +137,7 @@
 						<div class="column column-12">
 							<div class="card">
 								<h4 class="h5-size uppercase">Curabitur pretium eget est a tristique</h4>
-								<span class="post-title">Por <span>Luccas Silveira</span> em <span>15 de maio de 2017</span></span>
+								<span class="post-info">Postado em <span>15 de maio de 2017</span></span>
 								<p>
 									Nam sodales lectus feugiat odio tincidunt, eget lacinia mauris scelerisque. Fusce mi nunc, efficitur
 									at sem aliquam, mattis feugiat ipsum. In lobortis, diam pellentesque imperdiet dignissim, mi risus
