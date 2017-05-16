@@ -99,7 +99,7 @@
 							vel augue rhoncus, fringilla aliquam mi. 
 						</p>
 						<h2 class="h5-size uppercase positive">Saiba mais</h2>
-						<ul class="block-list">
+						<ul id="related-links" class="block-list">
 							<li><a href="#" target="_blank">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
 							<li><a href="#" target="_blank">Ut placerat, arcu non laoreet efficitur, sem tellus pulvinar urna, a tincidunt erat est at metus</a></li>
 							<li><a href="#" target="_blank">Integer consequat, urna at congue blandit, dui tellus auctor magna</a></li>
@@ -107,9 +107,9 @@
 						</ul>
 						<h2 class="h5-size uppercase positive">Compartilhe</h2>
 						<div id="share-links" class="row">
-							<div class="column column-4"><a href="#" target="_blank" class="button"><span class="icon" id="linkedin-icon">LinkedIn icon</span>LinkedIn</a></div>
-							<div class="column column-4"><a href="#" target="_blank" class="button"><span class="icon" id="facebook-icon">Facebook icon</span>Facebook</a></div>
-							<div class="column column-4"><a href="#" target="_blank" class="button"><span class="icon" id="twitter-icon">Twitter icon</span>Twitter</a></div>
+							<div class="column column-4"><a href="#" target="_blank" class="button" title="Compartilhar no LinkedIn"><span class="icon" id="linkedin-icon">LinkedIn icon</span><span class="text">Compartilhar no LinkedIn</span></a></div>
+							<div class="column column-4"><a href="#" target="_blank" class="button" title="Compartilhar no Facebook"><span class="icon" id="facebook-icon">Facebook icon</span><span class="text">Compartilhar no Facebook</span></a></div>
+							<div class="column column-4"><a href="#" target="_blank" class="button" title="Compartilhar no Twitter"><span class="icon" id="twitter-icon">Twitter icon</span><span class="text">Compartilhar no Twitter</span></a></div>
 						</div>
 					</div>
 				</div>
