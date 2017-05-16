@@ -39,7 +39,7 @@ $('document').ready(function() {
 				$('#sandwich-menu').css('background-color', 'transparent');
 			});
 		} else {
-			$('#sandwich-menu').css('background-color', '#121212');
+			$('#sandwich-menu').css('background-color', '#1d1d1b');
 			$('#main-menu').slideToggle('fast');
 		}
 	});
