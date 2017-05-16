@@ -38,7 +38,6 @@ body {
 
 ul {
 	list-style: none;
-	font-size: 1.8em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -48,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-	margin: 0 0 1em 0;
+	margin: 0 0 15px 0;
 	font-family: "Merriweather Light", "Times New Roman";
 	font-size: 1.8em;
 	line-height: 1.8;
@@ -256,13 +255,14 @@ h6, .h6-size {
 
 ul.block-list {
 	width: 100%;
-	display: block;
+	margin: 0 0 15px 0;
+	padding-left: 20px;
+	display: inline-block;
 }
 
 ul.block-list li {
 	font-family: "Merriweather Light", "Times New Roman";
 	list-style: square;
-	padding-left: 10px;
 }
 
 ul.inline-list {
@@ -275,9 +275,9 @@ ul.inline-list li {
 }
 
 .breadcrumbs {
-	font-size: 1.4em;
 	text-transform: uppercase;
 	font-family: "Roboto Mono", "Lucida Console", "Courier New";
+	font-size: 1.6em;
 }
 
 .breadcrumbs ul li::before {
@@ -501,15 +501,20 @@ footer small a:hover {
 }
 
 #post-content h2 {
-	margin: 20px 0;
+	margin: 15px 0;
 }
 
 #post-content p {
 	display: inline-block;
 }
 
-#share-links {
-	padding-top: 9px;
+#post-content #related-links {
+	font-size: 1.8em;
+	line-height: 1.8;
+}
+
+#share-links .button {
+	margin-top: 15px;
 }
 
 #share-links .button {
@@ -641,7 +646,7 @@ footer small a:hover {
 	}
 
 	#post-content #share-links .column {
-		margin-bottom: 1em;
+		margin-bottom: 15px;
 	}
 
 	#post-content #share-links .column:last-child {
