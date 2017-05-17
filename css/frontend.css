@@ -28,7 +28,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-size: 62.5%;
-	line-height: 1.3;
+	line-height: 1.25;
 	font-family: "Roboto Mono", "Lucida Console", "Courier New";
 	outline: none;
 	color: #333;
@@ -60,6 +60,24 @@ a {
 a:hover {
 	color: #ffa600;
 }
+
+img {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+figcaption {
+	margin-top: 5px;
+	font-size: 1.2em;
+	font-family: "Merriweather Light", "Times New Roman";
+}
 /* Reset - End */
 
 /**
@@ -68,33 +86,26 @@ a:hover {
  * @ratio: 1:1.333
  */
 
-h1, h2, h3, h4, h5, h6, .h1-size, .h2-size, .h3-size, .h4-size, .h5-size, .h6-size {
+h1, h2, h3, h4, .h1-size, .h2-size, .h3-size, .h4-size {
 	font-family: "Roboto Mono Bold", "Lucida Console", "Courier New";
 }
 
 h1, .h1-size {
-	font-size: 7.2em;
+	font-size: 5.2em;
 }
 
 h2, .h2-size {
-	font-size: 6.0em;
+	font-size: 3.4em;
 }
 
 h3, .h3-size {
-	font-size: 4.8em;
+	font-size: 2.8em;
 }
 
 h4, .h4-size {
-	font-size: 3.6em;
-}
-
-h5, .h5-size {
 	font-size: 2.4em;
 }
 
-h6, .h6-size {
-	font-size: 1.8em;
-}
 /* Typography scale - End */
 
 /* Responsive layout settings - Begin */
@@ -178,24 +189,6 @@ h6, .h6-size {
 /* Responsive layout settings - End */
 
 /* Body style - Begin */
-.uppercase {
-	text-transform: uppercase;
-}
-
-.lowercase {
-	text-transform: lowercase;
-}
-
-.positive-tracking-25 {
-	letter-spacing: 0.25em;
-	text-indent: 0.25em;
-}
-
-.positive-tracking-10 {
-	letter-spacing: 0.075em;
-	text-indent: 0.075em;
-}
-
 .button {
 	display: inline-block;
 	padding: 18px 0;
@@ -222,17 +215,18 @@ h6, .h6-size {
 	margin-bottom: 30px;
 }
 
-.heading h3 {
+.heading h2 {
 	padding-left: 5px;
 	line-height: 0.85em;
-	border-left: 30px solid #ffa600;
+	border-left: 28px solid #ffa600;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
 }
 
 .post-info {
-	margin-top: 15px;
+	margin-top: 10px;
 	display: block;
 	font-size: 1.4em;
-	text-transform: uppercase;
 }
 
 .card {
@@ -244,25 +238,24 @@ h6, .h6-size {
 }
 
 .card h4 {
-	padding-left: 5px;
-	line-height: 1em;
-	border-left: 8px solid #ffa600
+	line-height: 1.1em;
 }
 
 .card p {
-	margin-top: 20px;
+	margin-top: 15px;
 }
 
 ul.block-list {
 	width: 100%;
-	margin: 0 0 15px 0;
-	padding-left: 20px;
+	margin: 5px 0;
+	padding-left: 18px;
 	display: inline-block;
 }
 
 ul.block-list li {
 	font-family: "Merriweather Light", "Times New Roman";
 	list-style: square;
+	margin: 0 0 15px 0;
 }
 
 ul.inline-list {
@@ -280,6 +273,15 @@ ul.inline-list li {
 
 .breadcrumbs ul li:last-child::after {
 	content: "/";
+}
+
+.separator {
+	width: 100px;
+	height: 8px;
+	box-sizing: border-box;
+	background-color: #ffa600;
+	display: inline-block;
+	margin-bottom: 35px;
 }
 
 #home-content .section-wrapper {
@@ -315,9 +317,11 @@ header, main, section {
 }
 
 #home-content  header h1,
-#home-content  header h2 {
+#home-content  header #occupation {
 	padding: 0;
 	border-left: 0;
+	letter-spacing: 0.075em;
+	text-transform: uppercase;
 }
 
 #sandwich-menu span[role="button"] {
@@ -339,6 +343,9 @@ header, main, section {
 	position: relative;
 	top: 8%;
 	text-align: center;
+	font-family: "Roboto Mono Bold", "Lucida Console", "Courier New";
+	font-size: 1.8em;
+	text-transform: uppercase;
 }
 
 #main-menu .list-item {
@@ -348,8 +355,8 @@ header, main, section {
 #main-menu .list-item a {
 	color: #fff;
 	text-decoration: none;
-	font-family: "Roboto Mono Bold", "Lucida Console", "Courier New";
-	padding-left: 1px;
+	padding-left: 0.075em;
+	letter-spacing: 0.075em;
 }
 
 #main-menu .list-item a:hover {
@@ -466,9 +473,9 @@ header, main, section {
 }
 
 footer {
-	padding: 15px 0;
+	padding: 18px 0;
 	text-align: center;
-	background-color: #1d1d1b;
+	background-color: #202020;
 }
 
 footer small, footer small a {
@@ -484,14 +491,13 @@ footer small a:hover {
 	margin: 30px 0;
 }
 
-#post-content h1,
-#post-content h2 {
-	border-left: 10px solid #ffa600;
-	padding-left: 5px;
+#post-content h1 {
+	line-height: 1.1em;
 }
 
-#post-content h1 {
-	line-height: 1.05em;
+#post-content .post-info {
+	margin: 15px 0;
+	font-size: 1.6em;
 }
 
 #post-content h2 {
@@ -504,7 +510,6 @@ footer small a:hover {
 
 #post-content #related-links {
 	font-size: 1.8em;
-	line-height: 1.8;
 }
 
 #share-links .button {

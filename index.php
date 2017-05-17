@@ -35,7 +35,7 @@
 			</div>
 			<nav id="main-menu" class="row">
 				<div class="column column-12">
-					<ul class="inline-list h6-size uppercase positive-tracking-10">
+					<ul class="inline-list">
 						<li class="list-item">
 							<a href="#about">Sobre</a>
 						</li>
@@ -49,15 +49,15 @@
 				</div>
 			</nav>
 			<div id="title-container" class="row">
-				<h1 class="h3-size uppercase positive-tracking-10 column column-12">Luccas Silveira</h1>
-				<h2 id="occupation" class="h5-size uppercase positive-tracking-10 textillate column column-12">
+				<h1 class="column column-12">Luccas Silveira</h1>
+				<div id="occupation" class="h4-size textillate column column-12">
 					<ul class="texts">
 						<li>desenvolvedor de software</li>
 						<li>estudante de sistemas de informação</li>
 						<li>entusiasta de web design</li>
 						<li>adepto ao software livre</li>
 					</ul>
-				</h2>
+				</div>
 			</div>
 			<div id="button-container" class="row">
 				<div class="column column-12">
@@ -69,7 +69,7 @@
 			<div class="section-wrapper column column-10">
 				<div class="row heading">
 					<div class="column column-12">
-						<h3 class="h4-size uppercase positive-tracking-10">Sobre</h3>
+						<h2>Sobre</h2>
 					</div>
 				</div>
 				<article class="row">
@@ -101,15 +101,14 @@
 			<div class="section-wrapper column column-10">
 				<div class="row heading">
 					<div class="column column-12">
-						<h3 class="h4-size uppercase positive-tracking-10">Blog</h3>
+						<h2>Blog</h2>
 					</div>
 				</div>
 				<ul id="posts">
 					<li class="row">
 						<div class="column column-12">
 							<div class="card">
-								<h4 class="h5-size uppercase">Lorem ipsum dolor sit amet consectetur</h4>
-								<span class="post-info">Postado em <span>15 de maio de 2017</span></span>
+								<h3>Lorem ipsum dolor sit amet consectetur</h3>
 								<p>
 									Etiam commodo ligula eu eros fringilla vestibulum. Proin vel enim turpis. Etiam placerat odio non
 									ullamcorper efficitur. Donec interdum rhoncus nisl, sed efficitur neque mattis id. Interdum et
@@ -122,8 +121,7 @@
 					<li class="row">
 						<div class="column column-12">
 							<div class="card">
-								<h4 class="h5-size uppercase">Vivamus commodo lorem fermentum, scelerisque lorem quis</h4>
-								<span class="post-info">Postado em <span>15 de maio de 2017</span></span>
+								<h3>Vivamus commodo lorem fermentum, scelerisque lorem quis</h3>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo lorem fermentum, scelerisque
 									lorem quis, semper ante. Aliquam erat volutpat. Curabitur pretium eget est a tristique. Suspendisse
@@ -136,8 +134,7 @@
 					<li class="row">
 						<div class="column column-12">
 							<div class="card">
-								<h4 class="h5-size uppercase">Curabitur pretium eget est a tristique</h4>
-								<span class="post-info">Postado em <span>15 de maio de 2017</span></span>
+								<h3>Curabitur pretium eget est a tristique</h3>
 								<p>
 									Nam sodales lectus feugiat odio tincidunt, eget lacinia mauris scelerisque. Fusce mi nunc, efficitur
 									at sem aliquam, mattis feugiat ipsum. In lobortis, diam pellentesque imperdiet dignissim, mi risus
@@ -161,7 +158,7 @@
 			<div class="section-wrapper column column-10">
 				<div class="row heading">
 					<div class="column column-12">
-						<h3 class="h4-size uppercase positive-tracking-10">Contato</h3>
+						<h2>Contato</h2>
 					</div>
 				</div>
 				<div class="row">

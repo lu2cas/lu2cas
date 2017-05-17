@@ -28,27 +28,34 @@
 			<nav class="breadcrumbs navigation-link section-wrapper column column-8">
 				<ul class="inline-list">
 					<li>
-						<a href="index.php#home" class="positive-tracking-10">Home</a>
+						<a href="index.php#home">Home</a>
 					</li>
 					<li>
-						<a href="index.php#blog" class="positive-tracking-10">Blog</a>
+						<a href="index.php#blog">Blog</a>
 					</li>
 				</ul>
 			</nav>
 		</header>
 		<main id="post" class="row">
 			<article class="section-wrapper column column-8">
-				<div class="row heading">
+				<div class="row">
 					<div class="column column-12">
-						<h1 class="h3-size uppercase">Lorem ipsum dolor sit amet consectetur</h1>
-					</div>
-					<div class="column column-12">
-						<span class="post-info">Postado em 15 de maio de 2017</span></span>
+						<h1>Lorem ipsum dolor sit amet consectetur</h1>
 					</div>
 				</div>
 				<div class="row">
 					<div class="column column-12">
-						<p class="italic">
+						<span class="post-info">Postado em 15 de maio de 2017</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="column column-12">
+						<span class="separator"></span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="column column-12">
+						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque massa ipsum, ultrices
 							vitae varius et, ullamcorper quis neque. In pulvinar libero ex. Donec non elit nunc.
 							Nam eu metus venenatis, molestie dolor non, cursus nibh. Donec sed ornare mi, sit amet
@@ -56,18 +63,24 @@
 							massa odio. Integer quis sagittis lorem. Vivamus dui metus, dapibus at est quis,
 							vulputate cursus lorem. Integer ante arcu, vulputate in neque ornare, tempus luctus
 							neque. Aliquam auctor erat eu ligula faucibus, sed faucibus diam lobortis. Curabitur
-							in dictum diam, ut sodales enim. 
+							in dictum diam, ut sodales enim.
 						</p>
-						<h2 class="h5-size uppercase">Introdução</h2>
+						<h2>Introdução</h2>
 						<p>
 							Maecenas ac tortor ipsum. Fusce cursus vel nisi ut cursus. Donec eleifend, dolor id
 							rhoncus lobortis, ante orci lobortis elit, quis pellentesque quam elit eu diam. Vestibulum
 							accumsan laoreet malesuada. Vivamus massa nibh, auctor vitae aliquet nec, lobortis
 							accumsan lacus. Curabitur iaculis, dui in scelerisque venenatis, sapien orci sollicitudin
 							tortor, volutpat dapibus massa magna nec mauris. Aenean ac quam a nunc varius pretium
-							vitae vitae augue. Nullam tristique pulvinar erat quis bibendum. 
+							vitae vitae augue. Nullam tristique pulvinar erat quis bibendum.
 						</p>
-						<h2 class="h5-size uppercase">Lorem ipsum</h2>
+						<p>
+							<figure>
+								<img src="images/asteroid.jpg" alt="Um asteróide"/>
+								<figcaption>Figura 1 - Representação de um asteróide entrando na atmosfera da Terra.</figcaption>
+							</figure> 
+						</p>
+						<h2>Lorem ipsum</h2>
 						<p>
 							Sed viverra dui sed lectus pellentesque, eu hendrerit purus aliquam. Cras nec arcu quis sem
 							imperdiet luctus. Nulla ac interdum justo. Sed lacinia egestas posuere. Vivamus euismod,
@@ -75,7 +88,7 @@
 							Mauris rhoncus nunc vitae risus dictum varius. Curabitur a mollis risus. Morbi et tellus
 							semper erat dictum tincidunt ut et erat. Donec scelerisque placerat lectus et feugiat.
 							Morbi accumsan lacus id tincidunt posuere. In efficitur et mauris sed blandit. Proin
-							accumsan enim in orci venenatis tristique. Aenean suscipit erat leo. 
+							accumsan enim in orci venenatis tristique. Aenean suscipit erat leo.
 						</p>
 						<p>
 							In scelerisque malesuada ornare. Quisque cursus iaculis lacinia. Vivamus cursus elit in
@@ -85,9 +98,12 @@
 							lacus arcu, a accumsan ante pulvinar at. Nam blandit lacinia mauris, non lobortis urna
 							accumsan id. Nulla facilisi. Donec ut suscipit quam. Donec elit ante, malesuada eu posuere
 							pharetra, commodo vel nibh. Morbi fermentum, erat eu rhoncus faucibus, justo risus iaculis
-							leo, id sagittis libero eros sit amet enim. Maecenas imperdiet quis odio sit amet mattis. 
+							leo, id sagittis libero eros sit amet enim. Maecenas imperdiet quis odio sit amet mattis.
 						</p>
-						<h2 class="h5-size uppercase positive">Conclusão</h2>
+						<p>
+							<script src="https://gist.github.com/lu2cas/41621f7a70a34587ba891a42b5a3faba.js"></script>
+						</p>
+						<h2>Conclusão</h2>
 						<p>
 							Proin elementum odio id dictum semper. In sed orci sodales, aliquet lacus vitae, facilisis
 							ante. Sed venenatis et quam nec venenatis. Duis sit amet congue erat. Maecenas aliquet
@@ -96,16 +112,16 @@
 							id metus in lobortis. Aenean elementum tristique scelerisque. Ut quam felis, convallis id
 							faucibus at, pretium ac neque. Donec ut sapien convallis, sagittis ipsum non, imperdiet
 							tortor. Vestibulum eu odio diam. Phasellus eget tempor sem. Mauris libero purus, ultricies
-							vel augue rhoncus, fringilla aliquam mi. 
+							vel augue rhoncus, fringilla aliquam mi.
 						</p>
-						<h2 class="h5-size uppercase positive">Saiba mais</h2>
+						<h2>Saiba mais</h2>
 						<ul id="related-links" class="block-list">
 							<li><a href="#" target="_blank">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
 							<li><a href="#" target="_blank">Ut placerat, arcu non laoreet efficitur, sem tellus pulvinar urna, a tincidunt erat est at metus</a></li>
 							<li><a href="#" target="_blank">Integer consequat, urna at congue blandit, dui tellus auctor magna</a></li>
 							<li><a href="#" target="_blank">Donec quis ipsum a elit posuere auctor eu id dui</a></li>
 						</ul>
-						<h2 class="h5-size uppercase positive">Compartilhe</h2>
+						<h2>Compartilhe</h2>
 						<div id="share-links" class="row">
 							<div class="column column-4"><a href="#" target="_blank" class="button" title="Compartilhar no LinkedIn"><span class="icon" id="linkedin-icon">LinkedIn icon</span><span class="text">Compartilhar no LinkedIn</span></a></div>
 							<div class="column column-4"><a href="#" target="_blank" class="button" title="Compartilhar no Facebook"><span class="icon" id="facebook-icon">Facebook icon</span><span class="text">Compartilhar no Facebook</span></a></div>
