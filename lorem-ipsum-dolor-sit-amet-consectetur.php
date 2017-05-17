@@ -25,7 +25,7 @@
 	</head>
 	<body id="post-content">
 		<header class="row">
-			<nav class="breadcrumbs section-wrapper column column-8">
+			<nav class="breadcrumbs navigation-link section-wrapper column column-8">
 				<ul class="inline-list">
 					<li>
 						<a href="index.php#home" class="positive-tracking-10">Home</a>

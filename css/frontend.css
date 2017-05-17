@@ -274,12 +274,6 @@ ul.inline-list li {
 	display: inline;
 }
 
-.breadcrumbs {
-	text-transform: uppercase;
-	font-family: "Roboto Mono", "Lucida Console", "Courier New";
-	font-size: 1.6em;
-}
-
 .breadcrumbs ul li::before {
 	content: "/";
 }
