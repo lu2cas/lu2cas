@@ -65,6 +65,7 @@ img {
 	margin: 0;
 	padding: 0;
 	border: none;
+	max-width: 100%;
 }
 
 figure {
@@ -570,7 +571,7 @@ footer small a:hover {
 @media screen and (max-width: 960px) {
 	#about #portrait {
 		text-align: center;
-		margin-bottom: 25px;
+		margin-bottom: 30px;
 	}
 
 	#about #portrait,
@@ -664,15 +665,23 @@ footer small a:hover {
 }
 
 @media screen and (max-width: 480px) {
-	.h3-size {
+	h1 {
 		font-size: 3.6em;
 	}
 
-	.h5-size {
+	h2 {
+		font-size: 2.8em;
+	}
+
+	h3 {
 		font-size: 2.4em;
 	}
 
-	#home-content #title-container .h5-size {
+	.heading h2 {
+	border-left: 25px solid #ffa600;
+	}
+
+	#home-content #title-container #occupation {
 		font-size: 1.8em;
 	}
 }
