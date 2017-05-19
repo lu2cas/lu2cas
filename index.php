@@ -50,7 +50,7 @@
 			</nav>
 			<div id="title-container" class="row">
 				<h1 class="column column-12">Luccas Silveira</h1>
-				<div id="occupation" class="h4-size textillate column column-12">
+				<div id="occupation" class="h3-size textillate column column-12">
 					<ul class="texts">
 						<li>desenvolvedor de software</li>
 						<li>estudante de sistemas de informação</li>
