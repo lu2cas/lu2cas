@@ -25,34 +25,37 @@
 	</head>
 	<body id="post-content">
 		<header class="row">
-			<nav class="breadcrumbs navigation-link section-wrapper column column-8">
-				<ul class="inline-list">
-					<li>
-						<a href="index.php#home">Home</a>
-					</li>
-					<li>
-						<a href="index.php#blog">Blog</a>
-					</li>
-				</ul>
-			</nav>
+			<div class="column column-12">
+				<div class="row">
+					<nav class="breadcrumbs navigation-link section-wrapper column column-8">
+						<ul class="inline-list">
+							<li>
+								<a href="index.php#home">Home</a>
+							</li>
+							<li>
+								<a href="index.php#blog">Blog</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div id="banner" class="row">
+					<div class="section-wrapper column column-8">
+						<div class="row">
+							<div class="column column-12">
+								<h1>Lorem ipsum dolor sit amet consectetur</h1>
+							</div>
+						</div>
+						<div class="row">
+							<div class="column column-12">
+								<span class="post-info h4-size">Publicado em 15 de maio de 2017</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</header>
 		<main id="post" class="row">
 			<article class="section-wrapper column column-8">
-				<div class="row">
-					<div class="column column-12">
-						<h1>Lorem ipsum dolor sit amet consectetur</h1>
-					</div>
-				</div>
-				<div class="row">
-					<div class="column column-12">
-						<span class="post-info">Postado em 15 de maio de 2017</span>
-					</div>
-				</div>
-				<div class="row">
-					<div class="column column-12">
-						<span class="separator"></span>
-					</div>
-				</div>
 				<div class="row">
 					<div class="column column-12">
 						<p>
@@ -65,7 +68,7 @@
 							neque. Aliquam auctor erat eu ligula faucibus, sed faucibus diam lobortis. Curabitur
 							in dictum diam, ut sodales enim.
 						</p>
-						<h2>Introdução</h2>
+						<h2 class="h3-size">Introdução</h2>
 						<p>
 							Maecenas ac tortor ipsum. Fusce cursus vel nisi ut cursus. Donec eleifend, dolor id
 							rhoncus lobortis, ante orci lobortis elit, quis pellentesque quam elit eu diam. Vestibulum
@@ -80,7 +83,7 @@
 								<figcaption>Figura 1 - Representação de um asteróide entrando na atmosfera da Terra.</figcaption>
 							</figure> 
 						</p>
-						<h2>Lorem ipsum</h2>
+						<h2 class="h3-size">Lorem ipsum</h2>
 						<p>
 							Sed viverra dui sed lectus pellentesque, eu hendrerit purus aliquam. Cras nec arcu quis sem
 							imperdiet luctus. Nulla ac interdum justo. Sed lacinia egestas posuere. Vivamus euismod,
@@ -103,7 +106,7 @@
 						<p>
 							<script src="https://gist.github.com/lu2cas/41621f7a70a34587ba891a42b5a3faba.js"></script>
 						</p>
-						<h2>Conclusão</h2>
+						<h2 class="h3-size">Conclusão</h2>
 						<p>
 							Proin elementum odio id dictum semper. In sed orci sodales, aliquet lacus vitae, facilisis
 							ante. Sed venenatis et quam nec venenatis. Duis sit amet congue erat. Maecenas aliquet
@@ -114,19 +117,36 @@
 							tortor. Vestibulum eu odio diam. Phasellus eget tempor sem. Mauris libero purus, ultricies
 							vel augue rhoncus, fringilla aliquam mi.
 						</p>
-						<h2>Saiba mais</h2>
+						<h2 class="h3-size">Saiba mais</h2>
 						<ul id="related-links" class="block-list">
 							<li><a href="#" target="_blank">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
 							<li><a href="#" target="_blank">Ut placerat, arcu non laoreet efficitur, sem tellus pulvinar urna, a tincidunt erat est at metus</a></li>
 							<li><a href="#" target="_blank">Integer consequat, urna at congue blandit, dui tellus auctor magna</a></li>
 							<li><a href="#" target="_blank">Donec quis ipsum a elit posuere auctor eu id dui</a></li>
 						</ul>
-						<h2>Compartilhe</h2>
-						<div id="share-links" class="row">
-							<div class="column column-4"><a href="#" target="_blank" class="button" title="Compartilhar no LinkedIn"><span class="icon" id="linkedin-icon">LinkedIn icon</span><span class="text">Compartilhar no LinkedIn</span></a></div>
-							<div class="column column-4"><a href="#" target="_blank" class="button" title="Compartilhar no Facebook"><span class="icon" id="facebook-icon">Facebook icon</span><span class="text">Compartilhar no Facebook</span></a></div>
-							<div class="column column-4"><a href="#" target="_blank" class="button" title="Compartilhar no Twitter"><span class="icon" id="twitter-icon">Twitter icon</span><span class="text">Compartilhar no Twitter</span></a></div>
-						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="column column-12">
+						<span class="separator"></span>
+					</div>
+				</div>
+				<div id="share-links" class="row">
+					<div class="column column-12">
+						<ul class="inline-list">
+							<li>
+								<a href="#" target="_blank" class="icon" id="linkedin-icon" title="Compartilhar no LinkedIn">Compartilhar no LinkedIn</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" class="icon" id="facebook-icon" title="Compartilhar no Facebook">Compartilhar no Facebook</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" class="icon" id="twitter-icon" title="Compartilhar no Twitter">Compartilhar no Twitter</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" class="icon" id="e-mail-icon" title="Compartilhar por e-mail">Compartilhar por e-mail</a>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</article>
@@ -134,8 +154,12 @@
 		<footer id="footer" class="row">
 			<div class="column column-12">
 				<small>
-					<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">Site pessoal</span> de <a xmlns:cc="http://creativecommons.org/ns#" href="http://lu2cas.com.br" property="cc:attributionName" rel="cc:attributionURL">Luccas Silveira</a> — <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+					lu2cas.com.br
 				</small>
+				<a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">
+					<span id="cc-icon"/>Creative Commons</span>
+					<span id="by-icon"/>CC-BY 4.0</span>
+				</a>
 			</div>
 		</footer>
 	</body>

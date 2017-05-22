@@ -27,7 +27,7 @@ body {
 	margin: 0;
 	padding: 0;
 	position: absolute;
-	color: #333;
+	color: #2a2a2a;
 	font-size: 62.5%;
 	font-family: "Roboto Mono", "Lucida Console", "Courier New";
 	outline: none;
@@ -43,7 +43,7 @@ p {
 	margin: 0 0 15px 0;
 	font-family: "Merriweather Light", "Times New Roman";
 	font-size: 1.8em;
-	line-height: 1.5;
+	line-height: 1.8;
 }
 
 a {
@@ -69,7 +69,7 @@ figure {
 
 figcaption {
 	margin-top: 5px;
-	font-size: 0.667em;
+	font-size: 1em;
 	font-family: "Merriweather Light", "Times New Roman";
 }
 /* Reset - End */
@@ -80,7 +80,7 @@ figcaption {
  * @ratio: 1:1.5 (perfect fifth)
  */
 
-h1, h2, h3, h4, h5, h6, .h1-size, .h2-size, .h3-size, .h4-size, .h5-size, .h6-size {
+h1, h2, h3, h4, h5, h6 {
 	font-family: "Roboto Mono Bold", "Lucida Console", "Courier New";
 	margin: 0;
 	padding: 0;
@@ -229,9 +229,8 @@ h6, .h6-size {
 }
 
 .post-info {
-	margin-top: 10px;
+	margin: 15px 0 0 0;
 	display: block;
-	font-size: 1.5em;
 }
 
 .card {
@@ -255,7 +254,6 @@ ul.block-list {
 
 ul.block-list li {
 	font-family: "Merriweather Light", "Times New Roman";
-	list-style: square;
 	margin: 0 0 15px 0;
 }
 
@@ -282,7 +280,7 @@ ul.inline-list li {
 	box-sizing: border-box;
 	background-color: #ffa600;
 	display: inline-block;
-	margin-bottom: 35px;
+	margin: 30px 0;
 }
 
 #home-content .section-wrapper {
@@ -370,6 +368,10 @@ header, main, section {
 	position: absolute;
 	top: 38%;
 	text-shadow: 0 5px 10px #000;
+}
+
+#home-content header #title-container #occupation {
+	font-family: "Roboto Mono Bold", "Lucida Console", "Courier New";
 }
 
 #home-content header h1 {
@@ -474,31 +476,71 @@ header, main, section {
 }
 
 footer {
-	padding: 18px 0;
+	padding: 15px 0;
 	text-align: center;
 	background-color: #202020;
+	background-image: url('../images/footer-background.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: scroll;
 }
 
-footer small, footer small a {
+footer small {
 	text-transform: uppercase;
-	color: #ffa600;
+	color: #efefef;
+	font-size: 1em;
+	font-family: "Roboto Mono Bold", "Lucida Console", "Courier New";
+	display: inline-block;
+	padding-top: 10px;
+	vertical-align: middle;
 }
 
-footer small a:hover {
-	color: #fff;
+footer a {
+	text-decoration: none;
+	display: inline-block;
 }
 
-#post-content header {
+footer a span {
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	text-indent: -9999px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: scroll;
+}
+
+footer a span#cc-icon {
+	background-image: url('../images/cc-icon.png');
+}
+
+footer a span#by-icon {
+	background-image: url('../images/by-icon.png');
+}
+
+#post-content header .breadcrumbs ul {
 	margin: 30px 0;
+	display: inline-block;
+}
+
+#post-content #banner {
+	min-height: 300px;
+	margin: 0 0 30px 0;
+	padding: 100px 0;
+	background-color: #1d1d1b;
+	background-image: url('../images/post-banner.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: scroll;
+	color: #efefef;
 }
 
 #post-content h1 {
 	line-height: 1.1em;
-}
-
-#post-content .post-info {
-	margin: 15px 0;
-	font-size: 1.6em;
+	text-shadow: 0 5px 10px #000;
 }
 
 #post-content h2 {
@@ -511,51 +553,58 @@ footer small a:hover {
 
 #post-content #related-links {
 	font-size: 1.8em;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
-#share-links .button {
-	margin-top: 15px;
+#post-content #related-links li:last-child {
+	margin-bottom: 0;
 }
 
-#share-links .button {
-	width: 100%;
-	display: block;
-	background-color: #dadada;
-	border: none;
-	color: #fff;
+#share-links ul li {
+	margin-right: 10px;
 }
 
-#share-links .button .text {
-	display: none;
-}
-
-#share-links .button:hover {
-	border: none;
-	background: #ffa600;
-}
-
-#share-links .button .icon {
-	text-indent: 0px;
-	width: 16px;
-	height: 16px;
-	margin-right: 5px;
+#share-links .icon {
+	width: 32px;
+	height: 32px;
 	display: inline-block;
 	text-indent: -9999px;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-size: cover;
 }
 
 #linkedin-icon {
+	background-image: url('../images/gray-linkedin-icon.png');
+}
+
+#linkedin-icon:hover {
 	background-image: url('../images/linkedin-icon.png');
 }
 
 #facebook-icon {
+	background-image: url('../images/gray-facebook-icon.png');
+}
+
+#facebook-icon:hover {
 	background-image: url('../images/facebook-icon.png');
 }
 
 #twitter-icon {
+	background-image: url('../images/gray-twitter-icon.png');
+}
+
+#twitter-icon:hover {
 	background-image: url('../images/twitter-icon.png');
+}
+
+#e-mail-icon {
+	background-image: url('../images/gray-e-mail-icon.png');
+}
+
+#e-mail-icon:hover {
+	background-image: url('../images/e-mail-icon.png');
 }
 
 #sandwich-menu {

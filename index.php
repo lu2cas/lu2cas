@@ -216,8 +216,12 @@
 		<footer id="footer" class="row">
 			<div class="column column-12">
 				<small>
-					<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">Site pessoal</span> de <a xmlns:cc="http://creativecommons.org/ns#" href="http://lu2cas.com.br" property="cc:attributionName" rel="cc:attributionURL">Luccas Carvalho Silveira</a> — <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+					lu2cas.com.br
 				</small>
+				<a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">
+					<span id="cc-icon"/>Creative Commons</span>
+					<span id="by-icon"/>CC-BY 4.0</span>
+				</a>
 			</div>
 		</footer>
 	</body>
