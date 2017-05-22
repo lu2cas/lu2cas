@@ -40,16 +40,8 @@
 				</div>
 				<div id="banner" class="row">
 					<div class="section-wrapper column column-8">
-						<div class="row">
-							<div class="column column-12">
-								<h1>Lorem ipsum dolor sit amet consectetur</h1>
-							</div>
-						</div>
-						<div class="row">
-							<div class="column column-12">
-								<span class="post-info h4-size">Publicado em 15 de maio de 2017</span>
-							</div>
-						</div>
+						<h1>Como construir um webservice REST de propósito geral utilizando PHP</h1>
+						<span class="post-info h4-size">Publicado em 15 de maio de 2017</span>
 					</div>
 				</div>
 			</div>
@@ -154,11 +146,11 @@
 		<footer id="footer" class="row">
 			<div class="column column-12">
 				<small>
-					lu2cas.com.br
+					<a href="http://www.lu2cas.com.br">lu2cas.com.br</a>
 				</small>
 				<a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">
-					<span id="cc-icon"/>Creative Commons</span>
-					<span id="by-icon"/>CC-BY 4.0</span>
+					<span id="cc-icon">Creative Commons</span>
+					<span id="by-icon">CC-BY 4.0</span>
 				</a>
 			</div>
 		</footer>

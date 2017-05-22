@@ -364,6 +364,7 @@ header, main, section {
 
 #home-content header #title-container {
 	width: 100%;
+	padding: 0 1.6%;
 	color: #fff;
 	position: absolute;
 	top: 38%;
@@ -482,23 +483,26 @@ footer {
 	background-image: url('../images/footer-background.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-size: cover;
 	background-attachment: scroll;
 }
 
 footer small {
-	text-transform: uppercase;
-	color: #efefef;
-	font-size: 1em;
-	font-family: "Roboto Mono Bold", "Lucida Console", "Courier New";
+	padding: 10px 5px 0 0;
 	display: inline-block;
-	padding-top: 10px;
 	vertical-align: middle;
 }
 
 footer a {
+	text-transform: uppercase;
+	color: #efefef;
+	font-size: 1.2em;
+	font-family: "Roboto Mono Bold", "Lucida Console", "Courier New";
 	text-decoration: none;
 	display: inline-block;
+}
+
+footer a:hover {
+	color: #efefef;
 }
 
 footer a span {
@@ -520,14 +524,17 @@ footer a span#by-icon {
 	background-image: url('../images/by-icon.png');
 }
 
+#post-content header {
+	margin: 0 0 50px 0;
+}
+
 #post-content header .breadcrumbs ul {
 	margin: 30px 0;
 	display: inline-block;
 }
 
 #post-content #banner {
-	min-height: 300px;
-	padding: 75px 0;
+	padding: 50px 0;
 	background-color: #1d1d1b;
 	background-image: url('../images/post-banner.jpg');
 	background-repeat: no-repeat;
@@ -535,11 +542,11 @@ footer a span#by-icon {
 	background-size: cover;
 	background-attachment: scroll;
 	color: #efefef;
+	text-shadow: 0 5px 10px #000;
 }
 
 #post-content h1 {
 	line-height: 1.1em;
-	text-shadow: 0 5px 10px #000;
 }
 
 #post-content h2 {

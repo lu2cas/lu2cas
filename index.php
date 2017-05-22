@@ -66,13 +66,13 @@
 			</div>
 		</header>
 		<main id="about" class="row">
-			<div class="section-wrapper column column-10">
+			<article class="section-wrapper column column-10">
 				<div class="row heading">
 					<div class="column column-12">
 						<h2>Sobre</h2>
 					</div>
 				</div>
-				<article class="row">
+				<div class="row">
 					<div id="portrait" class="column column-4">
 						<img src="images/luccas-silveira.jpg" alt="Luccas Carvalho Silveira"/>
 					</div>
@@ -94,8 +94,8 @@
 							site.
 						</p>
 					</div>
-				</article>
-			</div>
+				</div>
+			</article>
 		</main>
 		<section id="blog" class="row">
 			<div class="section-wrapper column column-10">
@@ -108,7 +108,8 @@
 					<li class="row">
 						<div class="column column-12">
 							<div class="card">
-								<h3>Lorem ipsum dolor sit amet consectetur</h3>
+								<h3>Como construir um webservice REST de propósito geral utilizando PHP</h3>
+								<span class="post-info h4-size">Publicado em 15 de maio de 2017</span>
 								<p>
 									Etiam commodo ligula eu eros fringilla vestibulum. Proin vel enim turpis. Etiam placerat odio non
 									ullamcorper efficitur. Donec interdum rhoncus nisl, sed efficitur neque mattis id. Interdum et
@@ -122,6 +123,7 @@
 						<div class="column column-12">
 							<div class="card">
 								<h3>Vivamus commodo lorem fermentum, scelerisque lorem quis</h3>
+								<span class="post-info h4-size">Publicado em 15 de maio de 2017</span>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo lorem fermentum, scelerisque
 									lorem quis, semper ante. Aliquam erat volutpat. Curabitur pretium eget est a tristique. Suspendisse
@@ -135,6 +137,7 @@
 						<div class="column column-12">
 							<div class="card">
 								<h3>Curabitur pretium eget est a tristique</h3>
+								<span class="post-info h4-size">Publicado em 15 de maio de 2017</span>
 								<p>
 									Nam sodales lectus feugiat odio tincidunt, eget lacinia mauris scelerisque. Fusce mi nunc, efficitur
 									at sem aliquam, mattis feugiat ipsum. In lobortis, diam pellentesque imperdiet dignissim, mi risus
@@ -216,11 +219,11 @@
 		<footer id="footer" class="row">
 			<div class="column column-12">
 				<small>
-					lu2cas.com.br
+					<a href="http://www.lu2cas.com.br">lu2cas.com.br</a>
 				</small>
 				<a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">
-					<span id="cc-icon"/>Creative Commons</span>
-					<span id="by-icon"/>CC-BY 4.0</span>
+					<span id="cc-icon">Creative Commons</span>
+					<span id="by-icon">CC-BY 4.0</span>
 				</a>
 			</div>
 		</footer>
