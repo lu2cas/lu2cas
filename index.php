@@ -108,14 +108,14 @@
 					<li class="row">
 						<div class="column column-12">
 							<div class="card">
-								<h3>Como construir um webservice REST de propósito geral utilizando PHP</h3>
+								<h3>Como construir um webservice REST utilizando PHP</h3>
 								<span class="post-info h4-size">Publicado em 15 de maio de 2017</span>
 								<p>
 									Etiam commodo ligula eu eros fringilla vestibulum. Proin vel enim turpis. Etiam placerat odio non
 									ullamcorper efficitur. Donec interdum rhoncus nisl, sed efficitur neque mattis id. Interdum et
 									smalesuada fames ac ante ipsum primis in faucibus. Phasellus ultrices fringilla odio a tempus.
 								</p>
-								<a href="lorem-ipsum-dolor-sit-amet-consectetur.php" class="navigation-link">Continue lendo</a>
+								<a href="como-construir-um-webservice-rest-utilizando-php.php" class="navigation-link">Continue lendo</a>
 							</div>
 						</div>
 					</li>

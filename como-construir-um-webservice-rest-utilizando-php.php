@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 	<head>
-		<title>Luccas Silveira - Lorem ipsum dolor sit amet consectetur</title>
+		<title>Luccas Silveira - Como construir um webservice REST utilizando PHP</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<meta name="author" content="Luccas Carvalho Silveira"/>
-		<meta name="description" content="Site pessoal de Luccas Carvalho Silveira, desenvolvedor web do Rio Grande do Sul, Brasil"/>
-		<meta name="keywords" content="Luccas, Carvalho, Silveira, Desenvolvedor, Software, PHP, Web, Sites, Sistemas, Informação"/>
+		<meta name="description" content="Como construir um webservice REST utilizando PHP"/>
+		<meta name="keywords" content="Webservice, REST, RESTful, PHP"/>
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=3"/>
 		<link href="images/favicon.png" type="image/x-icon" rel="shortcut icon"/>
-		<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-		<script type="text/javascript" src="bower_components/jquery-ui/jquery-ui.min.js"></script>
-		<script type="text/javascript" src="js/frontend.js"></script>
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -21,7 +18,6 @@
 			ga('send', 'pageview');
 		</script>
 		<link rel="stylesheet" type="text/css" href="css/frontend.css"/>
-		<link rel="stylesheet" type="text/css" href="bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css"/>
 	</head>
 	<body id="post-content">
 		<header class="row">
@@ -40,7 +36,7 @@
 				</div>
 				<div id="banner" class="row">
 					<div class="section-wrapper column column-8">
-						<h1>Como construir um webservice REST de propósito geral utilizando PHP</h1>
+						<h1>Como construir um webservice REST utilizando PHP</h1>
 						<span class="post-info h4-size">Publicado em 15 de maio de 2017</span>
 					</div>
 				</div>
