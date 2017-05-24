@@ -7,7 +7,7 @@
 		<meta name="description" content="Como construir um webservice REST utilizando PHP"/>
 		<meta name="keywords" content="Webservice, REST, RESTful, PHP"/>
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=3"/>
-		<link href="images/favicon.png" type="image/x-icon" rel="shortcut icon"/>
+		<link href="../assets/images/favicon.png" type="image/x-icon" rel="shortcut icon"/>
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -17,7 +17,7 @@
 			ga('create', 'UA-74371832-1', 'auto');
 			ga('send', 'pageview');
 		</script>
-		<link rel="stylesheet" type="text/css" href="css/frontend.css"/>
+		<link rel="stylesheet" type="text/css" href="../assets/css/frontend.css"/>
 	</head>
 	<body id="post-content">
 		<header class="row">

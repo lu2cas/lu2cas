@@ -7,12 +7,12 @@
 		<meta name="description" content="Site pessoal de Luccas Carvalho Silveira, desenvolvedor web do Rio Grande do Sul, Brasil"/>
 		<meta name="keywords" content="Luccas, Carvalho, Silveira, Desenvolvedor, Software, PHP, Web, Sites, Sistemas, Informação"/>
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=3"/>
-		<link href="images/favicon.png" type="image/x-icon" rel="shortcut icon"/>
-		<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-		<script type="text/javascript" src="bower_components/jquery-ui/jquery-ui.min.js"></script>
-		<script type="text/javascript" src="bower_components/letteringjs/jquery.lettering.js"></script>
-		<script type="text/javascript" src="bower_components/textillate/jquery.textillate.js"></script>
-		<script type="text/javascript" src="js/frontend.js"></script>
+		<link href="assets/images/favicon.png" type="image/x-icon" rel="shortcut icon"/>
+		<script type="text/javascript" src="assets/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/jquery-ui/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="assets/letteringjs/jquery.lettering.js"></script>
+		<script type="text/javascript" src="assets/textillate/jquery.textillate.js"></script>
+		<script type="text/javascript" src="assets/js/frontend.js"></script>
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -22,9 +22,9 @@
 			ga('create', 'UA-74371832-1', 'auto');
 			ga('send', 'pageview');
 		</script>
-		<link rel="stylesheet" type="text/css" href="css/frontend.css"/>
-		<link rel="stylesheet" type="text/css" href="bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css"/>
-		<link rel="stylesheet" type="text/css" href="bower_components/animate.css/animate.min.css"/>
+		<link rel="stylesheet" type="text/css" href="assets/css/frontend.css"/>
+		<link rel="stylesheet" type="text/css" href="assets/jquery-ui/themes/smoothness/jquery-ui.min.css"/>
+		<link rel="stylesheet" type="text/css" href="assets/animate.css/animate.min.css"/>
 	</head>
 	<body id="home-content">
 		<header class="row">
@@ -74,7 +74,7 @@
 				</div>
 				<div class="row">
 					<div id="portrait" class="column column-4">
-						<img src="images/luccas-silveira.jpg" alt="Luccas Carvalho Silveira"/>
+						<img src="assets/images/luccas-silveira.png" alt="Luccas Carvalho Silveira"/>
 					</div>
 					<div id="presentation" class="column column-8">
 						<p>
@@ -115,7 +115,7 @@
 									ullamcorper efficitur. Donec interdum rhoncus nisl, sed efficitur neque mattis id. Interdum et
 									smalesuada fames ac ante ipsum primis in faucibus. Phasellus ultrices fringilla odio a tempus.
 								</p>
-								<a href="como-construir-um-webservice-rest-utilizando-php.php" class="navigation-link">Continue lendo</a>
+								<a href="posts/como-construir-um-webservice-rest-utilizando-php.php" class="navigation-link">Continue lendo</a>
 							</div>
 						</div>
 					</li>
@@ -185,7 +185,7 @@
 						</p>
 					</div>
 					<div id="contact-form" class="column column-6">
-						<form action="send_contact.php" method="post" novalidate="novalidate">
+						<form action="scripts/send_contact.php" method="post" novalidate="novalidate">
 							<div class="row">
 								<div class="column column-12">
 									<input type="text" id="name" name="name" placeholder="Nome"/>

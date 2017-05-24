@@ -1,4 +1,6 @@
 <?php
+	require __DIR__ . '/autoload.php';
+
 	$name    = isset($_POST['name'])    ? $_POST['name']    : null;
 	$email   = isset($_POST['email'])   ? $_POST['email']   : null;
 	$subject = isset($_POST['subject']) ? $_POST['subject'] : null;
@@ -51,18 +53,15 @@
 		)
 	);
 
-	require_once 'validate_class.php';
-	$validate = new validate();
-	$check = $validate->check($form_fields);
+	$validator = new Validator();
+	$check = $validator->check($form_fields);
 
 	if ($check['success']) {
-		require_once 'vendor/phpmailer/phpmailer/class.phpmailer.php';
-		require_once 'vendor/phpmailer/phpmailer/class.smtp.php';
-		require_once 'smtp_config.php';
+		require __DIR__ . '/config.php';
 
-		$smtp_config = getSmtpConfig();
+		$smtp_config = Config::getSmtpConfig();
 
-		$phpMailer = new PHPMailer;
+		$phpMailer = new PHPMailer();
 
 		$phpMailer->CharSet = 'UTF-8';
 		$phpMailer->Encoding = 'base64';
@@ -84,7 +83,7 @@
 
 		$phpMailer->Subject = $subject;
 
-		$body = file_get_contents('emails/contact.html');
+		$body = file_get_contents('../views/emails/contact.html');
 		$body = str_replace(
 			array(
 				'{name}',

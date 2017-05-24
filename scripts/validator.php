@@ -1,6 +1,6 @@
 <?php
 
-class validate {
+class Validator {
 
 	public $rules = array(
 		'notEmpty',

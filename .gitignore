@@ -1,4 +1,7 @@
-smtp_config.php
 vendor/
-bower_components/
-npm-debug.log
+assets/animate.css
+assets/jquery
+assets/jquery-ui
+assets/letteringjs
+assets/textillate
+scripts/config.php
