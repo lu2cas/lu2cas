@@ -115,7 +115,7 @@
 									ullamcorper efficitur. Donec interdum rhoncus nisl, sed efficitur neque mattis id. Interdum et
 									smalesuada fames ac ante ipsum primis in faucibus. Phasellus ultrices fringilla odio a tempus.
 								</p>
-								<a href="posts/como-construir-um-webservice-rest-utilizando-php.php" class="navigation-link">Continue lendo</a>
+								<a href="scripts/blog.php?post=como-construir-um-webservice-rest-utilizando-php" class="navigation-link">Continue lendo</a>
 							</div>
 						</div>
 					</li>
