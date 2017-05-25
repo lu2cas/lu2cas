@@ -27,6 +27,8 @@
 		<link rel="stylesheet" type="text/css" href="assets/animate.css/animate.min.css"/>
 	</head>
 	<body id="home-content">
+		<?php session_start(); ?>
+		<?php $_SESSION['BASE_URL'] = sprintf('http://%s/%s', $_SERVER['HTTP_HOST'], current(array_filter(explode('/', $_SERVER['REQUEST_URI'])))); ?>
 		<header class="row">
 			<div id="sandwich-menu" class="row">
 				<div class="section-wrapper column column-12">
@@ -151,7 +153,7 @@
 				</ul>
 				<div class="row" id="pagination">
 					<div class="column column-12">
-						<a href="http://www.google.com" id="earlier-posts" class="navigation-link">Posts mais antigos</a>
+						<!--a href="http://www.google.com" id="earlier-posts" class="navigation-link">Posts mais antigos</a-->
 						<!--a href="#" id="latest-posts" class="blog-pagination">Posts mais recentes</a-->
 					</div>
 				</div>

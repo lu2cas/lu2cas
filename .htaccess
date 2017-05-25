@@ -1,6 +1,6 @@
 RewriteEngine On
-Options All -Indexes
 
-DirectoryIndex index.php
+ErrorDocument 404 http://127.0.0.1/lu2cas/404/
 
-RewriteRule    ^blog/(.*)\    scripts/blog.php?post=$1 [L]
+RewriteRule ^blog/(.*)$ ./scripts/blog.php?post=$1 [L]
+RewriteRule ^404/$ ./views/404.php [L]

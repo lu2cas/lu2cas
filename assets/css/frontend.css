@@ -204,7 +204,7 @@ h6, .h6-size {
 	font-size: 1.2em;
 	text-transform: uppercase;
 	text-decoration: none;
-	letter-spacing: 0.10em;
+	letter-spacing: 2px;
 	cursor: pointer;
 	text-align: center;
 	border-radius: 3px;
@@ -355,8 +355,8 @@ header, main, section {
 #main-menu .list-item a {
 	color: #fff;
 	text-decoration: none;
-	padding-left: 0.075em;
-	letter-spacing: 0.075em;
+	padding-left: 2px;
+	letter-spacing: 2px;
 }
 
 #main-menu .list-item a:hover {
@@ -619,6 +619,46 @@ footer a span#by-icon {
 	text-indent: -999px;
 	display: none;
 }
+
+#error-page-content {
+	background-color: #1d1d1b;
+	text-align: center;
+}
+
+#error-page-content #error-message {
+	padding: 0 1.6%;
+	color: #ffa600;
+	position: absolute;
+	top: 20%;
+	text-shadow: 0 5px 10px #000;
+}
+
+#error-page-content #error-message h1 {
+	font-size: 24em;
+	line-height: 1;
+}
+
+#error-page-content #error-message h2 {
+	font-size: 4em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #efefef;
+}
+
+#error-page-content #error-message p {
+	font-family: "Roboto Mono", "Lucida Console", "Courier New";
+	margin-top: 30px;
+	color: #efefef;
+	font-size: 1.8em;
+}
+
+#error-page-content #error-message a {
+	color: #efefef;
+}
+
+#error-page-content #error-message a:hover {
+	color: #ffa600;
+}
 /* Body style - End */
 
 /* Media queries - Begin */
@@ -711,10 +751,6 @@ footer a span#by-icon {
 }
 
 @media screen and (max-width: 640px) {
-	.card {
-		padding: 30px;
-	}
-
 	#contact #contact-form #send {
 		width: 100%;
 	}
@@ -734,7 +770,7 @@ footer a span#by-icon {
 	}
 
 	.heading h2 {
-	border-left: 25px solid #ffa600;
+		border-left: 25px solid #ffa600;
 	}
 
 	#home-content #title-container #occupation {

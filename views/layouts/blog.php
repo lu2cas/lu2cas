@@ -20,16 +20,17 @@
 		<link rel="stylesheet" type="text/css" href="../assets/css/frontend.css"/>
 	</head>
 	<body id="post-content">
+		<?php session_start(); ?>
 		<header class="row">
 			<div class="column column-12">
 				<div class="row">
 					<nav class="breadcrumbs navigation-link section-wrapper column column-8">
 						<ul class="inline-list">
 							<li>
-								<a href="index.php#home">Home</a>
+								<a href="<?php echo $_SESSION['BASE_URL']; ?>#home">Home</a>
 							</li>
 							<li>
-								<a href="index.php#blog">Blog</a>
+								<a href="<?php echo $_SESSION['BASE_URL']; ?>#blog">Blog</a>
 							</li>
 						</ul>
 					</nav>
