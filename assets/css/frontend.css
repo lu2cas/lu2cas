@@ -235,7 +235,6 @@ h6, .h6-size {
 }
 
 .card {
-	width: 100%;
 	padding: 30px;
 	min-height: 150px;
 	background-color: #efefef;
@@ -632,6 +631,7 @@ footer a span#by-icon {
 }
 
 #error-page-content #error-message {
+	width: 100%;
 	padding: 0 1.6%;
 	color: #ffa600;
 	position: absolute;
@@ -747,12 +747,16 @@ footer a span#by-icon {
 		display: none;
 	}
 
-	#post-content #share-links .column {
-		margin-bottom: 15px;
+	#error-page-content #error-message h1 {
+		font-size: 18em;
 	}
 
-	#post-content #share-links .column:last-child {
-		margin-bottom: 0;
+	#error-page-content #error-message h2 {
+		font-size: 2.8em;
+	}
+
+	#error-page-content #error-message {
+		top: 25%;
 	}
 }
 
@@ -779,8 +783,25 @@ footer a span#by-icon {
 		border-left: 25px solid #ffa600;
 	}
 
+
 	#home-content #title-container #occupation {
 		font-size: 1.8em;
+	}
+
+	#error-page-content #error-message h1 {
+		font-size: 12em;
+	}
+
+	#error-page-content #error-message h2 {
+		font-size: 1.8em;
+	}
+
+	#error-page-content #error-message p {
+		font-size: 1.6em;
+	}
+
+	#error-page-content #error-message {
+		top: 28%;
 	}
 }
 
