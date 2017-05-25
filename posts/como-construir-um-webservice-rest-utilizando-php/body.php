@@ -19,7 +19,7 @@
 </p>
 <p>
 	<figure>
-		<img src="<?php echo $post['base_url'] ?>/images/asteroid.jpg" alt="Um asteróide"/>
+		<img src="<?php echo $post['images_directory']; ?>/asteroid.jpg" alt="Um asteróide"/>
 		<figcaption>Figura 1 - Representação de um asteróide entrando na atmosfera da Terra.</figcaption>
 	</figure> 
 </p>

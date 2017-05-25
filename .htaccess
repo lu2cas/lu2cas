@@ -1,6 +1,7 @@
+Options +FollowSymLinks
 RewriteEngine On
 
-ErrorDocument 404 http://127.0.0.1/lu2cas/404/
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
 
-RewriteRule ^blog/(.*)$ ./scripts/blog.php?post=$1 [L]
-RewriteRule ^404/$ ./views/404.php [L]
+RewriteRule ^.*$ ./index.php

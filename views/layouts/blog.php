@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 	<head>
-		<title>Luccas Silveira - Como construir um webservice REST utilizando PHP</title>
+		<title>Luccas Silveira - <?php $post['title']; ?></title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-		<meta name="author" content="Luccas Carvalho Silveira"/>
-		<meta name="description" content="Como construir um webservice REST utilizando PHP"/>
-		<meta name="keywords" content="Webservice, REST, RESTful, PHP"/>
+		<meta name="author" content="<?php $post['author']; ?>"/>
+		<meta name="description" content="<?php $post['title']; ?>"/>
+		<meta name="keywords" content="<?php $post['keywords']; ?>"/>
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=3"/>
-		<link href="../assets/images/favicon.png" type="image/x-icon" rel="shortcut icon"/>
+		<link href="<?php echo BASE_DIRECTORY; ?>/assets/images/favicon.png" type="image/x-icon" rel="shortcut icon"/>
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -17,25 +17,24 @@
 			ga('create', 'UA-74371832-1', 'auto');
 			ga('send', 'pageview');
 		</script>
-		<link rel="stylesheet" type="text/css" href="../assets/css/frontend.css"/>
+		<link rel="stylesheet" type="text/css" href="<?php echo BASE_DIRECTORY; ?>/assets/css/frontend.css"/>
 	</head>
 	<body id="post-content">
-		<?php session_start(); ?>
 		<header class="row">
 			<div class="column column-12">
 				<div class="row">
 					<nav class="breadcrumbs navigation-link section-wrapper column column-8">
 						<ul class="inline-list">
 							<li>
-								<a href="<?php echo $_SESSION['BASE_URL']; ?>#home">Home</a>
+								<a href="<?php echo BASE_DIRECTORY; ?>#home">Home</a>
 							</li>
 							<li>
-								<a href="<?php echo $_SESSION['BASE_URL']; ?>#blog">Blog</a>
+								<a href="<?php echo BASE_DIRECTORY; ?>#blog">Blog</a>
 							</li>
 						</ul>
 					</nav>
 				</div>
-				<div id="banner" class="row" style="background-image: url('<?php echo $post['base_url'] . '/images/banner.jpg'; ?>');">
+				<div id="banner" class="row" style="background-image: url('<?php echo $post['images_directory'] . '/banner.jpg'; ?>');">
 					<div class="section-wrapper column column-8">
 						<h1><?php echo $post['title']; ?></h1>
 						<span class="post-info h4-size"><?php echo 'Publicado em ' . $post['date']; ?></span>
@@ -47,9 +46,7 @@
 			<article class="section-wrapper column column-8">
 				<div class="row">
 					<div class="column column-12">
-						<?php
-						include $post['body'];
-						?>
+						<?php include $post['body']; ?>
 					</div>
 				</div>
 				<div class="row">
@@ -61,16 +58,16 @@
 					<div class="column column-12">
 						<ul class="inline-list">
 							<li>
-								<a href="<?php echo 'share.php?' . $post['base_url']; ?>" target="_blank" class="icon" id="linkedin-icon" title="Compartilhar no LinkedIn">Compartilhar no LinkedIn</a>
+								<a href="<?php echo 'share.php?' . $post['external_url']; ?>" target="_blank" class="icon" id="linkedin-icon" title="Compartilhar no LinkedIn">Compartilhar no LinkedIn</a>
 							</li>
 							<li>
-								<a href="<?php echo 'share.php?' . $post['base_url']; ?>" target="_blank" class="icon" id="facebook-icon" title="Compartilhar no Facebook">Compartilhar no Facebook</a>
+								<a href="<?php echo 'share.php?' . $post['external_url']; ?>" target="_blank" class="icon" id="facebook-icon" title="Compartilhar no Facebook">Compartilhar no Facebook</a>
 							</li>
 							<li>
-								<a href="<?php echo 'share.php?' . $post['base_url']; ?>" target="_blank" class="icon" id="twitter-icon" title="Compartilhar no Twitter">Compartilhar no Twitter</a>
+								<a href="<?php echo 'share.php?' . $post['external_url']; ?>" target="_blank" class="icon" id="twitter-icon" title="Compartilhar no Twitter">Compartilhar no Twitter</a>
 							</li>
 							<li>
-								<a href="<?php echo 'share.php?' . $post['base_url']; ?>" target="_blank" class="icon" id="e-mail-icon" title="Compartilhar por e-mail">Compartilhar por e-mail</a>
+								<a href="<?php echo 'share.php?' . $post['external_url']; ?>" target="_blank" class="icon" id="e-mail-icon" title="Compartilhar por e-mail">Compartilhar por e-mail</a>
 							</li>
 						</ul>
 					</div>

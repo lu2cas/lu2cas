@@ -1,4 +1,7 @@
 {
+	"author": "Luccas Carvalho Silveira",
 	"title": "Como construir um webservice REST utilizando PHP",
+	"excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque massa ipsum, ultrices vitae varius et, ullamcorper quis neque. In pulvinar libero ex. Donec non elit nunc. Nam eu metus venenatis, molestie dolor non, cursus nibh. Donec sed ornare mi, sit ametdapibus turpis.",
+	"keywords": "Webservice, REST, RESTful, PHP",
 	"date": "15 de maio de 2017"
 }
