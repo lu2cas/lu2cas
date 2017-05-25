@@ -1,0 +1,6 @@
+RewriteEngine On
+Options All -Indexes
+
+DirectoryIndex index.php
+
+RewriteRule    ^blog/(.*)\    scripts/blog.php?post=$1 [L]
