@@ -3,9 +3,9 @@
 	<head>
 		<title>Luccas Silveira - <?php echo $post['title']; ?></title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-		<meta name="author" content="<?php $post['author']; ?>"/>
-		<meta name="description" content="<?php $post['title']; ?>"/>
-		<meta name="keywords" content="<?php $post['keywords']; ?>"/>
+		<meta name="author" content="<?php echo $post['author']; ?>"/>
+		<meta name="description" content="<?php echo $post['title']; ?>"/>
+		<meta name="keywords" content="<?php echo $post['keywords']; ?>"/>
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=3"/>
 		<link href="<?php echo BASE_DIRECTORY; ?>/assets/images/favicon.png" type="image/x-icon" rel="shortcut icon"/>
 		<script>
