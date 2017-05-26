@@ -174,12 +174,12 @@
 		</section>
 		<footer id="footer" class="row">
 			<div class="column column-12">
-				<small>
-					<a href="http://www.lu2cas.com.br">lu2cas.com.br</a>
-				</small>
+				<a href="http://www.lu2cas.com.br">
+					<small>lu2cas.com.br</small>
+				</a>
 				<a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">
-					<span id="cc-icon">Creative Commons</span>
-					<span id="by-icon">CC-BY 4.0</span>
+					<small id="cc-icon">Creative Commons</small>
+					<small id="by-icon">CC-BY 4.0</small>
 				</a>
 			</div>
 		</footer>

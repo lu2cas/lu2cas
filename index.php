@@ -1,6 +1,6 @@
 <?php
 require __DIR__ . '/scripts/autoload.php';
-$base_directory = null;
+$base_directory = 'home';
 
 $uri_parameters = array_values(array_filter(explode('/', $_SERVER['REQUEST_URI'])));
 

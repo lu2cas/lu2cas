@@ -17,12 +17,10 @@
 	tortor, volutpat dapibus massa magna nec mauris. Aenean ac quam a nunc varius pretium
 	vitae vitae augue. Nullam tristique pulvinar erat quis bibendum.
 </p>
-<p>
-	<figure>
-		<img src="<?php echo $post['images_directory']; ?>/asteroid.jpg" alt="Um asteróide"/>
-		<figcaption>Figura 1 - Representação de um asteróide entrando na atmosfera da Terra.</figcaption>
-	</figure> 
-</p>
+<figure>
+	<img src="<?php echo $post['images_directory']; ?>/asteroid.jpg" alt="Um asteróide"/>
+	<figcaption>Figura 1 - Representação de um asteróide entrando na atmosfera da Terra.</figcaption>
+</figure> 
 <h2 class="h3-size">Lorem ipsum</h2>
 <p>
 	Sed viverra dui sed lectus pellentesque, eu hendrerit purus aliquam. Cras nec arcu quis sem
@@ -43,9 +41,7 @@
 	pharetra, commodo vel nibh. Morbi fermentum, erat eu rhoncus faucibus, justo risus iaculis
 	leo, id sagittis libero eros sit amet enim. Maecenas imperdiet quis odio sit amet mattis.
 </p>
-<p>
-	<script src="https://gist.github.com/lu2cas/41621f7a70a34587ba891a42b5a3faba.js"></script>
-</p>
+<script src="https://gist.github.com/lu2cas/41621f7a70a34587ba891a42b5a3faba.js"></script>
 <h2 class="h3-size">Conclusão</h2>
 <p>
 	Proin elementum odio id dictum semper. In sed orci sodales, aliquet lacus vitae, facilisis

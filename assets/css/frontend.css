@@ -31,8 +31,6 @@ body {
 	font-size: 62.5%;
 	font-family: "Roboto Mono", "Lucida Console", "Courier New";
 	outline: 0;
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
 }
 
 ul {
@@ -452,8 +450,6 @@ header, main, section {
 	margin-bottom: 15px;
 	font-family: 'Merriweather Light', 'Times New Roman';
 	font-size: 1.8em;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
 	box-sizing: border-box; 
 	border-radius: 3px;
 }
@@ -494,7 +490,6 @@ footer {
 }
 
 footer small {
-	padding: 10px 5px 0 0;
 	display: inline-block;
 	vertical-align: middle;
 }
@@ -506,13 +501,15 @@ footer a {
 	font-family: "Roboto Mono Bold", "Lucida Console", "Courier New";
 	text-decoration: none;
 	display: inline-block;
+	margin-right: 5px;
+	vertical-align: middle;
 }
 
 footer a:hover {
 	color: #efefef;
 }
 
-footer a span {
+footer a[rel="license"] small {
 	width: 25px;
 	height: 25px;
 	display: inline-block;
@@ -523,11 +520,11 @@ footer a span {
 	background-attachment: scroll;
 }
 
-footer a span#cc-icon {
+footer a small#cc-icon {
 	background-image: url('../images/cc-icon.png');
 }
 
-footer a span#by-icon {
+footer a small#by-icon {
 	background-image: url('../images/by-icon.png');
 }
 
