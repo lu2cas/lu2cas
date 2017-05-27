@@ -1,8 +1,8 @@
 {
-  "name": "Luccas Carvalho Silveira",
+  "name": "lu2cas",
   "homepage": "http://lu2cas.com.br",
   "authors": [
-    "Luccas Carvalgo Silveira <contato@lu2cas.com.br>"
+    "Luccas Carvalho Silveira <contato@lu2cas.com.br>"
   ],
   "license": "GPL v3.0",
   "ignore": [
@@ -15,6 +15,6 @@
   "dependencies": {
     "jquery-ui": "^1.12.1",
     "jquery": "^3.1.1",
-    "textillate": "*",
+    "textillate": "*"
   }
 }
