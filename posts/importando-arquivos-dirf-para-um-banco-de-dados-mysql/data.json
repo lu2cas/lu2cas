@@ -1,0 +1,7 @@
+{
+	"author": "Luccas Carvalho Silveira",
+	"title": "Importando arquivos DIRF para um banco de dados MySQL",
+	"excerpt": "Se sua empresa precisa dos dados de arquivos DIRF disponíveis em um banco de dados - para fins de informes de rendimentos, por exemplo - este artigo pode te poupar bastante trabalho.",
+	"keywords": "DIRF, Importação, Declaração, Imposto, Renda, Receita, Federal, PHP, MySQL",
+	"date": "05 de junho de 2017"
+}
