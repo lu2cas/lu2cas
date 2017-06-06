@@ -1,12 +1,7 @@
 <p>
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque massa ipsum, ultrices
-	vitae varius et, ullamcorper quis neque. In pulvinar libero ex. Donec non elit nunc.
-	Nam eu metus venenatis, molestie dolor non, cursus nibh. Donec sed ornare mi, sit amet
-	dapibus turpis. Maecenas vehicula orci eros, quis malesuada turpis faucibus et. In eget
-	massa odio. Integer quis sagittis lorem. Vivamus dui metus, dapibus at est quis,
-	vulputate cursus lorem. Integer ante arcu, vulputate in neque ornare, tempus luctus
-	neque. Aliquam auctor erat eu ligula faucibus, sed faucibus diam lobortis. Curabitur
-	in dictum diam, ut sodales enim.
+	Se sua organização precisa dos dados de arquivos DIRF disponíveis em um banco de dados - para disponibilizar
+	os informes de rendimentos dos fornecedores em um sistema online, por exemplo - este importador pode te poupar
+	bastante tempo.
 </p>
 <h2 class="h3-size">Introdução</h2>
 <p>
@@ -21,7 +16,7 @@
 	<img src="<?php echo $post['images_directory']; ?>/asteroid.jpg" alt="Um asteróide"/>
 	<figcaption>Figura 1 - Representação de um asteróide entrando na atmosfera da Terra.</figcaption>
 </figure> 
-<h2 class="h3-size">Lorem ipsum</h2>
+<h2 class="h3-size">O que é um arquivo DIRF e para que serve?</h2>
 <p>
 	Sed viverra dui sed lectus pellentesque, eu hendrerit purus aliquam. Cras nec arcu quis sem
 	imperdiet luctus. Nulla ac interdum justo. Sed lacinia egestas posuere. Vivamus euismod,
@@ -31,6 +26,18 @@
 	Morbi accumsan lacus id tincidunt posuere. In efficitur et mauris sed blandit. Proin
 	accumsan enim in orci venenatis tristique. Aenean suscipit erat leo.
 </p>
+<h2 class="h3-size">Instalação e configuração do script do importador de arquivos DIRF</h2>
+<p>
+	In scelerisque malesuada ornare. Quisque cursus iaculis lacinia. Vivamus cursus elit in
+	augue pulvinar, ullamcorper ullamcorper tortor semper. Pellentesque habitant morbi tristique
+	senectus et netus et malesuada fames ac turpis egestas. Fusce condimentum sed lorem sed
+	congue. Maecenas vel elit porttitor, auctor nisl in, efficitur turpis. Nulla scelerisque
+	lacus arcu, a accumsan ante pulvinar at. Nam blandit lacinia mauris, non lobortis urna
+	accumsan id. Nulla facilisi. Donec ut suscipit quam. Donec elit ante, malesuada eu posuere
+	pharetra, commodo vel nibh. Morbi fermentum, erat eu rhoncus faucibus, justo risus iaculis
+	leo, id sagittis libero eros sit amet enim. Maecenas imperdiet quis odio sit amet mattis.
+</p>
+<h2 class="h3-size">Automatização do processo de importação de arquivos DIRF</h2>
 <p>
 	In scelerisque malesuada ornare. Quisque cursus iaculis lacinia. Vivamus cursus elit in
 	augue pulvinar, ullamcorper ullamcorper tortor semper. Pellentesque habitant morbi tristique
@@ -55,8 +62,6 @@
 </p>
 <h2 class="h3-size">Saiba mais</h2>
 <ul id="related-links" class="block-list">
-	<li><a href="#" target="_blank">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-	<li><a href="#" target="_blank">Ut placerat, arcu non laoreet efficitur, sem tellus pulvinar urna, a tincidunt erat est at metus</a></li>
-	<li><a href="#" target="_blank">Integer consequat, urna at congue blandit, dui tellus auctor magna</a></li>
-	<li><a href="#" target="_blank">Donec quis ipsum a elit posuere auctor eu id dui</a></li>
+	<li><a href="#" target="_blank">Arquivos DIRF</a></li>
+	<li><a href="#" target="_blank">Cronjobs</a></li>
 </ul>
