@@ -326,7 +326,7 @@ header, main, section {
 #home-content header {
 	height: 100%;
 	background-color: #1d1d1b;
-	background-image: url('../images/header-background.jpg');
+	background-image: url('../images/background.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
