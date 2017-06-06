@@ -54,8 +54,9 @@
 					<ul class="texts">
 						<li>desenvolvedor de software</li>
 						<li>estudante de sistemas de informação</li>
-						<li>entusiasta de web design</li>
 						<li>adepto ao software livre</li>
+						<li>entusiasta de web design</li>
+						<li>colaborador open source</li>
 					</ul>
 				</div>
 			</div>

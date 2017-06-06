@@ -8,6 +8,17 @@
 		<meta name="keywords" content="<?php echo $post['keywords']; ?>"/>
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=3"/>
 		<link href="<?php echo BASE_DIRECTORY; ?>/assets/images/favicon.png" type="image/x-icon" rel="shortcut icon"/>
+		<script type="text/javascript" src="<?php echo BASE_DIRECTORY; ?>/assets/jquery/dist/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="<?php echo BASE_DIRECTORY; ?>/assets/css/frontend.css"/>
+		<link rel="stylesheet" href="<?php echo BASE_DIRECTORY; ?>/assets/highlight.js/src/styles/atom-one-dark.css">
+		<script src="<?php echo BASE_DIRECTORY; ?>/assets/highlight.js/src/highlight.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$('pre code').each(function(i, block) {
+					hljs.highlightBlock(block);
+				});
+			});
+		</script>
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -17,7 +28,6 @@
 			ga('create', 'UA-74371832-1', 'auto');
 			ga('send', 'pageview');
 		</script>
-		<link rel="stylesheet" type="text/css" href="<?php echo BASE_DIRECTORY; ?>/assets/css/frontend.css"/>
 	</head>
 	<body id="post-content">
 		<header class="row">
@@ -34,7 +44,7 @@
 						</ul>
 					</nav>
 				</div>
-				<div id="banner" class="row" style="background-image: url('<?php echo $post['images_directory'] . '/banner.jpg'; ?>');">
+				<div id="banner" class="row" style="background-image: url('<?php echo BASE_DIRECTORY . '/assets/images/blurred-background.jpg'; ?>');">
 					<div class="section-wrapper column column-8">
 						<h1><?php echo $post['title']; ?></h1>
 						<span class="post-info h4-size"><?php echo 'Publicado em ' . $post['date']; ?></span>

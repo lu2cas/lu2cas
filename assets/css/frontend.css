@@ -13,6 +13,11 @@
 	font-family: 'Merriweather Light';
 	src: url('Merriweather-Light.ttf');
 }
+
+@font-face {
+	font-family: 'Merriweather Bold';
+	src: url('Merriweather-Bold.ttf');
+}
 /* Font incorporation - End */
 
 /* Reset - Begin */
@@ -70,6 +75,22 @@ figcaption {
 	margin-top: 5px;
 	font-size: 1em;
 	font-family: "Merriweather Light", "Times New Roman";
+}
+
+p strong {
+	font-weight: 400;
+	font-family: "Merriweather Bold", "Times New Roman";
+}
+
+pre code {
+	font-size: 1.8em;
+}
+
+code {
+	background-color: #282C34;
+	color: #efefef;
+	padding: 2px 5px;
+	border-radius: 2px;
 }
 /* Reset - End */
 
@@ -483,7 +504,7 @@ footer {
 	padding: 15px 0;
 	text-align: center;
 	background-color: #202020;
-	background-image: url('../images/footer-background.jpg');
+	background-image: url('../images/blurred-background.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: scroll;
@@ -553,7 +574,7 @@ footer a small#by-icon {
 }
 
 #post-content h2 {
-	margin: 15px 0;
+	margin: 30px 0 15px 0;
 }
 
 #post-content p {
