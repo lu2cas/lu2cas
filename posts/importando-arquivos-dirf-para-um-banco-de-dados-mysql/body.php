@@ -1,30 +1,27 @@
 <p>
-	Se sua organização precisa dos dados de arquivos DIRF disponíveis em um banco de dados - para disponibilizar
-	os informes de rendimentos dos fornecedores em um sistema online, por exemplo - este importador pode te poupar
-	bastante tempo.
+	<?php echo $post['excerpt']; ?>
 </p>
 <h2 class="h3-size">Introdução</h2>
 <p>
-	Maecenas ac tortor ipsum. Fusce cursus vel nisi ut cursus. Donec eleifend, dolor id
-	rhoncus lobortis, ante orci lobortis elit, quis pellentesque quam elit eu diam. Vestibulum
-	accumsan laoreet malesuada. Vivamus massa nibh, auctor vitae aliquet nec, lobortis
-	accumsan lacus. Curabitur iaculis, dui in scelerisque venenatis, sapien orci sollicitudin
-	tortor, volutpat dapibus massa magna nec mauris. Aenean ac quam a nunc varius pretium
-	vitae vitae augue. Nullam tristique pulvinar erat quis bibendum.
+	Conforme informado pelo site oficial da Receita Federal do Brasil, a Declaração do Imposto
+	sobre a Renda Retido na Fonte (DIRF) é a declaração feita pela fonte pagadora, com o objetivo
+	de informar à Secretaria da Receita Federal do Brasil os seguintes dados:
+	<ul>
+		<li>Rendimentos pagos a pessoas físicas domiciliadas no País;</li>
+		<li>Valor do imposto sobre a renda e contribuições retidos na fonte, dos rendimentos pagos ou creditados para seus beneficiários;</li>
+		<li>Pagamento, crédito, entrega, emprego ou remessa a residentes ou domiciliados no exterior;</li>
+		<li>Pagamentos a plano de assistência à saúde – coletivo empresarial.</li>
+	</ul>
 </p>
-<figure>
-	<img src="<?php echo $post['images_directory']; ?>/asteroid.jpg" alt="Um asteróide"/>
-	<figcaption>Figura 1 - Representação de um asteróide entrando na atmosfera da Terra.</figcaption>
-</figure> 
-<h2 class="h3-size">O que é um arquivo DIRF e para que serve?</h2>
 <p>
-	Sed viverra dui sed lectus pellentesque, eu hendrerit purus aliquam. Cras nec arcu quis sem
-	imperdiet luctus. Nulla ac interdum justo. Sed lacinia egestas posuere. Vivamus euismod,
-	nunc pretium pharetra porta, ex dolor sodales sem, eget fringilla purus tellus at arcu.
-	Mauris rhoncus nunc vitae risus dictum varius. Curabitur a mollis risus. Morbi et tellus
-	semper erat dictum tincidunt ut et erat. Donec scelerisque placerat lectus et feugiat.
-	Morbi accumsan lacus id tincidunt posuere. In efficitur et mauris sed blandit. Proin
-	accumsan enim in orci venenatis tristique. Aenean suscipit erat leo.
+	Para tanto, a fonte pagadora deve fornecer à Receita Federal do Brasil um arquivo de texto contendo
+	todos estes dados formatados de acordo com um layout específico, estabelecido pela própria Receita
+	Federal do Brasil. O layout do arquivo DIRF de 2017 está declarado no "Ato Declaratório Executivo COFIS Nº 90",
+	de 25 de novembro de 2016, e pode ser acessado aqui: <a href="http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=78887">http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=78887</a>.
+</p>
+<p>
+	Por outro lado, os empregados de uma empresa podem solicitar seus informes de rendimentos para
+	fins de declaração de Imposto de Renda de Pessoa Física. [continua...]
 </p>
 <h2 class="h3-size">Instalação e configuração do script do importador de arquivos DIRF</h2>
 <p>
