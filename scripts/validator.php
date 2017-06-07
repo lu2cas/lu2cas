@@ -44,4 +44,3 @@ class Validator {
 		return false;
 	}
 }
-?>

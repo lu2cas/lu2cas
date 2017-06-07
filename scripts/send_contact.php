@@ -1,5 +1,5 @@
 <?php
-	require __DIR__ . '/autoload.php';
+	require APP_PATH . DS . 'scripts' . DS . 'autoload.php';
 
 	$name    = isset($_POST['name'])    ? $_POST['name']    : null;
 	$email   = isset($_POST['email'])   ? $_POST['email']   : null;
@@ -57,7 +57,7 @@
 	$check = $validator->check($form_fields);
 
 	if ($check['success']) {
-		require __DIR__ . '/config.php';
+		require APP_PATH . DS . 'scripts' . DS . 'config.php';
 
 		$smtp_config = Config::getSmtpConfig();
 
@@ -83,7 +83,7 @@
 
 		$phpMailer->Subject = $subject;
 
-		$body = file_get_contents('../views/emails/contact.html');
+		$body = file_get_contents(APP_PATH . DS . 'views' . DS . 'emails' . DS . 'contact.html');
 		$body = str_replace(
 			array(
 				'{name}',
@@ -117,4 +117,3 @@
 	}
 
 	die(json_encode($return));
-?>

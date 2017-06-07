@@ -6,6 +6,6 @@ class App {
 
 	public static function throwHttpError($code) {
 		http_response_code(404);
-		include './views/errors/' . $code . '.php';
+		include APP_PATH . DS . 'views' . DS . 'errors' . DS . $code . '.php';
 	}
 }

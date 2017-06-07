@@ -8,9 +8,9 @@
 		<meta name="keywords" content="<?php echo $post['keywords']; ?>"/>
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=3"/>
 		<link href="<?php echo BASE_DIRECTORY; ?>/assets/images/favicon.png" type="image/x-icon" rel="shortcut icon"/>
-		<script type="text/javascript" src="<?php echo BASE_DIRECTORY; ?>/assets/jquery/dist/jquery.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="<?php echo BASE_DIRECTORY; ?>/assets/css/frontend.css"/>
-		<link rel="stylesheet" href="<?php echo BASE_DIRECTORY; ?>/assets/highlight.js/src/styles/atom-one-dark.css">
+		<link rel="stylesheet" href="<?php echo BASE_DIRECTORY; ?>/assets/highlight.js/src/styles/atom-one-dark.css"/>
+		<script src="<?php echo BASE_DIRECTORY; ?>/assets/jquery/dist/jquery.min.js"></script>
 		<script src="<?php echo BASE_DIRECTORY; ?>/assets/highlight.js/src/highlight.min.js"></script>
 		<script>
 			$(document).ready(function() {

@@ -11,10 +11,10 @@ if (in_array(current($uri_parameters), array('home', 'lu2cas'))) {
 
 define('BASE_URL', sprintf('http://%s/%s', $_SERVER['HTTP_HOST'], $base_directory));
 define('BASE_DIRECTORY', sprintf('/%s', $base_directory));
-define('APP_PATH', dirname(__FILE__) . DIRECTORY_SEPARATOR);
+define('APP_PATH', dirname(__FILE__));
+define('DS', DIRECTORY_SEPARATOR);
 
 $router = new Router($uri_parameters);
 $router->redirect();
 
 exit();
-?>

@@ -8,11 +8,12 @@
 		<meta name="keywords" content="Luccas, Carvalho, Silveira, Desenvolvedor, Software, PHP, Web, Sites, Sistemas, Informação"/>
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=3"/>
 		<link href="assets/images/favicon.png" type="image/x-icon" rel="shortcut icon"/>
-		<script type="text/javascript" src="assets/jquery/dist/jquery.min.js"></script>
-		<script type="text/javascript" src="assets/jquery-ui/jquery-ui.min.js"></script>
-		<script type="text/javascript" src="assets/letteringjs/jquery.lettering.js"></script>
-		<script type="text/javascript" src="assets/textillate/jquery.textillate.js"></script>
-		<script type="text/javascript" src="assets/js/frontend.js"></script>
+		<link rel="stylesheet" type="text/css" href="assets/css/frontend.css"/>
+		<link rel="stylesheet" type="text/css" href="assets/animate.css/animate.min.css"/>
+		<script src="assets/jquery/dist/jquery.min.js"></script>
+		<script src="assets/letteringjs/jquery.lettering.js"></script>
+		<script src="assets/textillate/jquery.textillate.js"></script>
+		<script src="assets/js/frontend.js"></script>
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -22,9 +23,6 @@
 			ga('create', 'UA-74371832-1', 'auto');
 			ga('send', 'pageview');
 		</script>
-		<link rel="stylesheet" type="text/css" href="assets/css/frontend.css"/>
-		<link rel="stylesheet" type="text/css" href="assets/jquery-ui/themes/smoothness/jquery-ui.min.css"/>
-		<link rel="stylesheet" type="text/css" href="assets/animate.css/animate.min.css"/>
 	</head>
 	<body id="home-content">
 		<header class="row">
@@ -123,23 +121,7 @@
 				</div>
 				<div class="row">
 					<div id="social-links" class="column column-6">
-						<p>
-							Entre em contato comigo caso queira compartilhar ideias, enviar críticas e sugestões
-							ou me incluir em seu projeto.
-						</p>
-						<p>
-							Me adicione como contato no <a href="http://www.linkedin.com/in/lu2cas/" target="_blank">LinkedIn</a>,
-							faça um fork dos meus projetos no <a href="http://www.github.com/lu2cas/" target="_blank">GitHub</a>,
-							seja meu amigo no <a href="http://www.facebook.com/lu2cas/" target="_blank">Facebook</a> e
-							salve meus pins no <a href="http://www.pinterest.com/lu2cas/" target="_blank">Pinterest</a>!
-						</p>
-						<p>
-							Ou, se você preferir, me mande um "olá" através do e-mail <a href="mailto:contato@lu2cas.com.br">contato@lu2cas.com.br</a>,
-							ou do formulário a seguir.
-						</p>
-						<p>
-							:)
-						</p>
+						<?php include $home['social_links']; ?>
 					</div>
 					<div id="contact-form" class="column column-6">
 						<form action="scripts/send_contact.php" method="post" novalidate="novalidate">
