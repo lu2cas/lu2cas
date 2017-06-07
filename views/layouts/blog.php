@@ -77,7 +77,7 @@
 								<a href="<?php echo 'https://twitter.com/home?status=' . $post['external_url']; ?>" target="_blank" class="icon" id="twitter-icon" title="Compartilhar no Twitter">Compartilhar no Twitter</a>
 							</li>
 							<li>
-								<a href="<?php echo 'mailto:?&subject="' . $post['title'] . '"&body=' . $post['external_url']; ?>" target="_blank" class="icon" id="e-mail-icon" title="Compartilhar por e-mail">Compartilhar por e-mail</a>
+								<a href="<?php echo 'mailto:?&subject=' . $post['title'] . '&body=' . $post['external_url']; ?>" target="_blank" class="icon" id="e-mail-icon" title="Compartilhar por e-mail">Compartilhar por e-mail</a>
 							</li>
 						</ul>
 					</div>
