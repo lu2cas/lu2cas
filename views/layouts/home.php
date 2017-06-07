@@ -124,7 +124,7 @@
 						<?php include $home['social_links']; ?>
 					</div>
 					<div id="contact-form" class="column column-6">
-						<form action="scripts/send_contact.php" method="post" novalidate="novalidate">
+						<form action="send_contact.php" method="post" novalidate="novalidate">
 							<div class="row">
 								<div class="column column-12">
 									<input type="text" id="name" name="name" placeholder="Nome"/>
