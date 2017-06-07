@@ -581,7 +581,7 @@ footer a small#by-icon {
 #post-content #related-links {
 	font-size: 1.8em;
 	list-style: none;
-	margin: 0;
+	margin: 12px 0 0 0;
 	padding: 0;
 }
 

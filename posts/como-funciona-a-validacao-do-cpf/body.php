@@ -129,7 +129,7 @@ function is_valid_cpf($cpf) {
 	// Verifica se o CPF informado contém 11 caracteres
 	if (strlen($cpf) == 11) {
 		// Verifica se os dígitos que compõem o CPF são todos iguais
-		for ($i = 0; $i <= 9; $i++) {
+		for ($i = 0; $i &lt;= 9; $i++) {
 			if ($cpf == implode('', array_fill(0, 11, $i))) {
 				return false;
 			}
@@ -138,12 +138,12 @@ function is_valid_cpf($cpf) {
 		// Calcula os dois dígitos verificadores do CPF
 		$check_digits = substr($cpf, -2);
 		$cpf = substr($cpf, 0, 9);
-		for ($i = 0; $i <= 1; $i++) {
+		for ($i = 0; $i &lt;= 1; $i++) {
 			$check_digit = 0;
-			for ($j = 0; $j <= 8 + $i; $j++) {
+			for ($j = 0; $j &lt;= 8 + $i; $j++) {
 				$check_digit += intval($cpf[$j]) * (10 + $i - $j);
 			}
-			$check_digit = ($check_digit % 11) < 2 ? 0 : 11 - ($check_digit % 11);
+			$check_digit = ($check_digit % 11) &lt; 2 ? 0 : 11 - ($check_digit % 11);
 			$cpf .= strval($check_digit);
 		}
 
@@ -162,10 +162,8 @@ function is_valid_cpf($cpf) {
 	CPF é uma sequência numérica relevante apenas no Brasil.
 </p>
 <h2 class="h3-size">Saiba mais</h2>
-<p>
-	<ul id="related-links" class="block-list">
-		<li><a href="https://pt.wikipedia.org/wiki/D%C3%ADgito_verificador" target="_blank">Dígito verificador</a></li>
-		<li><a href="http://www.somatematica.com.br/faq/cpf.php" target="_blank">Cálculo do dígito verificador do CPF</a></li>
-		<li><a href="https://www.geradordecpf.org/" target="_blank">Gerador de números de CPF</a></li>
-	</ul>
-</p>
+<ul id="related-links" class="block-list">
+	<li><a href="https://pt.wikipedia.org/wiki/D%C3%ADgito_verificador" target="_blank">Dígito verificador</a></li>
+	<li><a href="http://www.somatematica.com.br/faq/cpf.php" target="_blank">Cálculo do dígito verificador do CPF</a></li>
+	<li><a href="https://www.geradordecpf.org/" target="_blank">Gerador de números de CPF</a></li>
+</ul>
