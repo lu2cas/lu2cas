@@ -86,7 +86,6 @@ B = 126
 </p>
 <pre>
 	<code>
-B = B % 11
 B = 126 % 11
 B = 11 // Com resto 5
 	</code>
@@ -163,8 +162,10 @@ function is_valid_cpf($cpf) {
 	CPF é uma sequência numérica relevante apenas no Brasil.
 </p>
 <h2 class="h3-size">Saiba mais</h2>
-<ul id="related-links" class="block-list">
-	<li><a href="https://pt.wikipedia.org/wiki/D%C3%ADgito_verificador" target="_blank">Dígito verificador</a></li>
-	<li><a href="http://www.somatematica.com.br/faq/cpf.php" target="_blank">Cálculo do dígito verificador do CPF</a></li>
-	<li><a href="https://www.geradordecpf.org/" target="_blank">Gerador de números de CPF</a></li>
-</ul>
+<p>
+	<ul id="related-links" class="block-list">
+		<li><a href="https://pt.wikipedia.org/wiki/D%C3%ADgito_verificador" target="_blank">Dígito verificador</a></li>
+		<li><a href="http://www.somatematica.com.br/faq/cpf.php" target="_blank">Cálculo do dígito verificador do CPF</a></li>
+		<li><a href="https://www.geradordecpf.org/" target="_blank">Gerador de números de CPF</a></li>
+	</ul>
+</p>
