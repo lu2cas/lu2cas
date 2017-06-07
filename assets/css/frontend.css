@@ -260,10 +260,6 @@ h6, .h6-size {
 	border-radius: 3px;
 }
 
-.card p {
-	margin-top: 15px;
-}
-
 ul.block-list {
 	width: 100%;
 	margin: 5px 0;
@@ -459,6 +455,12 @@ header, main, section {
 #contact #social-links {
 	padding-right: 10px;
 }
+
+#home-content #social-links p, #about #presentation p {
+	margin: 0 0 15px 0;
+	display: inline-block;
+}
+
 
 #contact #contact-form input,
 #contact #contact-form textarea
