@@ -260,16 +260,25 @@ h6, .h6-size {
 	border-radius: 3px;
 }
 
-ul.block-list {
+ul.block-list, ul.bullet-list, ol {
 	width: 100%;
 	margin: 5px 0;
-	padding-left: 18px;
+	padding-left: 20px;
 	display: inline-block;
+	font-family: "Merriweather Light", "Times New Roman";
 }
 
-ul.block-list li {
-	font-family: "Merriweather Light", "Times New Roman";
+ul.block-list li, ul.bullet-list li, ol li {
 	margin: 0 0 15px 0;
+}
+
+ul.bullet-list {
+	list-style: disc;
+	font-size: 1.8em;
+}
+
+ol {
+	font-size: 1.8em;
 }
 
 ul.inline-list {
@@ -334,7 +343,9 @@ header, main, section {
 #home-content  header #occupation {
 	padding: 0;
 	border-left: 0;
-	letter-spacing: 5px;
+	letter-spacing: 2px;
+	text-indent: 2px;
+	text-align: center;
 	text-transform: uppercase;
 }
 
@@ -759,7 +770,7 @@ footer a small#by-icon {
 	}
 
 	#home-content header a[role="button"] {
-		display: none;
+		/*display: none;*/
 	}
 
 	#error-page-content #error-message h1 {
@@ -797,7 +808,6 @@ footer a small#by-icon {
 	.heading h2 {
 		border-left: 25px solid #ffa600;
 	}
-
 
 	#home-content #title-container #occupation {
 		font-size: 1.8em;

@@ -91,7 +91,7 @@ B = 11 // Com resto 5
 	</code>
 </pre>
 <p>
-	Novamente avaliamos o <code>resto</code> obtido por esta divisão. Se este
+	Novamente avaliamos o <strong>resto</strong> obtido por esta divisão. Se este
 	resto for <strong>menor do que 2</strong>, o segundo dígito verificador será
 	<strong>0</strong>. Caso contrário, o segundo dígito verificador será
 	<strong>11 menos o resto obtido</strong>. Logo, o segundo dígito verificador do

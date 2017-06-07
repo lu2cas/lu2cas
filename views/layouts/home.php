@@ -124,8 +124,8 @@
 				<div class="row">
 					<div id="social-links" class="column column-6">
 						<p>
-							Fique a vontade para entrar em contato comigo caso queira compartilhar ideias,
-							enviar sugestões ou me incluir em seu projeto.
+							Entre em contato comigo caso queira compartilhar ideias, enviar críticas e sugestões
+							ou me incluir em seu projeto.
 						</p>
 						<p>
 							Me adicione como contato no <a href="http://www.linkedin.com/in/lu2cas/" target="_blank">LinkedIn</a>,

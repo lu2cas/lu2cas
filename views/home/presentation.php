@@ -7,9 +7,8 @@
 </p>
 <p>
 	Este espaço foi criado para que eu possa compartilhar minhas anotações e 
-	experiências nas áreas de engenharia de software e web design, além de
-	dissertar sobre tendências da área de tecnologia da informação que julgo
-	interessantes.
+	experiências nas áreas de engenharia de software e web design, e dissertar
+	sobre tópicos relacionados à tecnologia da informação como um todo.
 </p>
 <p>
 	Fique à vontade para explorar, editar e compartilhar o conteúdo disponível
