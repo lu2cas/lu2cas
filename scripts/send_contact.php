@@ -1,5 +1,5 @@
 <?php
-	require './scripts/autoload.php';
+	require './autoload.php';
 
 	$name    = isset($_POST['name'])    ? $_POST['name']    : null;
 	$email   = isset($_POST['email'])   ? $_POST['email']   : null;
@@ -57,7 +57,7 @@
 	$check = $validator->check($form_fields);
 
 	if ($check['success']) {
-		require './scripts/config.php';
+		require './config.php';
 
 		$smtp_config = Config::getSmtpConfig();
 
