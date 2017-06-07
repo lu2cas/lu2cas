@@ -36,10 +36,10 @@
 					<nav class="breadcrumbs navigation-link section-wrapper column column-8">
 						<ul class="inline-list">
 							<li>
-								<a href="<?php echo BASE_DIRECTORY; ?>#home">Home</a>
+								<a href="<?php echo BASE_DIRECTORY == '/home' ? '/' : BASE_DIRECTORY; ?>#home">Home</a>
 							</li>
 							<li>
-								<a href="<?php echo BASE_DIRECTORY; ?>#blog">Blog</a>
+								<a href="<?php echo BASE_DIRECTORY == '/home' ? '/' : BASE_DIRECTORY; ?>#blog">Blog</a>
 							</li>
 						</ul>
 					</nav>
