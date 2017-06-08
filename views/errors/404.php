@@ -4,6 +4,7 @@
 		<title>Luccas Silveira - Página não encontrada</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=3"/>
+		<meta name="robots" content="noindex, nofollow">
 		<link href="<?php echo BASE_URL; ?>/assets/images/favicon.png" type="image/x-icon" rel="shortcut icon"/>
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

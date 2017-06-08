@@ -7,11 +7,16 @@
 		<meta name="description" content="Site pessoal de Luccas Carvalho Silveira, desenvolvedor web do Rio Grande do Sul, Brasil"/>
 		<meta name="keywords" content="Luccas, Carvalho, Silveira, Desenvolvedor, Software, PHP, Web, Sites, Sistemas, Informação"/>
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=3"/>
+		<meta name="robots" content="index, follow">
 		<meta property="og:url" content="http://lu2cas.com.br">
 		<meta property="og:locale" content="pt_BR">
 		<meta property="og:title" content="Luccas Silveira">
 		<meta property="og:site_name" content="Luccas Silveira">
 		<meta property="og:description" content="Site pessoal de Luccas Carvalho Silveira, desenvolvedor web do Rio Grande do Sul, Brasil">
+		<meta property="og:image" content="http://lu2cas.com.br/assets/images/favicon.png">
+		<meta property="og:image:type" content="image/png">
+		<meta property="og:image:width" content="200">
+		<meta property="og:image:height" content="200">
 		<meta property="og:type" content="website">
 		<link href="assets/images/favicon.png" type="image/x-icon" rel="shortcut icon"/>
 		<link rel="stylesheet" type="text/css" href="assets/css/frontend.css"/>

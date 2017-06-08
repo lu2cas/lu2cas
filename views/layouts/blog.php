@@ -6,13 +6,20 @@
 		<meta name="author" content="<?php echo $post['author']; ?>">
 		<meta name="description" content="<?php echo $post['excerpt']; ?>">
 		<meta name="keywords" content="<?php echo $post['keywords']; ?>">
+		<meta name="robots" content="index, follow">
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=3">
 		<meta property="og:locale" content="pt_BR">
 		<meta property="og:url" content="<?php echo $post['external_url']; ?>">
 		<meta property="og:title" content="<?php echo $post['title']; ?>">
 		<meta property="og:site_name" content="Luccas Silveira">
 		<meta property="og:description" content="<?php echo $post['excerpt']; ?>">
-		<meta property="og:type" content="website">
+		<meta property="og:image" content="http://lu2cas.com.br/assets/images/favicon.png">
+		<meta property="og:image:type" content="image/png">
+		<meta property="og:image:width" content="200">
+		<meta property="og:image:height" content="200">
+		<meta property="og:type" content="article">
+		<meta property="article:author" content="https://facebook.com/lu2cas">
+		<meta property="article:tag" content="<?php echo $post['keywords']; ?>">
 		<link href="<?php echo BASE_DIRECTORY; ?>/assets/images/favicon.png" type="image/x-icon" rel="shortcut icon">
 		<link rel="stylesheet" type="text/css" href="<?php echo BASE_DIRECTORY; ?>/assets/css/frontend.css">
 		<link rel="stylesheet" href="<?php echo BASE_DIRECTORY; ?>/assets/highlightjs/styles/atom-one-dark.css">
@@ -77,10 +84,10 @@
 								<a href="<?php echo 'https://www.linkedin.com/shareArticle?mini=true&url=' . $post['external_url']; ?>" target="_blank" class="icon" id="linkedin-icon" title="Compartilhar no LinkedIn">Compartilhar no LinkedIn</a>
 							</li>
 							<li>
-								<a href="<?php echo 'https://www.facebook.com/sharer/sharer.php?u=' . $post['external_url']; ?>" target="_blank" class="icon" id="facebook-icon" title="Compartilhar no Facebook">Compartilhar no Facebook</a>
+								<a href="<?php echo 'https://www.facebook.com/sharer.php?u=' . $post['external_url']; ?>" target="_blank" class="icon" id="facebook-icon" title="Compartilhar no Facebook">Compartilhar no Facebook</a>
 							</li>
 							<li>
-								<a href="<?php echo 'https://twitter.com/home?status=' . $post['external_url']; ?>" target="_blank" class="icon" id="twitter-icon" title="Compartilhar no Twitter">Compartilhar no Twitter</a>
+								<a href="<?php echo 'https://www.twitter.com/intent/tweet?url=' . $post['external_url']; ?>" target="_blank" class="icon" id="twitter-icon" title="Compartilhar no Twitter">Compartilhar no Twitter</a>
 							</li>
 							<li>
 								<a href="<?php echo 'mailto:?&subject=' . str_replace(' ', '%20', $post['title']) . '&body=' . $post['external_url']; ?>" target="_blank" class="icon" id="e-mail-icon" title="Compartilhar por e-mail">Compartilhar por e-mail</a>
