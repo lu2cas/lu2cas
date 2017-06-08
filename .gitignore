@@ -1,8 +1,7 @@
 vendor/
 assets/animate.css
 assets/jquery
-assets/jquery-ui
 assets/letteringjs
 assets/textillate
-assets/highlight.js
+assets/highlightjs
 scripts/config.php

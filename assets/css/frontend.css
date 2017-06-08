@@ -339,12 +339,12 @@ header, main, section {
 	position: relative;
 }
 
-#home-content  header h1,
-#home-content  header #occupation {
+#home-content header h1,
+#home-content header #occupation {
 	padding: 0;
 	border-left: 0;
-	letter-spacing: 2px;
-	text-indent: 2px;
+	letter-spacing: 5px;
+	/*text-indent: 2px;*/
 	text-align: center;
 	text-transform: uppercase;
 }

@@ -9,9 +9,9 @@
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=3"/>
 		<link href="<?php echo BASE_DIRECTORY; ?>/assets/images/favicon.png" type="image/x-icon" rel="shortcut icon"/>
 		<link rel="stylesheet" type="text/css" href="<?php echo BASE_DIRECTORY; ?>/assets/css/frontend.css"/>
-		<link rel="stylesheet" href="<?php echo BASE_DIRECTORY; ?>/assets/highlight.js/src/styles/atom-one-dark.css"/>
+		<link rel="stylesheet" href="<?php echo BASE_DIRECTORY; ?>/assets/highlightjs/styles/atom-one-dark.css"/>
 		<script src="<?php echo BASE_DIRECTORY; ?>/assets/jquery/dist/jquery.min.js"></script>
-		<script src="<?php echo BASE_DIRECTORY; ?>/assets/highlight.js/src/highlight.min.js"></script>
+		<script src="<?php echo BASE_DIRECTORY; ?>/assets/highlightjs/highlight.pack.min.js"></script>
 		<script>
 			$(document).ready(function() {
 				$('pre code').each(function(i, block) {
