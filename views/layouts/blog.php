@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 	<head>
-		<title>Luccas Silveira - <?php echo $post['title']; ?></title>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-		<meta name="author" content="<?php echo $post['author']; ?>"/>
-		<meta name="description" content="<?php echo $post['title']; ?>"/>
-		<meta name="keywords" content="<?php echo $post['keywords']; ?>"/>
-		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=3"/>
-		<link href="<?php echo BASE_DIRECTORY; ?>/assets/images/favicon.png" type="image/x-icon" rel="shortcut icon"/>
-		<link rel="stylesheet" type="text/css" href="<?php echo BASE_DIRECTORY; ?>/assets/css/frontend.css"/>
-		<link rel="stylesheet" href="<?php echo BASE_DIRECTORY; ?>/assets/highlightjs/styles/atom-one-dark.css"/>
+		<title><?php echo $post['title']; ?></title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="author" content="<?php echo $post['author']; ?>">
+		<meta name="description" content="<?php echo $post['excerpt']; ?>">
+		<meta name="keywords" content="<?php echo $post['keywords']; ?>">
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=3">
+		<meta property="og:locale" content="pt_BR">
+		<meta property="og:url" content="<?php echo $post['external_url']; ?>">
+		<meta property="og:title" content="<?php echo $post['title']; ?>">
+		<meta property="og:site_name" content="Luccas Silveira">
+		<meta property="og:description" content="<?php echo $post['excerpt']; ?>">
+		<meta property="og:type" content="website">
+		<link href="<?php echo BASE_DIRECTORY; ?>/assets/images/favicon.png" type="image/x-icon" rel="shortcut icon">
+		<link rel="stylesheet" type="text/css" href="<?php echo BASE_DIRECTORY; ?>/assets/css/frontend.css">
+		<link rel="stylesheet" href="<?php echo BASE_DIRECTORY; ?>/assets/highlightjs/styles/atom-one-dark.css">
 		<script src="<?php echo BASE_DIRECTORY; ?>/assets/jquery/dist/jquery.min.js"></script>
 		<script src="<?php echo BASE_DIRECTORY; ?>/assets/highlightjs/highlight.pack.min.js"></script>
 		<script>

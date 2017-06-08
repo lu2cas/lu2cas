@@ -13,7 +13,7 @@ if (current($uri_parameters) == $base_directory) {
 	$base_directory = array_shift($uri_parameters);
 }
 
-define('BASE_URL', sprintf('http://%s/%s', $_SERVER['HTTP_HOST'], $base_directory));
+define('BASE_URL', sprintf('http://%s', $_SERVER['HTTP_HOST']));
 define('BASE_DIRECTORY', sprintf('/%s', $base_directory));
 
 $router = new Router($uri_parameters);
