@@ -525,6 +525,8 @@ footer {
 footer small {
 	display: inline-block;
 	vertical-align: middle;
+	letter-spacing: 1px;
+	text-indent: 1px;
 }
 
 footer a {
@@ -534,7 +536,6 @@ footer a {
 	font-family: "Roboto Mono Bold", "Lucida Console", "Courier New";
 	text-decoration: none;
 	display: inline-block;
-	margin-right: 5px;
 	vertical-align: middle;
 }
 
