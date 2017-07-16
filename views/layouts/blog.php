@@ -57,7 +57,7 @@
 						</ul>
 					</nav>
 				</div>
-				<div id="banner" class="row" style="background-image: url('<?php echo BASE_DIRECTORY . '/assets/images/blurred-background.jpg'; ?>');">
+				<div id="banner" class="row">
 					<div class="section-wrapper column column-8">
 						<h1><?php echo $post['title']; ?></h1>
 						<span class="post-info h4-size"><?php echo 'Publicado em ' . $post['date']; ?></span>

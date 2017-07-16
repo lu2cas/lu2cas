@@ -24,6 +24,7 @@
 		<script src="assets/jquery/dist/jquery.min.js"></script>
 		<script src="assets/letteringjs/jquery.lettering.js"></script>
 		<script src="assets/textillate/jquery.textillate.js"></script>
+		<script src="assets/particles.js/particles.min.js"></script>
 		<script src="assets/js/frontend.js"></script>
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -36,7 +37,7 @@
 		</script>
 	</head>
 	<body id="home-content">
-		<header class="row">
+		<header class="row" id="particles-container">
 			<div id="sandwich-menu" class="row">
 				<div class="section-wrapper column column-12">
 					<span role="button">Menu</span>

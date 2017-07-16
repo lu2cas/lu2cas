@@ -329,12 +329,7 @@ header, main, section {
 
 #home-content header {
 	height: 100%;
-	background-color: #1d1d1b;
-	background-image: url('../images/background.jpg');
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	background-attachment: scroll;
+	background-color: #111;
 	text-align: center;
 	position: relative;
 }
@@ -483,7 +478,7 @@ header, main, section {
 	margin-bottom: 15px;
 	font-family: 'Merriweather Light', 'Times New Roman';
 	font-size: 1.8em;
-	box-sizing: border-box; 
+	box-sizing: border-box;
 	border-radius: 3px;
 }
 
@@ -515,8 +510,8 @@ header, main, section {
 footer {
 	padding: 15px 0;
 	text-align: center;
-	background-color: #202020;
-	background-image: url('../images/blurred-background.jpg');
+	background-color: #111;
+	background-image: url('../images/node-garden.png');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: scroll;
@@ -573,11 +568,12 @@ footer a small#by-icon {
 
 #post-content #banner {
 	padding: 50px 0;
-	background-color: #1d1d1b;
+	background-color: #111;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 	background-attachment: scroll;
+	background-image: url('../images/node-garden.png');
 	color: #efefef;
 	text-shadow: 0 5px 10px #000;
 }
