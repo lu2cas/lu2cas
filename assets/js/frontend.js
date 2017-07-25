@@ -148,14 +148,8 @@ $('document').ready(function() {
 	});
 
 	$('#sandwich-menu span').click(function() {
-		if ($('#main-menu').is(':visible')) {
-			$('#main-menu').slideToggle('fast', function() {
-				$('#sandwich-menu').css('background-color', 'transparent');
-			});
-		} else {
-			$('#sandwich-menu').css('background-color', '#1d1d1b');
-			$('#main-menu').slideToggle('fast');
-		}
+		$('#main-menu').toggleClass('display-block');
+		$('#sandwich-menu').toggleClass('gray-background');
 	});
 
 	$('#contact-form #send').click(function(e) {

@@ -606,7 +606,7 @@ footer a small#by-icon {
 	width: 32px;
 	height: 32px;
 	display: inline-block;
-	text-indent: -9999px;
+	text-indent: 9999px;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
@@ -645,8 +645,16 @@ footer a small#by-icon {
 
 #sandwich-menu {
 	width: 100%;
-	text-indent: -999px;
+	text-indent: 9999px;
 	display: none;
+}
+
+.display-block {
+	display: block!important;
+}
+
+.gray-background {
+	background-color: #1d1d1b!important;
 }
 
 #error-page-content {
