@@ -11,7 +11,7 @@ $('document').ready(function() {
 					}
 				},
 				"color": {
-					"value": "#666666"
+					"value": "#ffffff"
 				},
 				"shape": {
 					"type": "circle",
@@ -34,7 +34,7 @@ $('document').ready(function() {
 					"anim": {
 						"enable": false,
 						"speed": 1,
-						"opacity_min": 0.1,
+						"opacity_min": 0.5,
 						"sync": false
 					}
 				},
@@ -52,7 +52,7 @@ $('document').ready(function() {
 					"enable": true,
 					"distance": 150,
 					"color": "#ffffff",
-					"opacity": 0.15,
+					"opacity": 0.2,
 					"width": 1
 				},
 				"move": {

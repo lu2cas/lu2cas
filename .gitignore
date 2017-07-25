@@ -1,8 +1,6 @@
+npm-debug.log
 vendor/
-assets/animate.css
-assets/jquery
-assets/letteringjs
-assets/textillate
-assets/highlightjs
-assets/particles.js
+assets/
+!assets/css/
+!assets/js/
 scripts/config.php
