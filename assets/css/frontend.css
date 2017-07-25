@@ -415,7 +415,7 @@ header, main, section {
 }
 
 #home-content header a[role="button"]:hover {
-	border: none;
+	border-color: #ffa600;
 	background: #ffa600;
 }
 
