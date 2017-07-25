@@ -11,7 +11,7 @@ $('document').ready(function() {
 					}
 				},
 				"color": {
-					"value": "#ffffff"
+					"value": "#666666"
 				},
 				"shape": {
 					"type": "circle",
@@ -52,12 +52,12 @@ $('document').ready(function() {
 					"enable": true,
 					"distance": 150,
 					"color": "#ffffff",
-					"opacity": 0.4,
+					"opacity": 0.15,
 					"width": 1
 				},
 				"move": {
 					"enable": true,
-					"speed": 2,
+					"speed": 1,
 					"direction": "none",
 					"random": false,
 					"straight": false,
