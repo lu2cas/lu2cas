@@ -1,4 +1,6 @@
 $('document').ready(function() {
+	$('#occupation').removeClass('hide');
+
 	particlesJS(
 		'particles-container',
 		{
@@ -148,8 +150,8 @@ $('document').ready(function() {
 	});
 
 	$('#sandwich-menu span').click(function() {
-		$('#main-menu').toggleClass('display-block');
 		$('#sandwich-menu').toggleClass('gray-background');
+		$('#main-menu').toggleClass('show');
 	});
 
 	$('#contact-form #send').click(function(e) {

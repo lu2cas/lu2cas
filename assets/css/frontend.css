@@ -649,12 +649,16 @@ footer a small#by-icon {
 	display: none;
 }
 
-.display-block {
-	display: block!important;
-}
-
 .gray-background {
 	background-color: #1d1d1b!important;
+}
+
+.hide {
+	display: none!important;
+}
+
+.show {
+	display: block!important;
 }
 
 #error-page-content {
