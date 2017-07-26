@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 	<head>
-		<title>Luccas Silveira</title>
+		<title>Luccas Silveira – Desenvolvedor de software</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<meta name="author" content="Luccas Carvalho Silveira"/>
 		<meta name="description" content="Site pessoal de Luccas Carvalho Silveira, desenvolvedor web do Rio Grande do Sul, Brasil"/>
@@ -59,8 +59,8 @@
 				</div>
 			</nav>
 			<div id="title-container" class="row">
-				<h1 class="animated fadeInDown column column-12">Luccas Silveira</h1>
-				<div id="occupation" class="hide h3-size textillate column column-12">
+				<h1 id="title" class="column column-12">Luccas Silveira</h1>
+				<div id="occupation" class="hide h3-size column column-12">
 					<ul class="texts">
 						<li>desenvolvedor de software</li>
 						<li>estudante de sistemas de informação</li>

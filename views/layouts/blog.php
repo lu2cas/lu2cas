@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 	<head>
-		<title><?php echo $post['title']; ?></title>
+		<title><?php echo 'Luccas Silveira – ' . $post['title']; ?></title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="author" content="<?php echo $post['author']; ?>">
 		<meta name="description" content="<?php echo $post['excerpt']; ?>">
