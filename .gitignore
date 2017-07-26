@@ -3,4 +3,5 @@ vendor/
 assets/
 !assets/css/
 !assets/js/
+!assets/images/
 scripts/config.php
