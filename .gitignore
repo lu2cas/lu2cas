@@ -1,4 +1,5 @@
 npm-debug.log
+composer.lock
 vendor/
 assets/
 !assets/css/

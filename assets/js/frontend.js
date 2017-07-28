@@ -48,7 +48,7 @@ $('document').ready(function() {
 		particles_config
 	);
 
-	$('#name').textillate({
+	$('#title').textillate({
 		in: {
 			effect: 'fadeIn',
 			shuffle: true

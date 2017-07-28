@@ -59,7 +59,7 @@
 				</div>
 			</nav>
 			<div id="credentials" class="row">
-				<h1 id="name" class="column column-12">Luccas Silveira</h1>
+				<h1 id="title" class="column column-12">Luccas Silveira</h1>
 				<div id="occupation" class="hide h3-size column column-12">
 					<ul class="texts">
 						<li>desenvolvedor de software</li>
