@@ -384,17 +384,18 @@ header, main, section {
 	border-bottom: 5px solid #ffa600;
 }
 
-#home-content header #title-container {
+#home-content header #credentials {
 	width: 100%;
 	padding: 0 1.6%;
 	color: #fff;
 	position: absolute;
 	top: 40%;
 	text-shadow: 0 5px 10px #000;
+	font-family: "Roboto Mono Bold", "Lucida Console", "Courier New";
 }
 
-#home-content header #title-container #occupation {
-	font-family: "Roboto Mono Bold", "Lucida Console", "Courier New";
+#home-content header #credentials #occupation {
+	margin-bottom: 15px;
 }
 
 #home-content header h1 {
@@ -661,8 +662,15 @@ footer a small#by-icon {
 	display: block!important;
 }
 
-#error-page-content {
-	background-color: #1d1d1b;
+#error-page-content header {
+	width: 100%;
+	height: 100%;
+	background-color: #111;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: scroll;
+	background-image: url('../images/node-garden.png');
 	text-align: center;
 }
 
@@ -671,17 +679,15 @@ footer a small#by-icon {
 	padding: 0 1.6%;
 	color: #ffa600;
 	position: absolute;
-	top: 20%;
+	top: 40%;
 	text-shadow: 0 5px 10px #000;
 }
 
 #error-page-content #error-message h1 {
-	font-size: 24em;
-	line-height: 1;
+	margin-bottom: 15px;
 }
 
 #error-page-content #error-message h2 {
-	font-size: 4em;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	color: #efefef;
@@ -818,7 +824,7 @@ footer a small#by-icon {
 		border-left: 25px solid #ffa600;
 	}
 
-	#home-content #title-container #occupation {
+	#home-content #credentials #occupation {
 		font-size: 1.8em;
 	}
 
