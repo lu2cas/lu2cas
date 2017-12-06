@@ -1,21 +1,20 @@
 {
-  "name": "lu2cas",
-  "homepage": "http://lu2cas.com.br",
-  "authors": [
-    "Luccas Carvalho Silveira <contato@lu2cas.com.br>"
-  ],
-  "license": "GPL v3.0",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "assets",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "jquery": "^3.1.1",
-    "textillate": "*",
-    "highlightjs": "*",
-    "particles.js": "^2.0.0"
-  }
+    "name": "lu2cas",
+    "homepage": "http://lu2cas.com.br",
+    "authors": [
+        "Luccas Carvalho Silveira <contato@lu2cas.com.br>"
+    ],
+    "license": "GPL v3.0",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "assets",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "jquery": "^3.1.1",
+        "textillate": "*",
+        "highlightjs": "*"
+    }
 }
