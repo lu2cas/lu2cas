@@ -1,28 +1,4 @@
 $('document').ready(function() {
-    $('#name').textillate({
-        in: {
-            effect: 'fadeIn',
-            shuffle: true
-        }
-    });
-
-    $('#occupation').textillate({
-        in: {
-            effect: 'fadeIn',
-            shuffle: true
-        }
-    });
-
-    $('#home-content header a[role="button"]').click(function(e) {
-        e.preventDefault();
-
-        var element = $(this).attr('href');
-
-        $('html, body').animate({
-            scrollTop: $(element).offset().top
-        }, 300);
-    });
-
     $('#sandwich-menu span').click(function() {
         $('#sandwich-menu').toggleClass('gray-background');
         $('#main-menu').toggleClass('show');

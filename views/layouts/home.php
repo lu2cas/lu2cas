@@ -20,11 +20,7 @@
         <meta property="og:type" content="website">
         <link href="assets/images/favicon.png" type="image/x-icon" rel="shortcut icon"/>
         <link rel="stylesheet" type="text/css" href="assets/css/frontend.css"/>
-        <link rel="stylesheet" type="text/css" href="assets/animate.css/animate.min.css"/>
         <script src="assets/jquery/dist/jquery.min.js"></script>
-        <script src="assets/letteringjs/jquery.lettering.js"></script>
-        <script src="assets/textillate/jquery.textillate.js"></script>
-        <script src="assets/particles.js/particles.min.js"></script>
         <script src="assets/js/frontend.js"></script>
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -37,8 +33,8 @@
         </script>
     </head>
     <body id="home-content">
-        <header class="row" id="dynamic-particles">
-            <div id="sandwich-menu" class="row">
+        <header class="row">
+            <!--div id="sandwich-menu" class="row">
                 <div class="section-wrapper column column-12">
                     <span role="button">Menu</span>
                 </div>
@@ -57,19 +53,25 @@
                         </li>
                     </ul>
                 </div>
-            </nav>
-            <div id="credentials" class="row">
-                <h1 id="name" class="h4-size column column-12">Luccas Silveira</h1>
-                <h2 id="occupation" class="h4-size column column-12">Desenvolvedor de software</h2>
-            </div>
-            <div id="button-container" class="row">
-                <div class="column column-12">
-                    <a href="#about" role="button" class="button">Saiba mais</a>
+            </nav-->
+            <div id="credentials" class="section-wrapper column column-8">
+                <div class="row">
+                    <div class="column column-12">
+                        <h1 id="name" class="h1-size column column-12">Luccas Silveira</h1>
+                    </div>
                 </div>
+                <div class="row">
+                    <div class="column column-12">
+                        <h2 id="occupation" class="h3-size column column-12">Desenvolvedor de software</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="section-wrapper column column-8">
+                <span class="separator"></span>
             </div>
         </header>
         <main id="about" class="row">
-            <article class="section-wrapper column column-10">
+            <article class="section-wrapper column column-8">
                 <div class="row heading">
                     <div class="column column-12">
                         <h2>Sobre</h2>
@@ -86,10 +88,10 @@
             </article>
         </main>
         <section id="blog" class="row">
-            <div class="section-wrapper column column-10">
+            <div class="section-wrapper column column-8">
                 <div class="row heading">
                     <div class="column column-12">
-                        <h2>Blog</h2>
+                        <h2>Últimos posts</h2>
                     </div>
                 </div>
                 <ul id="posts">
@@ -117,7 +119,7 @@
             </div>
         </section>
         <section id="contact" class="row">
-            <div class="section-wrapper column column-10">
+            <div class="section-wrapper column column-8">
                 <div class="row heading">
                     <div class="column column-12">
                         <h2>Contato</h2>
