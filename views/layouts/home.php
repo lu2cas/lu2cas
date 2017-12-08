@@ -78,10 +78,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div id="portrait" class="column column-4">
-                        <img src="assets/images/luccas-silveira.png" alt="Luccas Carvalho Silveira"/>
-                    </div>
-                    <div id="presentation" class="column column-8">
+                    <div id="presentation" class="column column-12">
                         <?php include $home['presentation']; ?>
                     </div>
                 </div>
@@ -91,7 +88,7 @@
             <div class="section-wrapper column column-8">
                 <div class="row heading">
                     <div class="column column-12">
-                        <h2>Últimos posts</h2>
+                        <h2>Blog</h2>
                     </div>
                 </div>
                 <ul id="posts">
