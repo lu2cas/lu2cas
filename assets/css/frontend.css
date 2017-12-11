@@ -18,6 +18,12 @@
     font-family: 'Roboto Black';
     src: url('Roboto-Black.ttf');
 }
+
+@font-face {
+    font-family: 'Roboto Mono Regular';
+    src: url('RobotoMono-Regular.ttf');
+}
+
 /* Font incorporation - End */
 
 /* Reset - Begin */
@@ -319,9 +325,7 @@ header, main, section {
 
 #home-content header {
     height: 200px;
-    /*background-color: #efefef;*/
     color: #efefef;
-    text-align: left;
     background-color: #111;
     background-image: url('../images/node-garden.png');
     background-repeat: no-repeat;
