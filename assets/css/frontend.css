@@ -104,7 +104,6 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
     font-weight: 400;
-    line-height: 1.1;
 }
 
 h1, .h1-size {
@@ -235,14 +234,7 @@ h6, .h6-size {
 }
 
 .heading {
-    margin-bottom: 30px;
-}
-
-.heading h2 {
-    padding: 1px 0 0 5px;
-    border-left: 27px solid #ffa600;
-    line-height: 0.75;
-    text-transform: uppercase;
+    margin-bottom: 25px;
 }
 
 .post-info {
@@ -302,7 +294,7 @@ ul.inline-list li {
     box-sizing: border-box;
     background-color: #ffa600;
     display: inline-block;
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 #home-content .section-wrapper {
@@ -322,11 +314,11 @@ ul.inline-list li {
 }
 
 header, main, section {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 #home-content header {
-    height: 215px;
+    height: 200px;
     /*background-color: #efefef;*/
     color: #efefef;
     text-align: left;
@@ -341,7 +333,6 @@ header, main, section {
 #home-content header h2 {
     padding: 0;
     border: 0;
-    margin: 0 0 5px 0;
 }
 
 #sandwich-menu span[role="button"] {
@@ -382,8 +373,7 @@ header, main, section {
 }
 
 #home-content header #credentials {
-    margin-top: 50px;
-    text-transform: lowercase;
+    margin-top: 45px;
 }
 
 #about #presentation p:last-child {
@@ -475,11 +465,11 @@ footer {
 footer small {
     display: inline-block;
     vertical-align: middle;
+    font-size: 1.2em;
 }
 
 footer a {
     color: #efefef;
-    font-size: 1.2em;
     letter-spacing: 1px;
     font-family: "Roboto Black", "Arial Black";
     text-decoration: none;
