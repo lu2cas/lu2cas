@@ -295,12 +295,12 @@ ul.inline-list li {
 }
 
 .separator {
-    width: 95px;
+    width: 90px;
     height: 10px;
     box-sizing: border-box;
     background-color: #ffa600;
     display: inline-block;
-    margin: 15px 0;
+    margin: 10px 0;
 }
 
 #home-content .section-wrapper {
@@ -324,7 +324,7 @@ header, main, section {
 }
 
 #home-content header {
-    height: 200px;
+    height: 175px;
     color: #efefef;
     background-color: #111;
     background-image: url('../images/node-garden.png');
@@ -377,7 +377,12 @@ header, main, section {
 }
 
 #home-content header #credentials {
-    margin-top: 45px;
+    margin-top: 40px;
+}
+
+#home-content header #credentials h2 {
+    font-family: "Times New Roman";
+    font-style: italic;
 }
 
 #about #presentation p:last-child {

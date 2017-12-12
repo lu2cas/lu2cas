@@ -57,7 +57,7 @@
             <div id="credentials" class="section-wrapper column column-8">
                 <div class="row">
                     <div class="column column-12">
-                        <h1 id="name" class="h1-size column column-12">Luccas Silveira</h1>
+                        <h1 id="name" class="h2-size column column-12">Luccas Silveira</h1>
                     </div>
                 </div>
                 <div class="row">
