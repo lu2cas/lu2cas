@@ -324,7 +324,7 @@ header, main, section {
 }
 
 #home-content header {
-    height: 175px;
+    height: 185px;
     color: #efefef;
     background-color: #111;
     background-image: url('../images/node-garden.png');
@@ -377,7 +377,7 @@ header, main, section {
 }
 
 #home-content header #credentials {
-    margin-top: 40px;
+    margin-top: 45px;
 }
 
 #home-content header #credentials h2 {
