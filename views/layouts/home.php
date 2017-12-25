@@ -57,6 +57,11 @@
             <div id="credentials" class="section-wrapper column column-8">
                 <div class="row">
                     <div class="column column-12">
+                        <img id="profile-picture" src="assets/images/luccas-silveira.png"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column column-12">
                         <h1 id="name" class="h2-size column column-12">Luccas Silveira</h1>
                     </div>
                 </div>
@@ -77,9 +82,26 @@
                         <h2>Sobre</h2>
                     </div>
                 </div>
-                <div class="row">
-                    <div id="presentation" class="column column-12">
-                        <?php include $home['presentation']; ?>
+                <div id="presentation" class="row">
+                    <div class="column column-6">
+                        <p>
+                            Técnico em
+                            <a href="http://portal2.ifsul.edu.br/proen/site/catalogo_curso.php?cod=61" target="_blank">
+                            informática</a> pelo IFSul e atualmente graduando em
+                            <a href="http://www.pucrs.br/facin/curso/sistemas-de-informacao/" target="_blank">
+                            sistemas de informação</a> na PUCRS, sou um desenvolvedor de software ativo
+                            profissionalmente no mercado de sistemas baseados em PHP desde 2010.
+                        </p>
+                    </div>
+                    <div class="column column-6">
+                        <p>
+                            Este espaço foi criado para compartilhar minhas observações e
+                            experiências na área de engenharia de software e assuntos relacionados.
+                        </p>
+                        <p>
+                            Fique à vontade para explorar, editar e compartilhar o conteúdo disponível
+                            neste site.
+                        </p>
                     </div>
                 </div>
             </article>

@@ -5,6 +5,11 @@
 }
 
 @font-face {
+    font-family: 'Merriweather Light Italic';
+    src: url('Merriweather-Light-Italic.ttf');
+}
+
+@font-face {
     font-family: 'Merriweather Bold';
     src: url('Merriweather-Bold.ttf');
 }
@@ -324,13 +329,14 @@ header, main, section {
 }
 
 #home-content header {
-    height: 185px;
-    color: #efefef;
-    background-color: #111;
-    background-image: url('../images/node-garden.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: scroll;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#home-content header #profile-picture {
+    width: 150px;
+    margin-bottom: 10px;
+    border-radius: 50%;
 }
 
 #home-content header h1,
@@ -376,13 +382,8 @@ header, main, section {
     border-bottom: 5px solid #ffa600;
 }
 
-#home-content header #credentials {
-    margin-top: 45px;
-}
-
 #home-content header #credentials h2 {
-    font-family: "Times New Roman";
-    font-style: italic;
+    font-family: "Merriweather Light Italic";
 }
 
 #about #presentation p:last-child {
