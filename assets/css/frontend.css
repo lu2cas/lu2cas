@@ -43,7 +43,7 @@ body {
     margin: 0;
     padding: 0;
     position: absolute;
-    color: #2a2a2a;
+    color: #111;
     font-size: 62.5%;
     font-family: "Roboto Regular", "Arial";
     outline: 0;
@@ -251,6 +251,7 @@ h6, .h6-size {
 .post-info {
     margin: 15px 0 0 0;
     display: block;
+    font-family: "Merriweather Light Italic", "Times New Roman";
 }
 
 .card {
@@ -329,8 +330,12 @@ header, main, section {
 }
 
 #home-content header {
-    padding-top: 50px;
+    padding: 50px 0;
     text-align: center;
+    background-color: #111;
+    background-image: url('../images/header-background.jpg');
+    background-position: top center;
+    background-size: cover;
 }
 
 #home-content header #profile-picture {
@@ -343,6 +348,33 @@ header, main, section {
 #home-content header h2 {
     padding: 0;
     border: 0;
+    color: #fff;
+}
+
+#home-content header #social-links .icon {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+}
+
+header #social-links #github-icon {
+    background-image: url('../images/github-logo.png');
+}
+
+header #social-links #linkedin-icon {
+    background-image: url('../images/linkedin-logo.png');
+}
+
+header #social-links #twitter-icon {
+    background-image: url('../images/twitter-logo.png');
+}
+
+header #social-links #facebook-icon {
+    background-image: url('../images/facebook-logo.png');
+}
+
+header #social-links #e-mail-icon {
+    background-image: url('../images/e-mail-logo.png');
 }
 
 #sandwich-menu span[role="button"] {
@@ -466,10 +498,10 @@ footer {
     padding: 15px 0;
     text-align: center;
     background-color: #111;
-    background-image: url('../images/node-garden.png');
+    background-image: url('../images/header-background.jpg');
+    background-position: bottom center;
     background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: scroll;
+    background-size: cover;
 }
 
 footer small {
@@ -510,33 +542,31 @@ footer a small#by-icon {
     background-image: url('../images/by-icon.png');
 }
 
-#post-content header {
-    margin: 0 0 30px 0;
-}
-
-#post-content header .breadcrumbs ul {
-    margin: 30px 0;
-    display: inline-block;
-}
-
-#post-content #banner {
-    padding: 50px 0;
+#post-content header #top-bar {
+    margin-bottom: 30px;
+    padding: 30px 0;
     background-color: #111;
+    background-image: url('../images/header-background.jpg');
+    background-position: top center;
     background-repeat: no-repeat;
-    background-position: center center;
     background-size: cover;
-    background-attachment: scroll;
-    background-image: url('../images/node-garden.png');
-    color: #efefef;
-    text-shadow: 0 5px 10px #000;
+    color: #fff;
 }
 
-#post-content h1 {
-    line-height: 1.1em;
+#post-content header #top-bar a {
+    color: #fff;
+}
+
+#post-content header #top-bar a:hover {
+    color: #ffa600;
 }
 
 #post-content h2 {
     margin: 45px 0 15px 0;
+}
+
+#post-content .separator {
+    margin: 30px 0;
 }
 
 #post-content #related-links {
@@ -554,7 +584,7 @@ footer a small#by-icon {
     margin-right: 10px;
 }
 
-#share-links .icon {
+.icon {
     width: 32px;
     height: 32px;
     display: inline-block;
@@ -563,35 +593,35 @@ footer a small#by-icon {
     background-position: center center;
 }
 
-#linkedin-icon {
+#share-links #linkedin-icon {
     background-image: url('../images/gray-linkedin-icon.png');
 }
 
-#linkedin-icon:hover {
+#share-links #linkedin-icon:hover {
     background-image: url('../images/linkedin-icon.png');
 }
 
-#facebook-icon {
+#share-links #facebook-icon {
     background-image: url('../images/gray-facebook-icon.png');
 }
 
-#facebook-icon:hover {
+#share-links #facebook-icon:hover {
     background-image: url('../images/facebook-icon.png');
 }
 
-#twitter-icon {
+#share-links #twitter-icon {
     background-image: url('../images/gray-twitter-icon.png');
 }
 
-#twitter-icon:hover {
+#share-links #twitter-icon:hover {
     background-image: url('../images/twitter-icon.png');
 }
 
-#e-mail-icon {
+#share-links #e-mail-icon {
     background-image: url('../images/gray-e-mail-icon.png');
 }
 
-#e-mail-icon:hover {
+#share-links #e-mail-icon:hover {
     background-image: url('../images/e-mail-icon.png');
 }
 
@@ -616,12 +646,13 @@ footer a small#by-icon {
 #error-page-content header {
     width: 100%;
     height: 100%;
+    margin: 0;
     background-color: #111;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     background-attachment: scroll;
-    background-image: url('../images/node-garden.png');
+    background-image: url('../images/header-background.jpg');
     text-align: center;
 }
 
@@ -631,15 +662,13 @@ footer a small#by-icon {
     color: #ffa600;
     position: absolute;
     top: 40%;
-    text-shadow: 0 5px 10px #000;
 }
 
 #error-page-content #error-message h1 {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 #error-page-content #error-message h2 {
-    text-transform: uppercase;
     color: #efefef;
 }
 

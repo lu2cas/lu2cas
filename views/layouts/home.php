@@ -34,45 +34,33 @@
     </head>
     <body id="home-content">
         <header class="row">
-            <!--div id="sandwich-menu" class="row">
-                <div class="section-wrapper column column-12">
-                    <span role="button">Menu</span>
-                </div>
-            </div>
-            <nav id="main-menu" class="row h4-size">
-                <div class="column column-12">
-                    <ul class="inline-list">
-                        <li class="list-item">
-                            <a href="#about">Sobre</a>
-                        </li>
-                        <li class="list-item">
-                            <a href="#blog">Blog</a>
-                        </li>
-                        <li class="list-item">
-                            <a href="#contact">Contato</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav-->
             <div id="credentials" class="section-wrapper column column-8">
                 <div class="row">
                     <div class="column column-12">
-                        <img id="profile-picture" src="assets/images/luccas-silveira.png"/>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="column column-12">
+                        <img id="profile-picture" src="assets/images/luccas-silveira.jpg"/>
                         <h1 id="name" class="h2-size column column-12">Luccas Silveira</h1>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="column column-12">
                         <h2 id="occupation" class="h3-size column column-12">Desenvolvedor de software</h2>
                     </div>
                 </div>
             </div>
             <div class="section-wrapper column column-8">
                 <span class="separator"></span>
+            </div>
+            <div class="section-wrapper column column-8">
+                <ul id="social-links" class="inline-list">
+                    <li>
+                        <a href="https://github.com/lu2cas" title="github/lu2cas" target="_blank" class="icon" id="github-icon">Github</a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/in/lu2cas" title="linkedin/in/lu2cas" target="_blank" class="icon" id="linkedin-icon">LinkedIn</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/lu2cas" title="twitter/lu2cas" target="_blank" class="icon" id="twitter-icon">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="https://facebook.com/lu2cas" title="facebook/lu2cas" target="_blank" class="icon" id="facebook-icon">Facebook</a>
+                    </li>
+                </ul>
             </div>
         </header>
         <main id="about" class="row">
@@ -90,7 +78,7 @@
                             informática</a> pelo IFSul e atualmente graduando em
                             <a href="http://www.pucrs.br/facin/curso/sistemas-de-informacao/" target="_blank">
                             sistemas de informação</a> na PUCRS, sou um desenvolvedor de software ativo
-                            profissionalmente no mercado de sistemas baseados em PHP desde 2010.
+                            profissionalmente no mercado de sistemas para internet desde 2010.
                         </p>
                     </div>
                     <div class="column column-6">
@@ -146,7 +134,23 @@
                 </div>
                 <div class="row">
                     <div id="social-links" class="column column-6">
-                        <?php include $home['social_links']; ?>
+                        <p>
+                            Entre em contato para compartilhar ideias, enviar críticas e sugestões
+                            ou me convidar pra seu projeto!
+                        </p>
+                        <p>
+                            Me adicione como contato no <a href="http://www.linkedin.com/in/lu2cas/" target="_blank">LinkedIn</a>,
+                            faça um fork dos meus projetos no <a href="http://www.github.com/lu2cas/" target="_blank">GitHub</a>,
+                            seja meu amigo no <a href="http://www.facebook.com/lu2cas/" target="_blank">Facebook</a> e
+                            me siga no <a href="http://www.twitter.com/lu2cas/" target="_blank">Twitter</a>!
+                        </p>
+                        <p>
+                            Ou, se você preferir, mande um "olá" através do e-mail <a href="mailto:contato@lu2cas.com.br">contato@lu2cas.com.br</a>,
+                            ou do formulário a seguir.
+                        </p>
+                        <p>
+                            :)
+                        </p>
                     </div>
                     <div id="contact-form" class="column column-6">
                         <form action="scripts/send_contact.php" method="post" novalidate="novalidate">
