@@ -38,8 +38,8 @@
                 <div class="row">
                     <div class="column column-12">
                         <img id="profile-picture" src="assets/images/luccas-silveira.jpg"/>
-                        <h1 id="name" class="h2-size column column-12">Luccas Silveira</h1>
-                        <h2 id="occupation" class="h3-size column column-12">Desenvolvedor de software</h2>
+                        <h1 id="title" class="h2-size column column-12">Luccas Silveira</h1>
+                        <h2 id="subtitle" class="h3-size column column-12">Desenvolvedor de software</h2>
                     </div>
                 </div>
             </div>
