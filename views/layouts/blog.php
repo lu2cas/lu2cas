@@ -50,16 +50,16 @@
                         <a href="<?php echo BASE_DIRECTORY == '/home' ? '/' : BASE_DIRECTORY; ?>">&#8636 página inicial</a>
                     </nav>
                 </div>
-                <div class="row">
-                    <div class="section-wrapper column column-8">
-                        <h1><?php echo $post['title']; ?></h1>
-                        <span class="post-info h4-size"><?php echo 'Publicado em ' . $post['date']; ?></span>
-                    </div>
-                </div>
             </div>
         </header>
         <main id="post" class="row">
             <article class="section-wrapper column column-8">
+                <div class="row">
+                    <div class="column column-12">
+                        <h1><?php echo $post['title']; ?></h1>
+                        <span class="post-info h4-size"><?php echo 'Publicado em ' . $post['date']; ?></span>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="column column-12">
                         <?php include $post['body']; ?>
