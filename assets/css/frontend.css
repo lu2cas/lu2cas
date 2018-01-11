@@ -680,7 +680,7 @@ footer a small#by-icon {
         margin: 0 8.466666667%;
     }
 
-    #about #presentation p:last-child {
+    #about #presentation p:first-child {
         margin-bottom: 15px;
     }
 }
