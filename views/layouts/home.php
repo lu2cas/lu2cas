@@ -20,7 +20,9 @@
         <meta property="og:type" content="website">
         <link href="assets/images/favicon.png" type="image/x-icon" rel="shortcut icon"/>
         <link rel="stylesheet" type="text/css" href="assets/css/frontend.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/fontawesome-free-5.0.4/svg-with-js/css/fa-svg-with-js.css"/>
         <script src="assets/jquery/dist/jquery.min.js"></script>
+        <script src="assets/fontawesome-free-5.0.4/svg-with-js/js/fontawesome-all.js"></script>
         <script src="assets/js/frontend.js"></script>
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -57,16 +59,16 @@
             <div class="section-wrapper column column-8">
                 <ul id="social-links" class="inline-list">
                     <li>
-                        <a href="https://github.com/lu2cas" title="github/lu2cas" target="_blank" class="icon" id="github-icon">Github</a>
+                        <a href="https://github.com/lu2cas" title="github.com/lu2cas" target="_blank"><span class="hidden-text">GitHub</span><i class="fab fa-github fa-lg"></i></a>
                     </li>
                     <li>
-                        <a href="https://linkedin.com/in/lu2cas" title="linkedin/in/lu2cas" target="_blank" class="icon" id="linkedin-icon">LinkedIn</a>
+                        <a href="https://linkedin.com/in/lu2cas" title="linkedin.com/in/lu2cas" target="_blank"><span class="hidden-text">LinkedIn</span><i class="fab fa-linkedin-in fa-lg"></i></a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/lu2cas" title="twitter/lu2cas" target="_blank" class="icon" id="twitter-icon">Twitter</a>
+                        <a href="https://twitter.com/lu2cas" title="twitter.com/lu2cas" target="_blank"><span class="hidden-text">Twitter</span><i class="fab fa-twitter fa-lg"></i></a>
                     </li>
                     <li>
-                        <a href="https://facebook.com/lu2cas" title="facebook/lu2cas" target="_blank" class="icon" id="facebook-icon">Facebook</a>
+                        <a href="https://facebook.com/lu2cas" title="facebook.com/lu2cas" target="_blank"><span class="hidden-text">Facebook</span><i class="fab fa-facebook-f fa-lg"></i></a>
                     </li>
                 </ul>
             </div>
@@ -81,22 +83,21 @@
                 <div id="presentation" class="row">
                     <div class="column column-6">
                         <p>
-                            Técnico em
-                            <a href="http://portal2.ifsul.edu.br/proen/site/catalogo_curso.php?cod=61" target="_blank">
-                            informática</a> pelo IFSul e atualmente graduando em
+                            Graduando em
                             <a href="http://www.pucrs.br/facin/curso/sistemas-de-informacao/" target="_blank">
-                            sistemas de informação</a> na PUCRS, sou um desenvolvedor de software ativo
-                            profissionalmente no mercado de sistemas para internet desde 2010.
+                            sistemas de informação</a> na PUCRS e técnico em
+                            <a href="http://portal2.ifsul.edu.br/proen/site/catalogo_curso.php?cod=61" target="_blank">
+                            informática</a> pelo IFSul, sou um desenvolvedor de software com mais de 7
+                            anos de experiência no desenvolvimento de sistemas baseados em PHP.
                         </p>
                     </div>
                     <div class="column column-6">
                         <p>
-                            Este espaço foi criado para compartilhar minhas observações e
-                            experiências na área de engenharia de software e assuntos relacionados.
+                            Este espaço foi criado para publicar minhas observações
+                            na área de engenharia de software e tópicos relacionados.
                         </p>
                         <p>
-                            Fique à vontade para explorar, editar e compartilhar o conteúdo disponível
-                            neste site.
+                            Fique à vontade para copiar, modificar e compartilhar todo o conteúdo disponível.
                         </p>
                     </div>
                 </div>

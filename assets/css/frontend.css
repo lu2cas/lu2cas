@@ -289,7 +289,7 @@ ul.inline-list {
 }
 
 ul.inline-list li {
-    display: inline;
+    display: inline-block;
 }
 
 .breadcrumbs ul li::before {
@@ -307,6 +307,11 @@ ul.inline-list li {
     background-color: #ffa600;
     display: inline-block;
     margin: 10px 0;
+}
+
+.hidden-text {
+    text-indent: -9999px;
+    display: inline-block;
 }
 
 #home-content .section-wrapper {
@@ -334,7 +339,7 @@ header, main, section {
     text-align: center;
     background-color: #111;
     background-image: url('../images/background.jpg');
-    background-position: bottom center;
+    background-position: center center;
     background-size: cover;
 }
 
@@ -347,33 +352,21 @@ header, main, section {
 #home-content header h1,
 #home-content header h2 {
     width: auto;
-    padding: 0;
     display: inline-block;
-    border: 0;
     color: #fff;
-    text-shadow: 0 0 20px #000;
 }
 
-#home-content header #social-links .icon {
-    width: 24px;
-    height: 24px;
-    margin: 0 5px;
+#home-content header #social-links li {
+    margin: 0 10px;
 }
 
-#home-content header #social-links #github-icon {
-    background-image: url('../images/github-logo.png');
+#home-content header #social-links li a {
+    color: #fff;
+    font-size: 1.8em;
 }
 
-#home-content header #social-links #linkedin-icon {
-    background-image: url('../images/linkedin-logo.png');
-}
-
-#home-content header #social-links #twitter-icon {
-    background-image: url('../images/twitter-logo.png');
-}
-
-#home-content header #social-links #facebook-icon {
-    background-image: url('../images/facebook-logo.png');
+#home-content header #social-links li a:hover {
+    color: #fff;
 }
 
 #home-content header #credentials h2 {
