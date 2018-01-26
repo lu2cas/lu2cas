@@ -20,9 +20,9 @@
         <meta property="og:type" content="website">
         <link href="assets/images/favicon.png" type="image/x-icon" rel="shortcut icon"/>
         <link rel="stylesheet" type="text/css" href="assets/css/frontend.css"/>
-        <link rel="stylesheet" type="text/css" href="assets/fontawesome-free-5.0.4/svg-with-js/css/fa-svg-with-js.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/fontawesome/svg-with-js/css/fa-svg-with-js.css"/>
         <script src="assets/jquery/dist/jquery.min.js"></script>
-        <script src="assets/fontawesome-free-5.0.4/svg-with-js/js/fontawesome-all.js"></script>
+        <script src="assets/fontawesome/svg-with-js/js/fontawesome-all.js"></script>
         <script src="assets/js/frontend.js"></script>
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

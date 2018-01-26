@@ -23,8 +23,10 @@
         <link href="<?php echo BASE_DIRECTORY; ?>/assets/images/favicon.png" type="image/x-icon" rel="shortcut icon">
         <link rel="stylesheet" type="text/css" href="<?php echo BASE_DIRECTORY; ?>/assets/css/frontend.css">
         <link rel="stylesheet" href="<?php echo BASE_DIRECTORY; ?>/assets/highlightjs/styles/atom-one-dark.css">
+        <link rel="stylesheet" type="text/css" href="assets/fontawesome/svg-with-js/css/fa-svg-with-js.css"/>
         <script src="<?php echo BASE_DIRECTORY; ?>/assets/jquery/dist/jquery.min.js"></script>
         <script src="<?php echo BASE_DIRECTORY; ?>/assets/highlightjs/highlight.pack.min.js"></script>
+        <script src="<?php echo BASE_DIRECTORY; ?>/assets/fontawesome/svg-with-js/js/fontawesome-all.js"></script>
         <script>
             $(document).ready(function() {
                 $('pre code').each(function(i, block) {
