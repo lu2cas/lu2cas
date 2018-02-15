@@ -83,21 +83,23 @@
                 <div id="presentation" class="row">
                     <div class="column column-6">
                         <p>
-                            Graduando em
+                            Olá, meu nome é Luccas Silveira! Sou um desenvolvedor de software full-stack
+                            com mais de 7 anos de experiência projetando e codificando aplicações para a
+                            web. Também sou graduando em
                             <a href="http://www.pucrs.br/facin/curso/sistemas-de-informacao/" target="_blank">
                             sistemas de informação</a> na PUCRS e técnico em
                             <a href="http://portal2.ifsul.edu.br/proen/site/catalogo_curso.php?cod=61" target="_blank">
-                            informática</a> pelo IFSul, sou um desenvolvedor de software com mais de 7
-                            anos de experiência no desenvolvimento de sistemas baseados em PHP.
+                            informática</a> pelo IFSul.
                         </p>
                     </div>
                     <div class="column column-6">
                         <p>
-                            Este espaço foi criado para publicar minhas observações
-                            na área de engenharia de software e tópicos relacionados.
+                            Este espaço foi criado para que eu possa compartilhar os conhecimentos que venho
+                            adquirindo ao longo destes anos na área de engenharia de software.
                         </p>
                         <p>
-                            Fique à vontade para copiar, modificar e compartilhar todo o conteúdo disponível.
+                            Obrigado pela visita e sinta-se à vontade para compartilhar o conteúdo disponível
+                            neste site.
                         </p>
                     </div>
                 </div>
