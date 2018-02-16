@@ -90,16 +90,14 @@
                             sistemas de informação</a> na PUCRS e técnico em
                             <a href="http://portal2.ifsul.edu.br/proen/site/catalogo_curso.php?cod=61" target="_blank">
                             informática</a> pelo IFSul.
+                            </a>
                         </p>
                     </div>
                     <div class="column column-6">
                         <p>
                             Este espaço foi criado para que eu possa compartilhar os conhecimentos que venho
-                            adquirindo ao longo destes anos na área de engenharia de software.
-                        </p>
-                        <p>
-                            Obrigado pela visita e sinta-se à vontade para compartilhar o conteúdo disponível
-                            neste site.
+                            adquirindo ao longo destes anos na área de engenharia de software. Obrigado pela
+                            visita e sinta-se à vontade para compartilhar o conteúdo disponível neste site.
                         </p>
                     </div>
                 </div>
@@ -144,19 +142,23 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div id="social-links" class="column column-6">
+                    <div class="column column-6">
                         <p>
                             Entre em contato para compartilhar ideias, enviar críticas e sugestões
                             ou me convidar pra seu projeto!
                         </p>
                         <p>
-                            Me adicione como contato no <a href="http://www.linkedin.com/in/lu2cas/" target="_blank">LinkedIn</a>,
-                            faça um fork dos meus projetos no <a href="http://www.github.com/lu2cas/" target="_blank">GitHub</a>,
-                            seja meu amigo no <a href="http://www.facebook.com/lu2cas/" target="_blank">Facebook</a> e
+                            Me adicione como contato no
+                            <a href="http://www.linkedin.com/in/lu2cas/" target="_blank">LinkedIn</a>,
+                            faça um fork dos meus projetos no
+                            <a href="http://www.github.com/lu2cas/" target="_blank">GitHub</a>,
+                            seja meu amigo no
+                            <a href="http://www.facebook.com/lu2cas/" target="_blank">Facebook</a> e
                             me siga no <a href="http://www.twitter.com/lu2cas/" target="_blank">Twitter</a>!
                         </p>
                         <p>
-                            Ou, se você preferir, mande um "olá" através do e-mail <a href="mailto:contato@lu2cas.com.br">contato@lu2cas.com.br</a>,
+                            Ou, se você preferir, mande um "olá" através do e-mail
+                            <a href="mailto:contato@lu2cas.com.br">contato@lu2cas.com.br</a>,
                             ou do formulário a seguir.
                         </p>
                         <p>

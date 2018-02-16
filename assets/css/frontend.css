@@ -310,6 +310,7 @@ ul.inline-list li {
 }
 
 .hidden-text {
+    width: 0;
     text-indent: -9999px;
     display: inline-block;
 }
@@ -358,17 +359,17 @@ header, main, section {
     text-shadow: 0 5px 15px #000;
 }
 
-#home-content header #social-links li {
+#social-links li {
     margin: 0 10px;
 }
 
-#home-content header #social-links li a {
+#social-links li a {
     color: #fff;
     font-size: 1.8em;
 }
 
-#home-content header #social-links li a:hover {
-    color: #fff;
+#social-links li a:hover {
+    color: #ffa600;
 }
 
 #home-content header #credentials h2 {
@@ -403,11 +404,11 @@ header, main, section {
     float: right;
 }
 
-#contact #social-links {
+#contact column:first {
     padding-right: 10px;
 }
 
-#home-content #social-links p, #about #presentation p {
+#contact column:first p, #about #presentation p {
     margin: 0 0 15px 0;
     display: inline-block;
 }
@@ -536,49 +537,17 @@ footer a small#by-icon {
     margin-bottom: 0;
 }
 
-#share-links ul li {
-    margin-right: 10px;
+#share-links li {
+    margin-right: 20px;
 }
 
-.icon {
-    width: 32px;
-    height: 32px;
-    display: inline-block;
-    text-indent: -9999px;
-    background-repeat: no-repeat;
-    background-position: center center;
+#share-links li a {
+    color: #222;
+    font-size: 2em;
 }
 
-#share-links #linkedin-icon {
-    background-image: url('../images/gray-linkedin-icon.png');
-}
-
-#share-links #linkedin-icon:hover {
-    background-image: url('../images/linkedin-icon.png');
-}
-
-#share-links #facebook-icon {
-    background-image: url('../images/gray-facebook-icon.png');
-}
-
-#share-links #facebook-icon:hover {
-    background-image: url('../images/facebook-icon.png');
-}
-
-#share-links #twitter-icon {
-    background-image: url('../images/gray-twitter-icon.png');
-}
-
-#share-links #twitter-icon:hover {
-    background-image: url('../images/twitter-icon.png');
-}
-
-#share-links #e-mail-icon {
-    background-image: url('../images/gray-e-mail-icon.png');
-}
-
-#share-links #e-mail-icon:hover {
-    background-image: url('../images/e-mail-icon.png');
+#share-links li a:hover {
+    color: #ffa600;
 }
 
 #error-page-content header {

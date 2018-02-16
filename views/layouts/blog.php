@@ -72,20 +72,20 @@
                         <span class="separator"></span>
                     </div>
                 </div>
-                <div id="share-links" class="row">
+                <div class="row">
                     <div class="column column-12">
-                        <ul class="inline-list">
+                        <ul id="share-links" class="inline-list">
                             <li>
-                                <a href="<?php echo 'https://www.linkedin.com/shareArticle?mini=true&url=' . $post['external_url']; ?>" target="_blank" class="icon" id="linkedin-icon" title="Compartilhar no LinkedIn">Compartilhar no LinkedIn</a>
+                                <a href="<?php echo 'https://www.linkedin.com/shareArticle?mini=true&url=' . $post['external_url']; ?>" title="Compartilhar no LinkedIn" target="_blank"><span class="hidden-text">Compartilhar no LinkedIn</span><i class="fab fa-linkedin-in fa-lg"></i></a>
                             </li>
                             <li>
-                                <a href="<?php echo 'https://www.facebook.com/sharer.php?u=' . $post['external_url']; ?>" target="_blank" class="icon" id="facebook-icon" title="Compartilhar no Facebook">Compartilhar no Facebook</a>
+                                <a href="<?php echo 'https://www.facebook.com/sharer.php?u=' . $post['external_url']; ?>" title="Compartilhar no Facebook" target="_blank"><span class="hidden-text">Compartilhar no Facebook</span><i class="fab fa-facebook-f fa-lg"></i></a>
                             </li>
                             <li>
-                                <a href="<?php echo 'https://www.twitter.com/intent/tweet?url=' . $post['external_url']; ?>" target="_blank" class="icon" id="twitter-icon" title="Compartilhar no Twitter">Compartilhar no Twitter</a>
+                                <a href="<?php echo 'https://www.twitter.com/intent/tweet?url=' . $post['external_url']; ?>" title="Compartilhar no Twitter" target="_blank"><span class="hidden-text">Compartilhar no Twitter</span><i class="fab fa-twitter fa-lg"></i></a>
                             </li>
                             <li>
-                                <a href="<?php echo 'mailto:?&subject=' . str_replace(' ', '%20', $post['title']) . '&body=' . $post['external_url']; ?>" target="_blank" class="icon" id="e-mail-icon" title="Compartilhar por e-mail">Compartilhar por e-mail</a>
+                                <a href="<?php echo 'mailto:?&subject=' . str_replace(' ', '%20', $post['title']) . '&body=' . $post['external_url']; ?>" title="Compartilhar por e-mail" target="_blank"><span class="hidden-text">Compartilhar por e-mail</span><i class="fas fa-envelope fa-lg"></i></a>
                             </li>
                         </ul>
                     </div>
