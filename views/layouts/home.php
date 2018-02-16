@@ -36,27 +36,11 @@
     </head>
     <body id="home-content">
         <header class="row">
-            <div id="credentials" class="section-wrapper column column-8">
-                <div class="row">
-                    <div class="column column-12">
-                        <img id="profile-picture" src="assets/images/luccas-silveira.jpg"/>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="column column-12">
-                        <h1 id="title" class="h2-size">Luccas Silveira</h1>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="column column-12">
-                        <h2 id="subtitle" class="h3-size">Desenvolvedor de software</h2>
-                    </div>
-                </div>
-            </div>
             <div class="section-wrapper column column-8">
-                <span class="separator"></span>
-            </div>
-            <div class="section-wrapper column column-8">
+                <img id="profile-picture" src="assets/images/luccas-silveira.jpg"/>
+                <h1 class="h2-size">Luccas Silveira</h1>
+                <h2 class="h3-size">Desenvolvedor de software</h2>
+                <div class="separator"></div>
                 <ul id="social-links" class="inline-list">
                     <li>
                         <a href="https://github.com/lu2cas" title="github.com/lu2cas" target="_blank"><span class="hidden-text">GitHub</span><i class="fab fa-github fa-lg"></i></a>
@@ -142,7 +126,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="column column-6">
+                    <div class="column column-6 first-column">
                         <p>
                             Entre em contato para compartilhar ideias, enviar críticas e sugestões
                             ou me convidar pra seu projeto!
@@ -165,7 +149,7 @@
                             :)
                         </p>
                     </div>
-                    <div id="contact-form" class="column column-6">
+                    <div class="column column-6">
                         <form action="scripts/send_contact.php" method="post" novalidate="novalidate">
                             <div class="row">
                                 <div class="column column-12">

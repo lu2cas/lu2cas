@@ -315,15 +315,11 @@ ul.inline-list li {
     display: inline-block;
 }
 
-#home-content .section-wrapper {
-    /**
-     * Margin de 2 colunas + gutter para cada lado
-     * O conteúdo tem largura de 8 colunas
-     */
-    margin: 0 16.933333333334%;
-}
-
-#post-content .section-wrapper {
+header .section-wrapper,
+main .section-wrapper,
+footer .section-wrapper,
+section .section-wrapper
+{
     /**
      * Margin de 2 colunas + gutter para cada lado
      * O conteúdo tem largura de 8 colunas
@@ -347,52 +343,51 @@ header, main, section {
 #home-content header #profile-picture {
     width: 150px;
     margin-bottom: 10px;
+    display: inline-block;
     border-radius: 50%;
     box-shadow: 0 5px 15px #000;
 }
 
 #home-content header h1,
 #home-content header h2 {
-    width: auto;
-    display: inline-block;
     color: #fff;
     text-shadow: 0 5px 15px #000;
 }
 
-#social-links li {
+#home-content header h2 {
+    font-family: "Merriweather Light Italic";
+}
+
+ul#social-links li {
     margin: 0 10px;
 }
 
-#social-links li a {
+ul#social-links li a {
     color: #fff;
     font-size: 1.8em;
 }
 
-#social-links li a:hover {
+ul#social-links li a:hover {
     color: #ffa600;
-}
-
-#home-content header #credentials h2 {
-    font-family: "Merriweather Light Italic";
 }
 
 #about #presentation p:last-child {
     margin-bottom: 0;
 }
 
-#blog #posts {
+#blog ul#posts {
     width: 100%;
     padding: 0;
     margin: 0;
     display: inline-block;
 }
 
-#blog #posts li {
+#blog ul#posts li {
     display: block;
     margin-bottom: 30px;
 }
 
-#blog #posts li:last-child {
+#blog ul#posts li:last-child {
     margin-bottom: 0;
 }
 
@@ -404,18 +399,17 @@ header, main, section {
     float: right;
 }
 
-#contact column:first {
+#contact .first-column {
     padding-right: 10px;
 }
 
-#contact column:first p, #about #presentation p {
+#contact .first-column p, #about #presentation p {
     margin: 0 0 15px 0;
     display: inline-block;
 }
 
-#contact #contact-form input,
-#contact #contact-form textarea
-{
+#contact form input,
+#contact form textarea {
     border: 3px solid #dadada;
     background-color: #efefef;
     padding: 12px;
@@ -427,17 +421,17 @@ header, main, section {
     border-radius: 3px;
 }
 
-#contact #contact-form input:focus,
-#contact #contact-form textarea:focus {
+#contact form input:focus,
+#contact form textarea:focus {
     border: 3px solid #dadada;
 }
 
-#contact #contact-form textarea {
+#contact form textarea {
     height: 200px;
     resize: none;
 }
 
-#contact #contact-form #send {
+#contact form #send {
     margin: 15px 0 0 0;
     float: right;
     background-color: #dadada;
@@ -447,7 +441,7 @@ header, main, section {
     outline: 0;
 }
 
-#contact #contact-form #send:hover {
+#contact form #send:hover {
     border: none;
     background: #ffa600;
 }
@@ -537,16 +531,16 @@ footer a small#by-icon {
     margin-bottom: 0;
 }
 
-#share-links li {
+ul#share-links li {
     margin-right: 20px;
 }
 
-#share-links li a {
+ul#share-links li a {
     color: #222;
     font-size: 2em;
 }
 
-#share-links li a:hover {
+ul#share-links li a:hover {
     color: #ffa600;
 }
 
@@ -609,7 +603,7 @@ footer a small#by-icon {
         width: 100%;
     }
 
-    #contact #social-links {
+    #contact .first-column {
         padding-right: 0;
     }
 
@@ -639,8 +633,7 @@ footer a small#by-icon {
         margin-left: 0;
     }
 
-    #home-content .section-wrapper,
-    #post-content .section-wrapper {
+    .section-wrapper {
         margin: 0 8.466666667%;
     }
 
@@ -650,7 +643,7 @@ footer a small#by-icon {
 }
 
 @media screen and (max-width: 640px) {
-    #contact #contact-form #send {
+    #contact form #send {
         width: 100%;
     }
 }
