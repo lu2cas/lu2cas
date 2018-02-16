@@ -317,8 +317,8 @@ ul.inline-list li {
 
 header .section-wrapper,
 main .section-wrapper,
-footer .section-wrapper,
-section .section-wrapper
+section .section-wrapper,
+footer .section-wrapper
 {
     /**
      * Margin de 2 colunas + gutter para cada lado
@@ -633,7 +633,10 @@ ul#share-links li a:hover {
         margin-left: 0;
     }
 
-    .section-wrapper {
+    header .section-wrapper,
+    main .section-wrapper,
+    section .section-wrapper,
+    footer .section-wrapper {
         margin: 0 8.466666667%;
     }
 
