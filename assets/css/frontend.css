@@ -371,10 +371,6 @@ ul#social-links li a:hover {
     color: #ffa600;
 }
 
-#about #presentation p:last-child {
-    margin-bottom: 0;
-}
-
 #blog ul#posts {
     width: 100%;
     padding: 0;
@@ -640,8 +636,8 @@ ul#share-links li a:hover {
         margin: 0 8.466666667%;
     }
 
-    #about #presentation p:first-child {
-        margin-bottom: 15px;
+    #about #presentation .column:last-child p:last-child {
+        margin: 0;
     }
 }
 
