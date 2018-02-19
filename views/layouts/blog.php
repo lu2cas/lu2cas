@@ -49,7 +49,7 @@
             <div class="column column-12">
                 <div id="top-bar" class="row">
                     <nav class="navigation-link section-wrapper column column-8">
-                        <a href="<?php echo BASE_DIRECTORY == '/home' ? '/' : BASE_DIRECTORY; ?>">&#8636 página inicial</a>
+                        <a href="<?php echo BASE_DIRECTORY == '/home' ? '/' : BASE_DIRECTORY; ?>">&#8636; página inicial</a>
                     </nav>
                 </div>
             </div>
