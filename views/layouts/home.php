@@ -37,7 +37,7 @@
     <body id="home-content">
         <header class="row">
             <div class="section-wrapper column column-8">
-                <img id="profile-picture" src="assets/images/luccas-silveira.jpg"/>
+                <img src="assets/images/luccas-silveira.jpg" id="profile-picture" alt="Luccas Silveira"/>
                 <h1 class="h2-size">Luccas Silveira</h1>
                 <h2 class="h3-size">Desenvolvedor de software</h2>
                 <div class="separator"></div>
@@ -74,7 +74,6 @@
                             sistemas de informação</a> na PUCRS e técnico em
                             <a href="http://portal2.ifsul.edu.br/proen/site/catalogo_curso.php?cod=61" target="_blank">
                             informática</a> pelo IFSul.
-                            </a>
                         </p>
                     </div>
                     <div class="column column-6">
