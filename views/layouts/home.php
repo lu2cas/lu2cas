@@ -80,7 +80,7 @@
                         <p>
                             Este espaço foi criado para que eu possa compartilhar os conhecimentos que venho
                             adquirindo ao longo destes anos na área de engenharia de software. Obrigado pela
-                            visita e sinta-se à vontade para compartilhar o conteúdo disponível neste site.
+                            visita, e sinta-se à vontade para compartilhar o conteúdo disponível neste site.
                         </p>
                     </div>
                 </div>
