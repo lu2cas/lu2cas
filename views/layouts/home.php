@@ -149,7 +149,7 @@
                         </p>
                     </div>
                     <div class="column column-6">
-                        <form action="scripts/send_contact.php" method="post" novalidate="novalidate">
+                        <form action="scripts/send_contact.php" method="post" novalidate="novalidate" id="contact-form">
                             <div class="row">
                                 <div class="column column-12">
                                     <input type="text" id="name" name="name" placeholder="Nome"/>
